@@ -1,0 +1,3 @@
+Primary fire: cloak fades with movement, battery drains slowly
+
+Secondary fire: always fully cloaked, battery drains fast

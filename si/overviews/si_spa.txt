@@ -1,0 +1,14 @@
+// overview description file for si_spa.bsp
+
+global 
+{
+	ZOOM	1.06
+	ORIGIN	-24.00   -36.00   -172.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/si_spa.bmp"
+	HEIGHT	-857.00
+}

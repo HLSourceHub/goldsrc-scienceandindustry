@@ -1,0 +1,81 @@
+// Science & Industry 1600x1200 text scheme file
+
+// DEFAULT BUTTON TEXT
+SchemeName = "Primary Button Text"
+FontName = "Arial"
+FontSize = 27
+FgColor = "255 255 255 255"
+BgColor = "0 0 0 141"
+FgColorArmed = "255 255 255 255"
+BgColorArmed = "255 255 255 67"
+
+// COMMAND MENU TEXT
+SchemeName = "CommandMenu Text"
+FontName = "Arial"
+FontSize = 24
+FgColor = "255 255 255 255"
+BgColor = "0 0 0 141"
+FgColorArmed = "255 255 255 255"
+BgColorArmed = "255 255 255 67"
+
+// SCOREBOARD TEXT
+SchemeName = "Scoreboard Text"
+FontName = "Arial"
+FontSize = 23
+FontWeight = 0
+SchemeName = "Scoreboard Title Text"
+FontName = "Arial"
+FontSize = 36
+FontWeight = 700
+SchemeName = "Scoreboard Small Text"
+FontName = "Arial"
+FontSize = 17
+FontWeight = 0
+
+// TITLE TEXT (in selection menus)
+SchemeName = "Title Font"
+FontName = "Arial"
+FontSize = 43
+FgColor = "255 255 255 255"
+
+// BRIEFING TEXT
+SchemeName = "Briefing Text"
+FontName = "Arial"
+FontSize = 23
+FontWeight = 0
+FgColor = "255 255 255 255"
+
+// TEAM INFO TEXT (list of players, etc)
+SchemeName = "Team Info Text"
+FontName = "Arial"
+FontSize = 23
+FontWeight = 0
+
+// MOTD TEXT
+SchemeName = "MOTD Text"
+FontName = "Arial"
+FontSize = 26
+FontWeight = 400
+FgColor = "255 255 255 255"
+
+// TEAM & MODEL TEXT
+SchemeName = "S&I Window Text"
+FgColor = "0 0 0 255"
+BgColor = "255 255 255 0"
+
+// MOTD, TEAM & MODEL WINDOW
+SchemeName = "S&I Window"
+FgColor = "0 0 0 255"
+BgColor = "255 255 255 128"
+BorderColor = "0 0 0 255"
+BorderWidth = 3
+
+// TEAM PANEL TEXT
+SchemeName = "Team Panel Name Text"
+FontName = "Tahoma"
+FontSize = 25
+FontWeight = 0
+SchemeName = "Team Panel Location Text"
+FontName = "Tahoma"
+FontSize = 25
+FontWeight = 600

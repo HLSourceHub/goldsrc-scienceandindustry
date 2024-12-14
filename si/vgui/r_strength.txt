@@ -1,0 +1,1 @@
+Gameplay: +25 player max health, +25 scientist max health, more briefcase damage, grenades and FEV throw farther, run faster with a scientist carried, +$25 player clone cost

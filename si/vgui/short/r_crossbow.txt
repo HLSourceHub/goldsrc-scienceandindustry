@@ -1,0 +1,1 @@
+Fires a bolt that explodes if it hits a wall. Secondary fire zooms in.

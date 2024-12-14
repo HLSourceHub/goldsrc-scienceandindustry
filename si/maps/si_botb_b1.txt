@@ -1,0 +1,29 @@
+====================================================
+    "Battle of the Bands" beta 1
+    by RhoadsToNowhere(rhoads2nw@comcast.net)
+====================================================
+
+Whoever knew the scientists were so musical?  The company bands of MCL
+and AFD are dueling in a battle of the bands, and it's up to the
+security guards to ruin their competitors' chances of winning this
+battle by sabotaging their stage equipment!
+
+----Objectives----------------------------------------------------------
+
+SABOTAGE -- Just about all the equipment in the center arena is breakable,
+for varying amounts of cash and points.  The amplifiers are relatively
+inexpensive and easy to break, the concession stands and instruments are
+somewhere in the middle, and the generator is the hardest to break but
+yields the greatest effect.
+
+There is no scicapping or scikilling in this map.  So don't try.
+
+----Notes---------------------------------------------------------------
+
+Run around, have fun, and break a lot of stuff.
+
+----Credits-------------------------------------------------------------
+
+Made using QuArK 6.3.
+Textures by The Postman, Magic, Cid, and RhoadsToNowhere
+Music by Everclear.

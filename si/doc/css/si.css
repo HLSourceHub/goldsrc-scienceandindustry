@@ -1,0 +1,100 @@
+BODY
+{
+  text-align : justify;
+  font-family : arial, helvetica, sans-serif;
+}
+
+TD
+{
+  text-align : justify;
+  padding-left : 5px;
+  vertical-align : top;
+  font-size : 90%;
+}
+
+TD.header
+{ 
+  background-color : black;
+  color : white;
+  font-size : 90%;
+  vertical-align : middle;
+}
+
+TD.header A, TD.header A:visited
+{
+  color : #CCCCCC;
+  text-decoration : none;
+  font-weight : bold;
+}
+
+TD.menu
+{
+  padding-right : 5px;
+}
+
+TD.menu, TD.menu A, TD.menu A:hover, TD.menu A:visited
+{
+  background-color : black;
+  color : white;
+  font-size : 100%;
+  text-transform : uppercase;
+  text-decoration : none;
+  text-align : right;
+  vertical-align : middle;
+}
+
+TD.highlit
+{
+  background-color : green;
+}
+
+TD.activemenu
+{
+  background-color : black;
+}
+
+A, A:visited
+{
+  color : #666666;
+  text-decoration : none;
+}
+
+A:hover, A:active
+{
+  text-decoration : underline;
+}
+
+TD.menuinfo
+{
+  font-size : 90%; 
+  text-align : right;
+  vertical-align : top;
+}
+
+IFRAME
+{
+  border : none;
+}
+
+TD.staffname
+{
+  font-size : 90%;
+  font-weight : bold;
+}
+
+TD.staffposition
+{
+  font-size : 95%;
+  font-weight : normal;
+}
+
+TD.mapinfo
+{
+  font-size: 85%;
+}
+
+TD.mapcomment
+{
+  font-size: 85%;
+  text-align : center;
+}

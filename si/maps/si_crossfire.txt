@@ -1,0 +1,16 @@
+MapName = "Crossfire"
+Author = "Matt 'PRO_Pain' Baxter (mattbaxx31@yahoo.com)"
+Summary = "MCL and AFD scramble to clean out a military complex full of government secrets and experimental weaponry. Ignoring the federal offenses, these companies will struggle in a grueling race to capture the most resources. *Use si_disabletechs2 84 to disable tau, mindray, and radios*"
+Credits = "Entire map by Dario Casali from Valve"
+
+Objective = "Weapons Capture"
+Text = "6 of the resources are experimental weapons in the side rooms of the bunker.  Capturing these will give a small 30 second research boost and $12,000."
+Image = "si_crossfire_5.tga"
+
+Objective = "Document Capture"
+Text = "2 of the resources are classified documents found on the main console in the bunker.  Capturing these will completely finish a research and will give $32,000 or $28,000."
+Image = "si_crossfire_7.tga"
+
+Objective = "Records Capture"
+Text = "1 of the resources is the records of a military project found on the main console in the bunker.  Capturing this will give a 90 second research boost and will give a substantial $63,000"
+Image = "si_crossfire_2.tga"

@@ -1,0 +1,14 @@
+// overview description file for si_hirise.bsp
+
+global 
+{
+	ZOOM	1.51
+	ORIGIN	145.19   412.31   752.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_hirise.bmp"
+	HEIGHT	0
+}

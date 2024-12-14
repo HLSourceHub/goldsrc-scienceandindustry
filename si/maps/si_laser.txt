@@ -1,0 +1,9 @@
+MapName = "Laser"
+Author = "Acid.8000 (roadrunn@mbnet.fi)
+updated by UKChaos (ukchaos@btinternet.com)"
+Summary = "Fearing that it may lose its edge in the weapons of mass destruction industry, AFD has begun a serie of attacks on what they believe to be the site where MCL is working on a new high tech laser. Although no laser was to be found in either corporation's base, they're still in it for the valuable and few personnel available to them in the area."
+Credits = "Original map by Acid.8000. Changes and additions made by Chaos! using the original source file."
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_laser_labs.tga"

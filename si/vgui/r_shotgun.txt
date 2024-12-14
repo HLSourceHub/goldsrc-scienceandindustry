@@ -1,0 +1,5 @@
+Primary fire: 17 pellets, small spread
+
+Secondary fire: 33 pellets, bigger spread
+
+Secondary fire takes longer to recover. Try to only use it when you can accept the risk!

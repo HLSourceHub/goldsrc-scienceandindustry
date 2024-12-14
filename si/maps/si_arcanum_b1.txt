@@ -1,0 +1,36 @@
+====================================================
+    "Arcanum of the Magi"
+    by RhoadsToNowhere(rhoads2nw@home.com)
+====================================================
+
+The recent discovery and unearthing of an ancient, arcane study has
+caught the attention of many people at Midland Carbide Labs and 
+Amalgamated Fluorodynamics.  The knowledge-hungry scientists, aware of
+the vast libraries that might be in the temple, managed to convince
+their respective administrators to allocate funds for small, temporary
+research facilities near the archaelogical site.
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+RESOURCES - Recover the tomes of ancient wisdom found in
+the basement of the study and return them to your administrator.  The
+tomes grant you a 2-minute research boost, and if the drop-off is made
+at the beginning of a new research cycle, it will be completed almost
+instantly. (2 points)
+
+SABOTAGE - Each of the four bookcases in the labs can be broken,
+causing the loss of half of the accumulated research on the
+current project.  (1 point each)
+
+----Credits-------------------------------------------------------------
+
+Sky by The Mighty Pete
+Textures by Sean Johnson, Cid, evil lair, Chaos, and RhoadsToNowhere
+Sounds by Randy Rhoads
+
+http://wadfather.game-edit.com/

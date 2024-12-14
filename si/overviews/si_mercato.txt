@@ -1,0 +1,14 @@
+// overview description file for si_mercato.bsp
+
+global 
+{
+	ZOOM	1.44
+	ORIGIN	0.00   0.00   304.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_mercato.bmp"
+	HEIGHT	-201.00
+}

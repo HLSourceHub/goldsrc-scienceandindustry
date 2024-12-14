@@ -1,0 +1,2 @@
+Allows employees to automatically regenerate armor.
+Scientist needles give armor.

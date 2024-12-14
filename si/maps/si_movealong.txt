@@ -1,0 +1,13 @@
+MapName = "Movealong"
+Author = "Behrooz Wolf (behroozwolf@hotmail.com)"
+Summary = "Your corporation recently developed a nano-virus that targets clones. Unfortunately... the competition stole a sample. Now it's a race to get the antidote to your Administrator so the virus can be released, wiping out the entire enemy security force and leaving their assets to be plundered. Win this lethal race, and your corporation gets a major cash bonus!
+
+Carry the barrel from your spawn to your administrator at the other side of the map, while stopping the other team from doing it first. Use the drop points to choose where your clone appears on the map.  
+
+Remember that the winning team will have both defense stopping the enemy barrel-carrier, and offense covering their own. Good luck."
+Credits = "PapasNewBag, l33t3st coder alive.
+London sky by Marc Schroeder aka Term."
+
+Objective = "Barrel"
+Text = "Get the barrel containing the antidote to your administrator before the other corp does... or you're toast when they release the nano-virus."
+Image = "si_movealong_barrel.tga"

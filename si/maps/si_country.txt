@@ -1,0 +1,80 @@
+====================================================
+    "Country"
+    by MrBozo (sylvain.gravejat@bigfoot.com)
+====================================================
+
+
+----Objectives----------------------------------------------------------
+
+RECRUITEMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+SABOTAGE - Destroy the power supply to shut down all lights from the
+enemy lab, both research and cash production are affected when
+destroyed. (3 points)
+
+SABOTAGE - The main computer in the extra room of the lab can be
+destroyed, denting the enemy funds and causing minor research loss.
+(2 points)
+
+ESPIONAGE - Steal the documents from the Human Resources office, and
+return them to your administrator for a cash increase and a 2 minute
+research boost. Make the drop-off at the beginning of a new research
+cycle and it will be completed almost instantly. (3 points)
+
+
+----Credits-------------------------------------------------------------
+
+Textures by Valve, the S&I team, and the Firearms team.
+The skybox comes from "Gunmetal" by Mad Genius Software,
+  copyright 1998, Justin Fisher.
+Computers in the lab by Nas.
+
+
+----Tips----------------------------------------------------------------
+
+ - You need about 30 seconds to destroy the power supply if you have
+   muscle fiber replacements, 1 whole minute if you don't have them,
+   so it's not an easy task.
+ - The roof gutter you can see in the power supply area is climbable,
+   so you don't need the tau to get on roof.
+
+
+----More Infos----------------------------------------------------------
+
+Breakable - Power supply:
+  - Strenght: 12000
+  - Replacement cost: 25000$
+  - Contributed cash production: 60$ per second
+  - Contributed research: 1 scientist
+  - Research stored: none
+  - Replacement time: 5 minutes
+  - Reward: 3 points
+
+Breakable - Lab main computer:
+  - Strenght: 1300
+  - Replacement cost: 10000$
+  - Contributed cash production: none
+  - Contributed research: none
+  - Research stored: 10% of current project
+  - Replacement time: 3 minutes
+  - Reward: 2 points
+
+Breakable - Coffee machine:
+  - Strenght: 500
+  - Replacement cost: 1000$
+  - Contributed cash production: none
+  - Contributed research: none
+  - Research stored: none
+  - Replacement time: 2 minutes
+  - Reward: 1 point
+
+Resource - Top secred documents:
+  - Cash stored: 10000$
+  - Research stored: 2 minutes of research
+  - Replacement time: 1 minute 40 seconds
+  - Carry speed: 90% of normal speed
+  - Delivery time limit: none
+  - Reward: 3 points

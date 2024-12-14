@@ -1,0 +1,122 @@
+//halflife
+
+babtech_ceil01		detail/metal		0.5	0.5
+c1a0_c1			detail/worn		1.0	0.5
+c1a0_labflrc		detail/linoleum		1.0	1.0
+c1a0_labflrd		detail/linoleum		1.0	1.0
+
+c1a0_labglu		detail/metal		0.5	0.5
+c1a0_labw2		detail/metal		2.0	1.0
+c1a0_labw4		detail/metal		1.0	1.0
+c1a0_labw6		detail/metal		1.0	1.0
+
+c1a0_w1d4		detail/concrete		1.0	1.0
+c1a0_w3			detail/concrete		1.0	1.0
+c1a0_wx			detail/concrete		1.0	1.0
+c1a0a_w3b		detail/concrete		1.0	1.0
+	
+c1a3_dr1		detail/metal		2.0	1.0
+
+c1a3_sign5		detail/metal		0.5	0.25
+
+c1a4_silo1		detail/concrete		1.0	1.0
+c1a4_silo2B		detail/concrete		2.0	2.0
+c2a4_gar3		detail/concrete		0.5	0.5
+
+c2a4_trim1		detail/metal		1.0	0.25
+c2a4_trim2		detail/metal		0.25	1.0
+
+
+
+-0c2a4e_w1		detail/concrete		1.0	1.0
+-1c2a4e_w1		detail/concrete		1.0	1.0
+c2a4e_w1b		detail/concrete		1.0	1.0
+c2a4e_w1c		detail/concrete		1.0	1.0
+c3a1_gear1		detail/metal		1.0	1.0
+
+crate02b		detail/wood		1.0	1.0
+crate03			detail/wood_vert	1.0	1.0
+crate06			detail/wood_vert	1.0	1.0
+
+
+crete1_wall01		detail/concrete		1.0	1.0
+crete2_flr01		detail/stone		1.0	1.0	
+-0crete2_flr04		detail/stone		0.5	0.5
+-1crete2_flr04		detail/stone		0.5	0.5
+-2crete2_flr04		detail/stone		0.5	0.5
+-3crete2_flr04		detail/stone		0.5	0.5
+
+drkmtlt_bord11		detail/worn_hvy		0.5	0.5
+
+
+duct_flr01a		detail/metal		0.5	0.5
+duct_vnt		detail/metal		0.5	0.25
+duct_wall01		detail/metal		0.5	0.25
+
+
+generic012		detail/metal		1.0	1.0
+generic015a		detail/metal		0.5	0.5
+generic015h		detail/metal		0.5	0.5
+generic015n		detail/metal		0.5	0.5
+generic015r		detail/metal		1.0	0.5
+
+generic028		detail/metal		1.0	1.0
+generic028c		detail/metal		1.0	1.0
+
+lab_tnk2b		detail/metal		0.5	0.125
+lab_brd10		detail/metal		1.0	0.25
+
+lab1brd3e		detail/metal		1.0	0.25
+lab1brd3fy		detail/metal		1.0	0.25
+
+lab1_comp10a		detail/metal		0.25	1.0
+lab1_comp10d		detail/metal		0.5	1.0
+lab1_comp10f		detail/metal		0.25	1.0
+lab1_dr5b		detail/metal		1.0	1.0
+lab1_gear3		detail/metal		0.25	0.25
+
+lab5_c2c		detail/worn_hvy		0.5	0.5
+
+
+nwbarrel		detail/metal		0.25	0.5
+
+out_grvl2		detail/cracked_dirt	1.0	1.0
+out_grvl2b		detail/cracked_dirt	1.0	1.0
+out_mud1		detail/cracked_dirt	1.0	1.0
+
+out_pave2		detail/asphalt		1.0	1.0
+
+-0out_rk3		detail/rock		1.0	1.0
+-1out_rk3		detail/rock		1.0	1.0
+-2out_rk3		detail/rock		1.0	1.0
+-3out_rk3		detail/rock		1.0	1.0
+-4out_rk3		detail/rock		1.0	1.0
+
+-0out_w3		detail/concrete		1.0	1.0
+-1out_w3		detail/concrete		1.0	1.0
+
+silo2_wet4d		detail/concrete		1.0	1.0
+
+steel			detail/metal		0.5	1.0
+
+tnnl_c3d		detail/concrete		1.0	1.0
+tnnl_flr1a		detail/metal		0.25	1.0
+tnnl_flr4		detail/concrete		1.0	1.0
+tnnl_flr4c		detail/concrete		1.0	1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

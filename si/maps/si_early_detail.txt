@@ -1,0 +1,119 @@
+//halflife
+
+c1a0b_dr1a		detail/metal		0.5	1.0
+c1a0b_dr2a		detail/metal		0.5	1.0
+
+c1a4_silo2b		detail/metal		1.0	1.0
+
+-0c2a4e_w1		detail/concrete		1.0	1.0
+-1c2a4e_w1		detail/concrete		1.0	1.0
+c2a4e_w1b		detail/concrete		1.0	1.0
+c2a4e_w1c		detail/concrete		1.0	1.0
+
+con1_wall01p		detail/metal		0.5	1.0
+
+crete2_flr02		detail/stone		1.0	1.0
+crete3_flr04		detail/concrete		0.5	0.5
+crete3_wall01		detail/stone		1.0	1.0
+crete4_wall01c		detail/concrete		1.0	1.0
+
+duct_vnt		detail/metal		0.5	0.5
+
+generic101b2		detail/metal		1.0	1.0
+
+lab1_brd3e		detail/metal		1.0	0.25
+lab1_brd3fy		detail/metal		1.0	0.25
+lab1_gear4		detail/metal		0.25	0.25
+lab1_stair1b		detail/worn_hvy		0.5	0.125
+metal_bord021		detail/metal		0.5	0.5
+
+out_dirt1		detail/grass		1.0	1.0
+
+out_dmp4a		detail/wood		1.0	0.5
+out_dmp4b		detail/wood		0.5	0.5
+out_dmp4c		detail/wood		1.0	0.5
+
+out_pave1		detail/asphalt		1.0	1.0
+out_vnt			detail/metal		1.0	2.0
+
+out_w1b			detail/metal		1.0	1.0
+out_wall3a		detail/metal		0.5	1.0
+out_wall3c		detail/metal		0.5	1.0
+steel			detail/metal		0.5	1.0
+
+table2			detail/metal		0.5	1.0
+
+tnnl_w12		detail/concrete		1.0	1.0
+
+//si
++0si_a_pure		detail/metal		0.5	1.0
++0si_a_puremcl		detail/metal		0.5	1.0
++0si_h_pure		detail/metal		0.5	1.0
++0si_h_puremcl		detail/metal		0.5	1.0
+
+tnnl_c3c_afd		detail/concrete		1.0	0.5
+tnnl_c3c_afd		detail/concrete		1.0	0.5
+
+//xeno
+
+c4a1a_sphinc1b		detail/rock		1.0	1.0
+c4a1a_swmpwl		detail/rock		2.0	2.0
+
+//early
+
+as_steelpipe		detail/metal		0.5	0.5
+
+blinds			detail/metal		0.5	0.5
+
+canyonscliff		detail/rock		2.0	2.0
+
+erl_ceil		detail/metal		1.0	1.0
+erl_ceil_afd		detail/metal		1.0	1.0
+erl_ceil_mcl		detail/metal		1.0	1.0
+
+erl_ext_1		detail/metal		2.0	2.0
+erl_ext_2		detail/metal		2.0	2.0
+
+erl_flr			detail/linoleum		1.0	1.0
+erl_flr_afd		detail/linoleum		1.0	1.0
+erl_flr_mcl		detail/linoleum		1.0	1.0
+
+erl_sign_afd1		detail/worn		1.0	1.0
+erl_sign_afd2		detail/worn		2.0	1.0
+erl_sign_mcl1		detail/worn		1.0	1.0
+erl_sign_mcl2		detail/worn		2.0	1.0
+
+erl_wall1		detail/worn		1.0	1.0
+erl_wall1_afd		detail/worn		1.0	1.0
+erl_wall1_mcl		detail/worn		1.0	1.0
+
+erl_wall2_afd		detail/worn		2.0	1.0
+erl_wall2_mcl		detail/worn		2.0	1.0
+
+erl_wall3_afd		detail/worn		2.0	1.0
+erl_wall3_mcl		detail/worn		2.0	1.0
+
+erl_wall4_afd		detail/worn		2.0	1.0
+erl_wall4_mcl		detail/worn		2.0	1.0
+
+erl_wall5_afd		detail/worn		2.0	1.0
+erl_wall5_mcl		detail/worn		2.0	1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

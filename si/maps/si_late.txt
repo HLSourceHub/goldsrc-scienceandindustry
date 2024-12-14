@@ -1,0 +1,14 @@
+// overview description file for si_late19June.bsp
+
+global
+{
+	ZOOM	1.19
+	ORIGIN	56.50 200.00 -3876
+	ROTATED	0
+}
+
+layer
+{
+	IMAGE	"overviews/si_late.tga"
+	HEIGHT	-3876
+}

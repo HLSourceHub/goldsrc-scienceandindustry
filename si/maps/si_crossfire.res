@@ -1,0 +1,12 @@
+maps/si_crossfire.loc
+maps/si_crossfire.txt
+maps/si_crossfire.res
+maps/vgui/si_crossfire_2.tga
+maps/vgui/si_crossfire_5.tga
+maps/vgui/si_crossfire_7.tga
+overviews/si_crossfire.bmp
+overviews/si_crossfire.txt
+models/spawnteleafd.mdl
+models/spawntelemcl.mdl
+sound/ambience/crickets1.wav
+sound/ambience/crickets2.wav

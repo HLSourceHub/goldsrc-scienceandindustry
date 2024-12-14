@@ -1,0 +1,25 @@
+-------------------------------------
+|                                   |
+|           About the FGD           |
+|                                   |
+-------------------------------------
+Science & Industry Forge Game Definition file (.fgd) 
+Version 1.0
+For Hammer 3.5 and Half-Life 1.0.0.9 and above
+Updated for Valve Hammer Editor 3.5 by MamboDog
+Cleaned up and updated by Electric-Gerbil (electric.gerbil@planethalflife.com)
+Last Update: 16/07/03 by MamboDog (mbr-mambodog@alphatrek.com)
+Original FGD by PapasNewBag (PapasNewBag@planethalflife.com)
+Sprites by VALVe, Tim Holt (a.k.a. Waldo) and MamboDog
+-------------------------------------
+|                                   |
+|           Installation            |
+|                                   |
+-------------------------------------
+This folders here are built in the structure of the Valve Hammer Editor 3.4
+installation. Therefore you can copy them straight to your Hammer directory.
+
+The included sprites must be in their correct directory relative to the Hammer installation
+to appear in Hammer. The FGD may be stored wherever you like.
+
+ - MamboDog (mbr-mambodog@alphatrek.com) 16.7.03

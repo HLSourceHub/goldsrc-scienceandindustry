@@ -1,0 +1,10 @@
+MapName = "Alley"
+Author = "Cadaver (cadaver@planethalflife.com)"
+Summary = "Away from the prying eyes of the press and law enforcement, the two offices of rival companies MCL and AFD engage in a power struggle, where nothing is off limits, not even rival personnel."
+Credits = "Textures by Locknut, ImdaBob, MikeZill@. 
+Sky by George_Pooshoes.
+Blue pick-up truck prefab by Dead Man Walking."
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_alley_labs.tga"

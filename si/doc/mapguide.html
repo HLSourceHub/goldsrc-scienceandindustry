@@ -1,0 +1,106 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>Map Guide - SCIENCE AND INDUSTRY</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="css/si.css">
+</head>
+<body bgcolor="#FFFFFF" link="#666666" vlink="#666666">
+	<table width="560" border="0" cellpadding="2" cellspacing="0">
+    <!--begin map guide-->
+    <tr>
+      <td>
+        <img src="images/si_logo.jpg" align="left">
+        <b>SCIENCE AND INDUSTRY MAPPING GUIDELINES<b>
+        <br clear="all">
+        <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Introduction
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>These are some general guidelines that will help you create maps for Science & Industry.  The S&I team really appreciates people making maps for our mod, so please feel free to email <a href="mailto:si@planethalflife.com">si@planethalflife.com</a> with any questions.  And please don't feel hampered by any stylistic advice in this document -- these are general guidelines only.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        General Style
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>Science & Industry maps basically follow the standard "2 Forts" style. The two corporations, Midland Carbide Labs, and Amalgamated Flourodynamics, each need a base from which the opposing team will try to steal scientists.  Standard Team Fortress or CTF mapping principles should apply.</p>
+<p>Science & Industry attempts to give the player a consistent feel that they are in the "Science & Industry Universe," and maps should try to convey this. A good example of a mod that accomplished this was Action Quake. AQ maps, for the most part, were set it some kind of archetypical action movie setting, and these settings made playing the mod that much more of an authentic action movie experience.</p>
+<p>S&I is loosely set some time in the 60s to 70s. Players take the role of security officers in one of the mod's two corporations.  Think about Cold War military-industrial companies and you'll have a pretty good idea of the feel the player should get from these two corporations.  Feel free to draw references from any enormous corporations from this period such as McDonnell Douglas, Dupont, Westinghouse, etc.  Level details should point to the idea that players are just regular employees at these corporations, where their jobs just happen to involve killing employees at the competition and kidnapping scientists.  Details like water coolers, time clocks, and other mundane features of the workplace will go a long way to conveying this feel.</p>
+<p>Feel free, of course, to come up with the coolest and craziest ideas you can, but a few jumping off point ideas might include: anything with a retro-future feel, modernist architecture, classic institutional architecture, corporate skyscrapers, factories, refineries, etc.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Layout
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>There are several areas that have to be included in every S&I map for the mod to work:</p>
+<p><b>Research Labs</b> - this is where the scientists hang out. It should be able to comfortably house up to six scientists wandering around, and should probably contain plenty of architectural obstacles that make it challenging for enemies to run in and steal scientists.  It can be a single room, several rooms, or whatever other "flat" configuration you may want to come up with, as long as scientists can walk around in the separate areas without having to climb anything like ladders or stairs. It should also have a monster clip brush covering any entrances or exits so scientists can't escape on their own.  Research Labs should also contain plenty <i>info_node</i> entities so scientists can find their way around.  Check WorldCraft's tutorial on <i>info_nodes</i> for guidelines on placement.</p>
+<p><b>Cloning Room</b> - this is a standard TFC-style team respawn room.  It should be fairly far from the team's Research Labs, so it's not too easy for recently killed defenders to run back to the Labs.  The entrance should have a door or some other mechanism with a game_team_master that will only allow teammates to enter.  This is also the place for health and hev chargers.  Since the Gauss Gun (Tau Cannon) is still available in S&I, it is important to protect your Cloning Room from gauss shots through walls by making all walls and doors "double thick."  Charged-up gauss shots will only pass through one wall, so placing a small gap between two walls will prevent cheap spawn-killing.</p>
+<p><b>Prototype Storage</b> - this is basically a TFC-style resupply room.  This room will contain the S&I weapon entities that appear as discoveries are made.  Prototype Storage should either be directly connected to or very close to the Cloning Room, so newly spawned players will not be without weapons and ammo for long.</p>
+<p><b>Computer Labs</b> [Optional] - a new addition to S&I 0.96, this room should contain computers that are <i>func_tech_breakable</i> entities. The room must be accessible (although not easily accessible) by the other team so that they have a chance to destroy the computers, which will disrupt the research of the team who owns the computers, and cost them cash to replace. Note that these entities do not have to be computers. Machinery, Storage, the Main Reactor, or even Coffee Machines can work just as well.</p>
+<p><b>Resource Storage</b> [Optional] - this area can manifest in a variety ways, depending on how you plan to use <i>resource</i> entities. It could be a mine shaft in the center of the map with valuable minerals. It could be a briefing room behind the research labs with blueprints of the scientist's research. It could be a protected vault deep in the base with crates of valuable chemicals. Use your imagination.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Gameplay
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>S&I's gameplay is basically Capture the Flag with a twist, and maps should be designed accordingly.  Teams should be able to set up good but not impenetrable base defense. Interconnectivity is key.  The focal point of any base is the Research Lab and it should be fairly hard for enemies to successfully infiltrate.  Part of the fun of S&I is also that the "flags"--the scientists--seem alive and need to be hunted down a little before they can be captured, so interesting areas for the scientists to do their research are important.  Other things to think about: The game rewards defense setups as far from the scientists as possible, since it reduces the likelihood that scientists will get distracted, so layouts that play to this are good. Since increasingly powerful types of weapons are released as the game goes on, lots of different strategies will need to be used--architecture that keeps this in mind is also good.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Entities
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>Custom S&I entities can be found in the S&I fgd in <i>si/fgd/</i>. Unless otherwise noted, all S&I entites must have their team property set to the appropriate value, where 0 is MCL (blue) and 1 is AFD (green).</p>
+<p><a href="mapguide/mapguide_wgeneric.html"><i><b>weapon_generic</b></i></a> - Science and Industry weapons are distributed through stock ammunitions crates that spawn at these locations. All but the most recently researched equipment will be available in these bulk crates--the new stuff hasn't quite entered full production. Place enough of these in the prototype storage room to make sure players can get the equipment they need and no more.</p>
+<p><a href="mapguide/mapguide_wexperimental.html"><i><b>weapon_experimental</b></i></a> - When a new device or weapon is researched, your corporation can't quite mass produce it to the level that your older equipment is. These more experimental techlogies spawn here. They are differentiated by the "Priority" tag: Primary - newest researched technology, Secondary - second newest, and Tertiary - third newest.</p>
+<p><i><b>info_player_deathmatch</b></i> - These are respawn points for the players. Set the "Team" flag of this entity to indicate what team should be spawning there. Be sure to include plenty of these entities (eight or more is a good idea) in case many players are spawning at the same time (such as at the beginning of a match). to increase the atmosphere of your Cloning Facilities, try to make your spawn locations indicate some method in which the player was cloned. However, don't go overboard with fancy spawning as that complicated spawn locations can be extremely problematic. Nothing is more frustrating to a player that not being able to spawn at all.</p>
+<p><i><b>info_scientist_start</b></i> - These are respawn points for the scientist entities.  Eight or more should be scattered around each team's Research Labs, so scientists have plenty of places to appear.</p>
+<p><i><b>info_administrator</b></i> - This is the scientist capture point.  Basically a GMan model you can walk through, there should be just one of these in or near each team's Research Labs.</p>
+<p><i><b>info_zone</b></i> - This functions exactly like an administrator, except that it doesn't have a visible model, covers a larger area, and can be toggled as to what can be dropped off.</p>
+<p><a href="mapguide/mapguide_techbreak.html"><b><i>func_tech_breakable</b></i></a> - Similar to a <i>func_breakable</i>, but with a team association key and a number of fields to control the affects of its destruction and replacement. Don't go overboard with func_tech_breakables without planning out their effects in detail ahead of time. Some maps may have large expensive reactors that can be destroyed, and others may have the coffee machines destructable, but making vents, doors, and crates <i>func_tech_breakables</i> is going at it the wrong way. You want these to be objectives that add new layers of gameplay to your map, not confusion.</p>
+<p><a href="mapguide/mapguide_resource.html"><b><i>item_resource</b></i></a> - You can greatly customize all the bahavior of this entity, from the behavior of spawning, pickup, carrying, and delivery. It is designed to be as customizeable as possible.</p>
+<p><a href="mapguide/mapguide_infonode.html"><b><i>info_node</b></i></a> - Scientists need <i>info_node</i> entities in the Research Labs so they can walk around and successfully run away from enemies.  Think about the kind of "traffic flow" that will exist in your Research Labs and arrange info_nodes so scientists can move about freely.</p>
+<p><i><b>trigger_hurt</b></i> - In order to keep enemies out of team Cloning Facilities, place these brush entities with a high damage value around entrances.  Be sure to add a "team" key, and set the value to the index of the team the trigger_hurt should NOT hurt (i.e. if you were building MCL's Cloning Facilities, you would place a <i>trigger_hurt</i> inside the doorway and give it a team value of 0).</p>
+<p><i><b>func_door</b></i> - if given a "team" key, this door will only open for players on that team. A team of -1 will create a door that can be opened by anyone. The identical effect can be done with other entities, but this option was added for simplicity.</p>
+<p><i><b>info_sidetect</b></i> - Include this entity in all Science & Industry maps, and only include one. Global game settings are contained within it.<br><br></p>
+<p><i><b>game_givecash</b></i> - When triggered, this entity gives cash to one of the two companies. It can either give cash once each time it is triggered, or it can be toggled on and off to give cash constantly. If the "Cash/sec toggle" entity flag is used, once triggered the entity will keep giving money to its team until it is triggered again. The "Cash" value then works as a "Cash per second" value. The entity has 4 other fields that can be used to send a message notice to the players when the entity is turned on or off.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Textures
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>SI.WAD contains a multitude of custom S&I textures.  There are many varieties of company logos, which should be placed near the entrance of the base, or whereever else it might make sense. Be sure to color code the bases or have them textured with distinct themes so that a player can easily tell which base he is by simply glancing around. As that most S&I maps are symmetrical, it can be easy to get turned around if the maps aren't clearly labeled.</p>
+<p>Use the signs contained in the WAD to point out the important zones in each base (Research Labs, Cloning Room, Prototype Storage, Human Resources [capture point], and Computer Labs).  These should be used liberally so new players can easily find their way around, and can be used either on their own, or with the si_arrow textures smushed up against the right side to point toward something.  Since these textures are also color coded, they are a good way to remind players about which base they're in. Remember</p>
+<p>There's a good selection of textures in the WAD to decorate your lab with. Create the ambience of the lab by having computers, blueprints, and plenty of your room for your scientists to work in. Drawing the player into the lab atmosphere is vital to the feeling of a S&I map.</p>
+<p>The rest of the WAD is devoted to miscellaneous colored textures or logos to help label the AFD and MCL bases. There's everything from new HEV and Health chargers to team-specific crates.</p>
+      </td>
+    </tr>
+    <!--end map guide-->
+	</table>
+</body>
+</html>

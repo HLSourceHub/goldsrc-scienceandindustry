@@ -1,0 +1,14 @@
+// overview description file for si_urban.bsp
+
+global 
+{
+	ZOOM	1.23
+	ORIGIN	-8.00   0.00   144
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_urban.bmp"
+	HEIGHT	-384
+}

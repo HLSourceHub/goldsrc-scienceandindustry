@@ -1,0 +1,478 @@
+______________________________________
+Science and Industry Mod for Half-Life
+Version 1.3
+scienceandindustrygame.com
+______________________________________
+
+Version 1.3 beta 1
+[ January 2016 ]
+- Continuing to ruin everything you love about this game.
+
+Version 1.2 beta
+[ March 2015 ]
+- Changed tons of stuff and none of it is final yet. Hope this helps!
+
+Version 1.1
+--------
+[14 December 2006]
+-Additions
+ * Added an announcer voice for game events.
+ * Added an overview of the map to the HUD, with sprites for your teammates, and a command to display the whole overview.
+ * Added a command vote system allowing players to vote for a server command such as changing the level.
+ * Added support for alternative game modes (Speed Capture, Midair, Last Company Standing, Fast Research)
+ * Added Tutorial Demos about basics, movements and weapons.
+ * Added S&I icon for Steam's game list.
+
+-Weapon and device changes
+ * Rocket Pistol: 5 ammo per clip instead of 4, rockets are not affected by gravity, explosion radius reduced, self damage reduced when not carrying a scientist.
+ * EMP Cannon: cannister launch doesn't require a charge, cannister detonates on impact and now also deactivates radios, the EMP infection now disables Cloaking and the Super Jump implant too.
+ * Crossbow: unzoomed shot is now an explosive hitscan dart, the zoomed shot is the same, self explosive damage reduced when not carrying a scientist.
+ * The Tommygun can now only be researched by the AFD company, and the Akimbo snUZIs by MCL, both weapons have been changed to deal a same amount of damage.
+ * Cloaking Device: can now make you completely invisible instead of very slightly visible.
+ * Mindray: now also heals your company's scientists.
+ * Reduced Satchel limit default value from 5 to 3 per player.
+ * Reduced Tripmine limit default value from 5 to 2 per player.
+ * Reduced radio carry numbers from 3/5/7 to 3/4/5.
+ * Disabled explosives from dealing headshot damage.
+ * Increased explosive damage push for players standing up.
+ * Changed friendly fire off behaviour: firing at teammates doesn't hurt them but still pushes them.
+
+-Movement changes
+ * Added new movement techniques: crouch sliding and super jumps off walls. The "Advanced Guide" featured in the Manual explains them, as well as the "Movements" tutorial demo available in the game.
+
+-Research changes
+ * Reduced weapon stealing research bonus from a 42 second bonus to a 15 second bonus.
+ * Removed the cash bonus given for stealing a weapon.
+ * Reduced the refresh rate of experimental weapons.
+ * Removed the research bonus given for researching a technology already completed by the other company.
+ * Removed the si_constantresearchspeed server variable: research speed is always constant.
+ * Reduced Tommygun and Akimbo UZIs research time from 2:15 to 2:00.
+
+-Fixes
+ * Updated the si_urban map to avoid the computer becoming unbreakable bug (contribution by Parasite).
+ * Fixed the delivery_zone entity crashing the server if it didn't have the "no salvage" flag set.
+ * Fixed rockets (and other projectiles and effects) exploding in the sky instead of disappearing.
+ * Fixed the arm color from the weapon model being blue when spectating AFD players in first person view.
+ * Fixed a bug where a same map could be played twice in a row if a changelevel/nextlevel command had been used before.
+ * Fixed a bug where radio music kept on after the radio was destroyed.
+ * Fixed mp_timelimit 0 setting the timelimit to 0 instead of infinite.
+ * Removed a few notices.
+ * Fixed scientist bulb displayed in an incorrect angle in first-person spectator mode.
+ * The correct weapon crosshair in first-person spectator view is now displayed instead of a generic crosshair.
+ * Removed cloak screen fading in first-person spectator view.
+ * Removed view punch when receiving negative damage (eg: barrel on si_movealong).
+ * Fixed bug where dying while using the cloak disabled the black screen fade out.
+ * Fixed server crash when a tech breakable was the target of another entity.
+ * Fixed si_clanmatch score keeping feature.
+ * Fixed a glitch on the overview for the si_mill map.
+ * Fixed a few glitches on the HUD.
+ * Fixed non working or messed up hint texts.
+
+-New Client Commands:
+ * callvote [command] [parameter]: allows a player to start a command vote (example: "callvote nextlevel si_daybreak")
+ * yes, no: commands to vote for or against the command vote currently in progress
+ * +showmap: displays an overview of the map with sprites for the teammates
+
+-New Client CVARS:
+ * cl_models_bright: players are brighter if set to 1 [default=1]
+ * cl_models_bright_notdeadbodies: dead bodies are not brighter if set to 1 [default=1]
+ * cl_models_bright_notteammates: teammates are not brighter if set to 1 [default=0]
+ * cl_models_hide_deadbodies: dead bodies are not displayed if set to 1 [default=0]
+ * cl_models_afd: option to force AFD players to all be displayed as the same model. 0 = not forced, 1 = Vinnie, 2 = Butch, 3 = low-polygon Vinnie, 4 = low-polygon Butch [default=0]
+ * cl_models_mcl: option to force MCL players to all be displayed as the same model. 0 = not forced, 1 = Charlie, 2 = Yvan [default=0]
+ * more: whole list of cvars available in si/doc/cvarlist.html
+
+-New Server Commands:
+ * mode [gamemodename]: executes "si/gamemodes/[gamemodename].cfg", used to set up all the server settings at once for a given game mode. Default game mode definitions are included.
+ * nextlevel [mapname]: selects the next map to be played instead of following the mapcycle.
+ * switchteam [playername]: switches the given player to the other team.
+ * randomteams: makes random teams with the available players.
+
+-New Server CVARS:
+ * si_lcs: if set to 1, enables the Last Company Standing (LCS) game mode. This is a round-based mode where dead players spectate until all the players of one company are dead, then a new round starts. Warning: if there are more players than spawn points on the map, some players will be telefragged at each round start. Should only be used as a fun mode on a server with a low max player setting (eg: 6 player server). [default=0]
+ * si_rp_midair: enables Rocket Pistol Midair game mode. In this mode players only spawn with the Rocket Pistol and deal damage only if the rocket hits a player while he's not on the ground. [default=0]
+ * si_jumpmode: if set to 1, enables the Jump Mode: players on the server go through each other, no damage is given, explosions don't push the other players, no limit to the players' speed is applied when jumping, infinite ammo is given [default=0]
+ * si_speedcapture: if set to 1, enables the Speed Capture game mode. Players always spawn from the same spawn point and must capture a scientist as fast as possible. The "startmatch" command starts a run. Demos are automatically recorded and by default only kept if the best time is beaten. [default=0]
+ * si_rp_midair: if set to 1, players only spawn with the Rocket Pistol and deal damage only if the rocket hits a player while he's not on the ground [default=0]
+ * si_voting_allowed: if set to 1, players on the server are allowed to start a vote [default=1]
+ * si_voting_time: sets how many seconds a vote can last [default=20]
+ * si_voting_success_ratio: decides how many "yes" votes are needed for a vote to pass, if set to 0.5 for example, more than half the players on the server must vote "yes" for the vote to succeed [default=0.5]
+ * si_voting_file: sets the name of the file to look into for the list of commands and settings that can be voted by the players [default=allowed_vote_commands.cfg]
+ * si_mapcfgexec: if the [mapname].cfg file is present on the server, it is executed after server.cfg when a new map starts. If the variable is set to a number above 1, it is the [mapname][number].cfg file that is executed.
+
+Version 1.0
+--------
+[20 July 2004]
+-Improved netcode (client side weapon effects)
+-Improved HUD (status HUD, cloning HUD, notices)
+-Improved map briefings
+-Updated maps: si_deep (Chaos), si_depot (Chaos)
+-Added new device: the EMP Cannon
+-Added new player model "Yvan", companies now have different player models (MCL is Charlie and Yvan, AFD is Vinnie and Butch)
+-Added high definition models for the scientists and the administrator
+-Added "glow" visual effect option
+-Added detail textures for each map
+-Added Team Panel showing the location and status of your teammates on the HUD
+-New techtree and voting system
+-New HUD font for the AFD company's employees
+-Added secondary mode to the Cloak: it makes you completely invisible and you can move freely for a short period of time
+-Tweaked many weapons
+-Added more hints (mindraying players, looking at a breakable, touching your admin, touching a dropped scientist from your company)
+-Added brekable HUD identification
+-Changed the "Ammo Replicators" researches: they now also modify the maximum ammo you can carry for each weapon
+-Reduced start player death cost from $1,000 to $800
+-Tweaked the default value of some gameplay settings
+-Fixed the "remloc" command, it wasn't removing the location from the map .loc file
+
+-New Client CVARS:
+ * cl_votemenu_lightmode (default=0) : if set to 1 only the vote buttons will appear in the vote menu
+ * cl_votemenu_shortresearchinfo (default=1) : toggles the use of short research descriptions in the VGUI vote menu
+ * glow_blur_steps (default=0) : if set to >= 1, a glow effect is applied to the screen. The higher the setting the more passes are applied, a good setting is 4. This effect will *heavily* reduce your FPS, especially if you don't have a high-end video card.
+ * cl_quickspawn (default=0) : if set to >0, you will zip through the intro menus (auto-assign and pick model defined 1=charlie/vinnie, 2=yvan/butch, 3=random)
+ * cl_effects_fev_cloud_density (default=0.4) : fev cloud detail - 0.0 = no smoke, 1.0 = lot of smoke
+ * cl_effects_empballs (default=1) : toggles display of the EMP cannon ball sprites effect
+ * cl_effects_empspark (default=1) : toggles display of sparks on a primary EMP fire hit
+ * cl_effects_empglow (default=1) : toggles display of a glow effect on a primary EMP fire hit
+ * cl_effects_empbrokenbits (default=1) : toggles display of broken EMP bits on a cannister detonation
+ * cl_effects_empwave (default=1) : toggles display of a wave on an EMP cannister detonation
+ * cl_effects_emplightning (default=1) : toggles display of a lightning effect on an EMP cannister detonation
+ * cl_effects_dynamiclights (default=1) : toggles display of dynamic lights (with muzzle flashes, EMP trail, explosions)
+ * r_detailtextures (default=0) : if set to 1 and your video card supports it, detail textures will be activated, all default maps support detail textures
+ * cl_explosion_bubbles (default=1) : toggles display of bubbles for underwater explosions
+ * hud_show_statushud (default=1) : toggles display of the Status HUD element
+ * hud_show_researchhud (default=1) : toggles display of the Research HUD element
+ * hud_show_personalhud (default=1) : toggles display of the Personal HUD element
+ * hud_show_cloning (default=1) : toggles display of the Cloning HUD element
+ * hud_show_ammohistory (default=0) : 1: draws sprites of the weapons you pick up, 2: draws weapons and ammo sprites, 0: disables
+ * hud_notices (default=5) : the maximum number of notices to display at a time
+ * hud_notices_filter (default=0) : set to "1" to remove most of the notices and keep only the few important ones. Set to "2" to remove even more notices and keep only the ones that give information that isn't already somewhere else on the HUD (team panel, scientist number).
+ * hud_notices_colors (default=1) : set to "1" to have the important notices drawn in color
+ * hud_notices_color_defense (default=0x00FF1010) : color of the defense-related notices (in hexa ARGB)
+ * hud_notices_color_attack (default=0x002020FF) : color of the offense-related notices (in hexa ARGB)
+ * hud_saytext_teamonly (default=0) : if set to 1, only the say_team chat is displayed
+ * hud_saytext_allow_colors (default=1) : if set to 1, chat text can be colored by using the ^ character followed by a number between 0 and 9.
+ * hud_teampanel (default=1) : displays a list of your teammates with their locations. White background color means the player is carrying a scientist. Yellow = carrying a resource, Grey = just dropped a scientist or a resource, Red = just died, Blue = just killed an enemy carrying a scientist.
+ * hud_teampanel_x (default=5) : sets the horizontal position of the team panel (in pixels from the left)
+ * hud_teampanel_y (default=15) : sets the vertical position of the team panel (in pixels from the top)
+ * hud_teampanel_transparency (default=0.5) : sets the transparency of the team panel background. 0 = solid, 1 = fully transparent.
+ * hud_teampanel_colormodels (default=0) : if set to 1, players with the model Butch or Yvan will be highlighted in team color (this is done automatically if the server has si_classes set to 1).
+ * cl_autorecord (default=0) : if set to 1, a demo is automatically recorded when you join a game, under the name "date-time-map.dem" (eg 2004_06_02-22_14_47-si_laser.dem)
+ * cl_lw (default=1) : toggles client side weapon effects
+ * You can define your own weapon slots, positions and weights by editing the weapons.cfg file.
+
+-New Client Commands:
+ * sirecord: starts recording a demo to the file "date-time-map.dem" (eg 2004_06_25-22_14_47-si_laser.dem)
+
+-New Say Text Commands:
+ * ^x : colored text. See si/doc/cvarlist.txt for the list of colors.
+
+-New Server CVARS:
+ * si_clanmatch (default=0) : when enabled, player stats will be retained for a short period of time after they disconnect from the server so that their score will not be lost if they lost connection for some reason. If set to 2, the game will automatically be reseted once the pre-match time is over. If set to 3, the pre-match warm up will be done with everything researched.
+ * si_c4briefcase (default=0) : set to "1" to enable the C4 Briefcase research.
+ * si_disabletechs1, si_disabletechs2 (default=0) : allows to disable any set of technology. See si/doc/cvarlist.txt for details.
+ * si_nobcthirdperson (default=0) : if set to 1 players won't be able to switch to third person view when using the briefcase.
+ * si_action (default=0) : if set to 1, players can bunnyjump faster when leg implants are researched.
+ * si_fastweapons (default=0) : if set to 1, players can switch weapon right away after firing with the Shotgun, Colt or Rocket Pistol.
+ * si_forceteam (default=1) : if set to 1, players can't join the company with most players. Automatically disabled if si_clanmatch is set to >= 1.
+
+-New Server Commands:
+ * startmatch : resets the game after a countdown of 10 seconds.
+
+Version 0.97b
+--------
+[23 December 2003]
+-New maps: si_deep (Chaos), si_depot (Chaos), si_forge (RhoadsToNowhere), si_movealong (Behrooz), si_optica (tommyd), si_replicant (Cadaver), si_retrovirus (Cadaver), si_spa (Cadaver), si_wonderland (PapasNewBag)
+-Updated maps: si_daybreak (Chaos), si_urban (Chaos)
+-New gameplay mode - resource race (features in si_movealong)
+-New explosion effects for satchels and tripmines
+-New team weapon models: Briefcase, Tau Cannon, Grenade, Shotgun, Tommygun, Colt, Tripmine
+-Added scientist animations when a scientist wakes up from unconsciousness and is about to teleport back to his/her lab
+-Added lightbulbs above scientists when holding the Mindray or the Radio showing the scientists' efficiency
+-Added team colored Tau Cannon effects
+-Added Colt secondary fire as a zoom if your team has researched Ocular Implants
+-Added Briefcase secondary fire to throw the scientist you are carrying
+-Added new research: Super Jump Module
+-Added map locations (%loc are replaced by the player's location)
+-Added health and armor communication (%H and %A are respectively replaced by the player's health and armor)
+-Added commandmenu (+commandmenu command)
+-Added Steam background image
+-Added a speed-o-meter display (disabled by default)
+-Akimbo snUzis can fire underwater
+-Improved spectator and HLTV modes
+-Some game balance improvements
+-Fixed bug where headshots weren't doing any extra damage.
+-Fixed bug where if mp_weaponstay was set to 1, players could keep on capturing a weapon and have their score reach the thousands.
+-Fixed Ocular Implants zoom commands not working.
+-Fixed end researches not giving any extra cash bug.
+-Fixed solid dead bodies bug.
+-Fixed scientist capture money bonus bug.
+-Fixed spectators scaring scientists bug.
+-Fixed wrong team respawn bug.
+-Fixed tripmine and satchel limits bug.
+-Fixed double start research bug.
+-Fixed more than 6 scientists bug.
+-Fixed $-100,000 unemployed team scoreboard bug.
+-Fixed bug where explosives in confined spaces would do extra damage and go past walls.
+-Fixed bug where Tau Cannon secondary fire would sometimes hurt you back.
+-Fixed elevator sound bug.
+-Fixed bug where the Mindray hint would not show up.
+-Fixed some demo recording glitches.
+-Fixed bug where you would hear footstep sounds when in water, swimming near the bottom.
+-Fixed an exploit allowing to vote for any research.
+-More little fixes/improvements
+
+-New Commands:
+ * AddLoc [name] : adds the location you're at (x y z) with the name you typed ([name]) to the map .loc file
+ * RemLoc : removes the closest location from the map .loc file
+ * +normaljump : performs a normal jump even if you have the Super Jump upgrade
+
+-New Client CVARS:
+ * hud_location_indicator (default=0) : 0: disables. 1: displays current location as a HUD element. above 1: displays a sprite at every location found in this radius
+ * hud_speedometer_text (default=0) : 0: disables. 1: displays current speed, max speed, and speed / max speed percentage as a HUD element
+ * hud_speedometer_bar (default=0) : 0: disables. 1: displays speed / max speed percentage in a graphic bar as a HUD element
+ * cl_explosion_detail (default=2) : how detailed should the explosion effects be? 0: no effects, 1: standard HL style explosions, 2: "enhanced" S&I explosions (flaming debris, shockwaves, etc.)
+ * cl_explosion_dynamiclight (default=1) : toggles display of explosion dynamic light
+ * cl_effects_tracers (default=1) : toggles display of Akimbo snUzis' tracers effect
+ * cl_effects_shelleject (default=1) : toggles display of ejected shells
+ * cl_effects_gaussballs (default=1) : toggles display of the tau cannon ball effects
+ * cl_team_crosshairs (default=0) : toggles display of team colored crosshairs
+ * other new CVARS: use the in-game command menu to tweak your settings
+
+-New Server CVARS:
+ * si_researchspeed (default=1.15) : research speed multiplier
+ * si_freeresearch (default=5) : research minutes offered to both teams at the begining of the game
+ * si_constantresearchspeed (default=1) : each team will research at the speed of 3 scientists even if they have less or more if this is set to 1
+ * si_headshot (default=2) : headshot damage multiplier
+ * si_logcash (default=60) : logs each compan's cash amount every x seconds
+
+Version 0.97a
+--------
+[20 November 2001]
+-New maps: si_virus (Cadaver), si_mtg (Chaos)
+-New gameplay mode - resource capturing only (features in si_virus)
+-New weapon models: Shotgun, GI Destabiliser, Flesh-Eating Virus, Radio
+-Added VGUI research voting menu - players now able to browse tech-tree research options and their effects before  casting a vote
+-Added VGUI hint pop-ups to aid new players into the game more easily.
+-Integrated voice-communication
+-Added HLTV support
+-Ammo crate bug fixed
+-GI FOV bug fixed
+-Endgame crashing fixed
+-Other bug fixes
+
+-New Commands:
+ * vote - brings up the research votemenu
+ * +voicerecord - transmits voice communications
+
+-New Client CVARS:
+ * cl_allowthirdperson (default=3) : toggles third-person camera. 0: disables. 1: enables for briefcase. 2: enables for cloak. 3: enables for both
+ * cl_tutorial (default=1) : toggles hint pop-ups. 0: disables. 1: enables
+ * cl_classicvotemenu (default=0) : toggles VGUI votemenu. 0: uses VGUI votemenu. 1: uses old style votemenu
+ * cl_popupvotemenu (default=0) : toggles how the votemenu is triggered. 0: votemenu is not brought up until the "vote" key is pressed at the appropriate time. 1: votemenu pops up automatically as soon as the voting period begins.
+ * cl_votemenu_capturemouse (default=1) : toggles whether the cursor is captured under the VGUI votemenu. 0: disabled. 1: enabled
+
+Version 0.97
+--------
+[23 May 2001]
+-New weapons: Cloak, Colt Defender, Rocket Pistol, Tommygun, snUzis, Flesh-Eating Virus
+-New replacement models for: Shotgun, Tau Cannon, Mindray, Radio Transistor
+-HEV arms on remaining Half-Life weapons replaced with custom S&I arms
+-MP5, contact grenades and magnum removed
+-Tweaked tech tree:
+ * Scientist Healing and Regenerative Biotechnology merged
+ * Charger Upgrade removed
+-New weapon spawning system:
+ * The 3 newest technologies spawn separately
+ * Older technologies are lumped together in weapon crates, making it faster and easier to equip
+-New gameplay mode:
+ * Resource capturing - players must retrieve items such as CDs, documents or cash, and return them to the   administrator. This mode is highly mapper configurable
+-Upgraded BUTCH and VINNIE models, and optional low-poly model versions (named butch2 and vinnie2 - must be manually  switched)
+-New VGUI:
+ * Company and cloning model selection screens
+ * Endgame sequence featuring game stats breakdown and scientist roster screens
+-New player animations - external "draw" and "reload" animations.
+-New maps: si_early (Chaos and Cadaver), si_mercato (Permanganate), si_daybreak (Chaos)
+-Upgraded all other current maps; removed si_colony
+-Added 4 new male scientist heads
+-Added female scientist
+-New scientist ID system, showing individual scientist names, health and efficiency
+-Team balancing algorithm that adjusts team speed and power according to team numbers, scientist numbers, cash and   tech level
+-Offline manual, research guide and tech-tree updated
+-Llamafilter and Llama-tracking additions and improvements
+
+-New Client CVARS:
+ * hud_saytext_position (default=0) : changes the position player speech text appears on the screen. 0: near the   bottom of the screen above the personnel HUD. 1: at the top left of the screen
+ * hud_showSciCarryNames (default=1) : toggles displaying a carried scientist's name on the HUD. 0: disables. 1:   enables.
+ * hud_showID (default=1) : toggles display of player/scientist IDs on the screen. 0: disables. 1: enables.
+ * allow_thirdperson (default=1) : toggles switching to a third person camera while using the briefcase and the    cloaking device. 0: disables. 1: enables.
+ * hud_showTimeLeft (default=1) : displays the time left in the current match in the same place that team cash is   displayed. 0: enables. 1: disables
+ * hud_showendgame (default=1): toggles between the new VGUI endgame sequence and the regular endgame scoreboard.
+ 0: enables. 1: disables
+ * hud_spectatebar (default=1): toggles the info bar in Spectator Mode on and off. 0: enables. 1: disables
+
+-New Server CVARS:
+ * si_balanceteams (default=1) toggles the team balancing features implemented which affect player speed and damage.  0: disables. 1: enables.
+ * si_minforcebalance (default=0.15) controls the ammount of imbalance is required before players will be restricted  in their ability to changeteams. The closer to zero, the more strictly balance is enforced.
+ * si_llamafilter (default=1) now has variable settings of severity. 0: no llamafilter. 1: normal. 2: some content   control. 3: extreme content control
+ * si_mutellamas (default=2.0) sets the minimum level of llama-ness required before llama players will be muted. 0:  disables. 1.0: llama-class players will be muted. 2.0: only players who are really bad llamas will be muted
+ * si_clanmatch (default=0) When enabled, player stats will be retained for a short period of time after they    disconnect from the server so that their score will not be lost if they lost connection for some reason. 0:    disables. 1: enables.
+ * si_intermissiontime (default=10.0) the length of the intermission time after a game is finished and before the    next round starts
+
+Version 0.96c
+--------
+[14 November 2000]
+-New player models: BUTCH and VINNIE, changeable with "changemodel"
+-New briefcase model, with C4 animations
+-New GI-Destabilizer model
+-New maps: si_overtime (+Cadaver+), si_rush (BehroozWolf), si_sewers (PapasNewBag), si_urban (Chaos), and an updated si_metropolis (BehroozWolf)
+-New stations for radio (secondary fire cycles through them)
+-Return of the classic S&I interface
+-New research options:
+ * Advanced regeneration technology for Health, Armor, and Ammo - increases rates
+ * Ocular implants - "+zoom" to zoom with any weapon, enhanced damage with precision ranged weapons, allows "fov" settings
+ * Exoskeleton Implants - +25 to max health
+-New CVARS:
+ * si_llamafilter : set to "1" to disable the llamafilter
+ * si_researchendgame : set to "1" to have the match end when one team researches everything
+ * si_spawninvulnerability : ammount of time in seconds newly spawned players are invulnerable (default is "8")
+ * si_timenocapture : ammount of time in seconds before the game begins (default is "75" seconds)
+ * si_reseachpaused : set to "1" to pause all company production - designed to help organize clanmatches
+-Added extensive server logging to more closely track a S&I game
+-Improved spectator interface
+-Fixed issues with HL patch 1.1.0.4
+-Fixed the "grenade recruiter" bug
+-Fixed the "teamkilling llama server"
+-Fixed some EotM issues
+
+Version 0.96b
+--------
+[4 September 2000]
+-Various optimizations
+-Various gameplay tweaks
+-Fixed the weapon drop bug
+-New research options:
+ * Armor regeneration technology
+ * Personal ammunition replicators
+ * Cybernetic leg implants MkII
+ * Bionic muscle fiber replacements
+-Research technology tree tweaked for gameplay
+-Weapon/Ammunition respawn scaled to number of players
+-Scientist carrying speed scaled depending on equality of game
+-Introduction of "Llama" status: penalizes poor behavior with loss of voting power, less health, as well as denied access to armor and many company weapons
+-Introduction of "Employee of the Month" status: the best player on the team is awarded with two votes in research
+
+Version 0.96a
+--------
+[9 July 2000]
+
+-Spectator mode enabled for incoming players
+-Team colored death messages
+-Team colored chat messages
+-Tripmines no longer set off for teammates
+-Secondary drop function for grenade
+-Mindray secondary now drops enemy efficiency quicker, but has its risks
+-Menus displayed in full instead of the shortened menus
+-Briefcase bomb damage increased
+-Grenade damage increased
+-Give for tripmines, satchels, and radios changed
+-Display for Unassigned players on scoreboard fixed
+-Armor sprite fixed
+-Damage sprite fixed
+-Armor notice fixed
+
+Version 0.96
+--------
+[1 July 2000]
+-Totally rebuilt code base, integrating Valve's new netcode.
+-New tech tree featuring non-weapon researchable upgrades, more voting options and logical research prerequisites.
+	The new researchable upgrades are:
+	-Manufacturing Process - replaces killed scientists quicker and cheaper
+	-Production Speed - weapons and ammo respawns quicker
+	-Cloning Method - reduces the player respawning delay time
+	-Health/Armour Charger - chargers work much faster
+	-Coffee Strength - your scientists work harder, and when an enemy drops a captured scientist, it will
+	return to your labs faster
+	-Scientist Healing - pressing the Use key on your scientists will make them heal you; this upgrade makes 	them heal you more, and more often.
+	-Regenerative Biotechnology - players will regenerate health
+	-Cybernetic Leg Implants - increased player move speed
+-New weapon - briefcase. Used as a melee weapon and to steal scientists. C4 briefcase bomb is a researchable upgrade option to this; pressing secondary fire arms and disarms the suicide bomb, primary fire detonates it when armed.
+-Added new maps: si_metropolis, si_alley, si_colony, si_military, si_moon, si_mill
+-Updated maps si_tundra, si_laser, si_hirise
+-Added new secondary objective in some maps. si_tundra and si_mill contain Computer Labs, which have valuable research equipment. Destroying the computers in the enemy's Computer Lab will cost the enemy money to replace and will be detrimental to their research.
+-Added new technology salvaging feature. On picking up an enemy weapon which your team has not researched, you have the option to return to the Administrator in Human Resources with it. Walk through the Gman with the stolen weapon selected and your team will receive a research bonus.
+-Tweaked weapons:
+	-Egon removed
+	-New Mindray secondary fire - a headshot on an enemy scientist will overload the neural connections in their brain, killing them
+	-Contact grenades limited to 4 max ammo
+	-Crossbow power upped slightly
+-Added scientist-killing penalties. Killing enemy scientists still results in a reduction in your own scientist's efficiency, but now if you continue to kill them, you will be docked frags, and eventually your scientists will place an implant in your brain to zap you if you continue with your homicidal tendencies.
+-Added new llama-filters
+
+=================
+===  CREDITS  ===
+=================
+
+THE SI TEAM
+-----------
+
++Cadaver+
+PapasNewBag
+George_Pooshoes
+Permanganate
+Third Nipple of Fury
+Shannon Caldwell
+Chaos!
+Whiplash
+Behrooz Wolf
+!Plutor
+Brewster
+MrBozo
+Nas
+Chuky
+
+Original mod by Potatojin and Goldmund
+
+Thanks to:
+----------
+
+Acid 8000
+Airmoran
+B1ll
+Cash Car Star
+Cerebral Storm
+Chris
+Coconut Monkey
+Cossix
+Evil Bastard
+Fortran
+Francis 'DeathWish' Woodhouse
+George_Pooshoes
+GuyonthecoucH
+Henry 'Lowdown' Min
+Immanuel
+Infested Maggot
+Leon Hartwig
+Logic
+Magic
+MJ Master
+Muffinator
+Negat|f
+Nemo
+Parasite
+Peter 'ZinO' Bortas
+Piele
+RanblinMan
+RandomEngy
+RF
+RhoadsToNowhere
+Saintz
+Snover
+The_Postman
+tommyd
+WEEEnar!
+
+The HIT Team: One Eyed Newt, Ambient.Impact, Tundra_Cool, and RF/Hot Mango Flush
+
+All of our beta testers and server admins
+
+Valve Software

@@ -1,0 +1,14 @@
+// overview description file for si_deep.bsp
+
+global 
+{
+	ZOOM	1.51
+	ORIGIN	0.00   0.00   280.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_deep.bmp"
+	HEIGHT	-64
+}

@@ -1,0 +1,8 @@
+MapName = "The Depot"
+Author = "Neil 'UKchaos' Hollingworth (ukchaos@btinternet.com)"
+Summary = "When one major corporation moves into a new area, it only takes minutes for the second to move in and stake its claim. Moving into one of the few areas that neither corporation has a stronghold in, storage, each company is vying to take down each other's first warehouse facility, by any means necessary."
+Credits = "'Moonlight Passage' environment map by 'Dash'"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_depot_labs.tga"

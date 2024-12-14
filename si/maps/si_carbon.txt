@@ -1,0 +1,2 @@
+MapName = "Carbon Copy"
+Author = "ie"

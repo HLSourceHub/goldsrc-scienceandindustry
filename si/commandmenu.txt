@@ -1,0 +1,618 @@
+// **************************************************************************
+//
+// Science & Industry Commandmenu by MrBozo
+//
+// Bind +commandmenu to a key to use this Command Menu.
+// I suggest setting hud_capturemouse to 0.
+//
+// The commandmenu is useful only if you know it. So practice and get
+// used to it.
+//
+// Edit this file as you want.
+//
+// **************************************************************************
+//
+// Command Menu definition
+//
+// Basic Format:
+//      "<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific map:
+//      MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Buttons can also open up submenus, as follows:
+// {
+//      "Some More Options",
+//      {
+//              ...
+//      }
+// }
+//
+// Limitations:
+//              Maximum of 40 menus.
+//              Maximum of 100 buttons per menu.
+//
+// **************************************************************************
+
+// Offensive communication
+"1" "Offense"
+{
+ 				"1" "Attacking" 	"say_team ^5**^0 Status : Attacking ^5**^0 <%loc>"
+ 				"2" "Need help" 	"say_team ^5**^0 Need help Attacking ^5**^0 <%loc>"
+ 				"3" "Scientist" 	"say_team ^5** Carrying a Scientist **^0 <%loc>"
+ 				"4" "Resource" 		"say_team ^5** Carrying a Resource **^0 <%loc>"
+ 				"5" "Dropped sci" 	"say_team ^5** Dropped Scientist <%loc> **^0 %t"
+ 				"6" "Breakables down" 	"say_team ^5**^0 Enemy breakables destroyed ^5**^0 %t <%loc>"
+ 				"7" "Waiting"		"say_team ^5**^0 Waiting at <%loc> ^5**^0 %t"
+ 				"8" "Use radios"	"say_team ^5**^0 Put radios in their labs!"
+ 	MAP si_metropolis 	"9" "Reactor" 		"say_team ^5**^0 Go destroy their Reactor ^5**^0"
+ 	MAP si_mercato 		"9" "Roof boost" 	"say_team ^5**^0 Need someone to boost me to their roof ^5**^0 %t"
+}
+
+// Defensive communication
+"2" "Defense"
+{
+ 				"1" "Defending" 	"say_team ^1**^0 Status : Defending ^1**^0 <%loc>"
+ 				"2" "Need help" "say_team ^1**^0 Need help Defending ^1**^0 <%loc>"
+ 				"3" "Resupply"		"say_team ^1**^0 Going to Resupply ^1**^0"
+ 				"4" "Clear" 		"say_team ^1**^0 Labs are Clear ^1**^0"
+ 				"5" "Labs" 			"say_team ^1** Enemies in Labs!"
+ 				"6" "Breakables" 	"say_team ^1** Enemies at Breakables!"
+ 				"7" "Enemy down" 	"say_team ^1**^0 Enemies down ^1**^0 <%loc>"
+ 				"8" "Sci safe" 		"say_team ^1**^0 Scientist safe ^1**^0 <%loc> %t"
+ 				"9" "Clear radios"	"say_team ^5**^0 Clear radios out of our labs!"
+ 				"0" "Use mindray"	"say_team ^5**^0 Use Mindray on our scientists!"
+}
+
+// Map specific defensive incoming communication
+"3" "Incoming"
+{
+ 				"1" "Here" 		"say_team ^1**^0 Incoming via <%loc> ^1**^0 [%H|%A] %t"
+
+ 	// Alley
+ 	MAP si_alley 		"2" "Street" 		"say_team ^1**^0 Incoming : Street ^1**^0"
+ 	MAP si_alley 		"3" "Garage" 		"say_team ^1**^0 Incoming : Garage ^1**^0"
+ 	MAP si_alley 		"4" "Vents" 		"say_team ^1**^0 Incoming : Vents ^1**^0"
+
+ 	// Bavaria
+ 	MAP si_bavaria	"2" "Clocktower" "say_team ^1**^0 Incoming : Roof of Clocktower ^1**^0"
+	MAP si_bavaria	"3" "Main" "say_team ^1**^0 Incoming : Main entrance ^1**^0"
+	MAP si_bavaria	"4" "Jump pad" "say_team ^1**^0 Incoming : Jump pad ^1**^0"
+ 	MAP si_bavaria	"5" "Side" "say_team ^1**^0 Incoming : Side entrance ^1**^0"
+ 	MAP si_bavaria	"6" "HR" "say_team ^1**^0 Incoming : HR/Chicane ^1**^0"
+	MAP si_bavaria	"7" "Pipe" "say_team ^1**^0 Incoming : Breakable pipe ^1**^0"
+
+	// Daybreak
+ 	MAP si_daybreak 	"2" "Sewers" 		"say_team ^1**^0 Incoming : Sewers ^1**^0"
+ 	MAP si_daybreak 	"3" "Fan" 		"say_team ^1**^0 Incoming : Fan Route ^1**^0"
+ 	MAP si_daybreak 	"4" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+ 	MAP si_daybreak 	"5" "Vent" 		"say_team ^1**^0 Incoming : Vents ^1**^0"
+
+ // Deep
+ 	MAP si_deep 		"2" "Elevator" 		"say_team ^1**^0 Incoming : Elevator ^1**^0"
+ 	MAP si_deep 		"3" "Main" 		"say_team ^1**^0 Incoming : Main Way ^1**^0"
+ 	MAP si_deep 		"4" "Top" 		"say_team ^1**^0 Incoming : Top ^1**^0"
+	MAP si_deep 		"5" "Conduit" 		"say_team ^1**^0 Incoming : Conduit ^1**^0"
+
+	// Depot
+ 	MAP si_depot 		"2" "Left" 		"say_team ^1**^0 Incoming : Left Route ^1**^0"
+ 	MAP si_depot 		"3" "Right" 		"say_team ^1**^0 Incoming : Right Route ^1**^0"
+ 	MAP si_depot 		"4" "Sewers" 		"say_team ^1**^0 Incoming : Sewers ^1**^0"
+
+ 	// Early
+ 	MAP si_early 		"2" "Sewers" 		"say_team ^1**^0 Incoming : Sewers ^1**^0"
+ 	MAP si_early 		"3" "Windows" 		"say_team ^1**^0 Incoming : Windows ^1**^0"
+ 	MAP si_early 		"4" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+
+	// Forge
+ 	MAP si_forge 		"2" "Sewers" 		"say_team ^1**^0 Incoming : Sewers ^1**^0"
+ 	MAP si_forge 		"3" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+
+	// Guppy
+ 	MAP si_guppy 		"2" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+	MAP si_guppy 		"3" "Tunnel" 		"say_team ^1**^0 Incoming : Tunnels ^1**^0"
+	MAP si_guppy 		"4" "Upper Lobby/Exit" 		"say_team ^1**^0 Incoming Upper Lobby/Exit: Main Entrance ^1**^0"
+
+ 	// Hirise
+ 	MAP si_hirise 		"2" "Left" 		"say_team ^1**^0 Incoming : Left Side ^1**^0"
+ 	MAP si_hirise 		"3" "Right" 		"say_team ^1**^0 Incoming : Right Side ^1**^0"
+ 	MAP si_hirise 		"4" "Top" 		"say_team ^1**^0 Incoming : Top ^1**^0"
+
+ 	// Laser
+ 	MAP si_laser 		"2" "Vents" 		"say_team ^1**^0 Incoming : Vents ^1**^0"
+ 	MAP si_laser 		"3" "Elevator" 		"say_team ^1**^0 Incoming : Elevator ^1**^0"
+ 	MAP si_laser 		"4" "Main" 		"say_team ^1**^0 Incoming : Main Way ^1**^0"
+ 	MAP si_laser 		"5" "Sewers" 		"say_team ^1**^0 Incoming : Sewers ^1**^0"
+
+ 	// Mercato
+ 	MAP si_mercato 		"2" "Elevator" 		"say_team ^1**^0 Incoming : Elevator ^1**^0"
+ 	MAP si_mercato 		"3" "Main" 		"say_team ^1**^0 Incoming : Main Way ^1**^0"
+ 	MAP si_mercato 		"4" "Roofs" 		"say_team ^1**^0 Incoming : Rooftops ^1**^0"
+
+ 	// Metropolis
+ 	MAP si_metropolis 	"2" "Top" 		"say_team ^1**^0 Incoming : Top Way ^1**^0"
+ 	MAP si_metropolis 	"3" "Low" 		"say_team ^1**^0 Incoming : Lower Route ^1**^0"
+ 	MAP si_metropolis 	"4" "Generator" 	"say_team ^1**^0 Warning : Enemies at our Generator ^1**^0"
+
+ 	// Mill
+ 	MAP si_mill 		"2" "Tunnel" 		"say_team ^1**^0 Incoming : Tunnel ^1**^0"
+ 	MAP si_mill 		"3" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+ 	MAP si_mill 		"4" "Vents" 		"say_team ^1**^0 Incoming : Vents ^1**^0"
+
+ 	// Mtg
+ 	MAP si_mtg 		"2" "Train" 		"say_team ^1**^0 Incoming : Train ^1**^0"
+ 	MAP si_mtg 		"3" "Elevator" 		"say_team ^1**^0 Incoming : Elevator ^1**^0"
+ 	MAP si_mtg 		"4" "Main" 		"say_team ^1**^0 Incoming : Main Way ^1**^0"
+
+	// Optica
+ 	MAP si_optica 		"2" "Under. left" 	"say_team ^1**^0 Incoming : Underground Left ^1**^0"
+ 	MAP si_optica 		"3" "Under. right" 	"say_team ^1**^0 Incoming : Underground Right ^1**^0"
+ 	MAP si_optica 		"4" "Main" 		"say_team ^1**^0 Incoming : Main ^1**^0"
+
+ 	// Overtime
+ 	MAP si_overtime 	"2" "Left" 		"say_team ^1**^0 Incoming : Left Side ^1**^0"
+ 	MAP si_overtime 	"3" "Right" 		"say_team ^1**^0 Incoming : Right Side ^1**^0"
+ 	MAP si_overtime 	"4" "Roof" 		"say_team ^1**^0 Incoming : Roof ^1**^0"
+
+	// Replicant
+	MAP si_replicant 	"2" "Bottom" 		"say_team ^1**^0 Incoming : Bottom Way ^1**^0"
+	MAP si_replicant 	"3" "Top" 		"say_team ^1**^0 Incoming : Top Way ^1**^0"
+
+	// Retrovirus
+ 	MAP si_retrovirus 	"2" "Left" 		"say_team ^1**^0 Incoming : Left Way ^1**^0"
+ 	MAP si_retrovirus 	"3" "Right" 		"say_team ^1**^0 Incoming : Right Way ^1**^0"
+ 	MAP si_retrovirus 	"4" "Elevator" 		"say_team ^1**^0 Incoming : Elevator ^1**^0"
+
+ 	// Spa
+ 	MAP si_spa 		"2" "Top" 		"say_team ^1**^0 Incoming: Top ^1**^0"
+ 	MAP si_spa 		"3" "Water" 		"say_team ^1**^0 Incoming: Water ^1**^0"
+ 	MAP si_spa 		"4" "Left" 		"say_team ^1**^0 Incoming: Left ^1**^0"
+ 	MAP si_spa 		"5" "Right" 		"say_team ^1**^0 Incoming: Right ^1**^0"
+ 	MAP si_spa 		"6" "Elevator" 		"say_team ^1**^0 Incoming: Elevator ^1**^0"
+
+	// Tube
+ 	MAP si_tube 		"2" "Main" 		"say_team ^1**^0 Incoming: Main Entrance^1**^0"
+ 	MAP si_tube 		"3" "Bunker" 	"say_team ^1**^0 Incoming: Bunker^1**^0"
+ 	MAP si_tube 		"4" "Upper Labs" 		"say_team ^1**^0 Incoming: Upper Labs Entrance^1**^0"
+ 	MAP si_tube 		"5" "Bottom Labs" 		"say_team ^1**^0 Incoming: Bottom Labs Entrance^1**^0"
+ 	MAP si_tube 		"6" "Side Labs" 		"say_team ^1**^0 Incoming: side Labs Entrance^1**^0"
+
+	// Turf
+ 	MAP si_turf 		"2" "Lobby" 		"say_team ^1**^0 Incoming: Lobby ^1**^0"
+ 	MAP si_turf 		"3" "Lower" 		"say_team ^1**^0 Incoming: Lower Entrance ^1**^0"
+ 	MAP si_turf 		"4" "Garage" 		"say_team ^1**^0 Incoming: Garage Access ^1**^0"
+ 	MAP si_turf 		"5" "Vent" 		"say_team ^1**^0 Incoming: Labs Vent ^1**^0"
+	MAP si_turf 		"6" "Elevator" 		"say_team ^1**^0 Incoming: Elevator/Storage ^1**^0"
+
+ 	// Urban
+ 	MAP si_urban 		"2" "Garage" 		"say_team ^1**^0 Incoming : Garage ^1**^0"
+ 	MAP si_urban 		"3" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+ 	MAP si_urban 		"4" "Roof" 		"say_team ^1**^0 Incoming : Roof ^1**^0"
+ 	MAP si_urban 		"5" "Comps" 		"say_team ^1**^0 Warning : Enemies in our Computers room ^1**^0"
+
+	// Wonderland
+	MAP si_wonderland 	"2" "Back" 		"say_team ^1**^0 Incoming : Back ^1**^0"
+	MAP si_wonderland 	"3" "Main" 		"say_team ^1**^0 Incoming : Main Entrance ^1**^0"
+	MAP si_wonderland 	"4" "Tower" 		"say_team ^1**^0 Incoming : Tower Route ^1**^0"
+	MAP si_wonderland 	"5" "Breach" 		"say_team ^1**^0 Incoming : Breach ^1**^0"
+}
+
+// Map specific defensive escaping communication
+"4" "Escaping"
+{
+ 	"1" "Here"		"say_team ^1**^0 Escaping via <%loc> ^1**^0 [%H|%A]"
+
+ 	// Alley
+ 	MAP si_alley 		"2" "Street" 		"say_team ^1**^0 Escaping : Street ^1**^0"
+ 	MAP si_alley 		"3" "Garage" 		"say_team ^1**^0 Escaping : Garage ^1**^0"
+
+ 	// Bavaria
+ 	MAP si_bavaria	"2" "Clocktower" "say_team ^1**^0 Escaping : Roof of Clocktower ^1**^0"
+	MAP si_bavaria	"3" "Main" "say_team ^1**^0 Escaping : Main entrance ^1**^0"
+	MAP si_bavaria	"4" "Jump pad" "say_team ^1**^0 Escaping : Jump pad ^1**^0"
+ 	MAP si_bavaria	"5" "Side" "say_team ^1**^0 Escaping : Side entrance ^1**^0"
+ 	MAP si_bavaria	"6" "HR" "say_team ^1**^0 Escaping : HR/Chicane ^1**^0"
+
+ 	// Daybreak
+ 	MAP si_daybreak 	"2" "Sewers" 		"say_team ^1**^0 Escaping : Sewers ^1**^0"
+ 	MAP si_daybreak 	"3" "Fan" 		"say_team ^1**^0 Escaping : Fan ^1**^0"
+ 	MAP si_daybreak 	"4" "Main" 		"say_team ^1**^0 Escaping : Main Entrance ^1**^0"
+ 	MAP si_daybreak 	"5" "Vent" 		"say_team ^1**^0 Escaping : Vents ^1**^0"
+
+        // Deep
+ 	MAP si_deep 		"2" "Elevator" 		"say_team ^1**^0 Escaping : Elevator ^1**^0"
+ 	MAP si_deep 		"3" "Main" 		"say_team ^1**^0 Escaping : Main Way ^1**^0"
+ 	MAP si_deep 		"4" "Top" 		"say_team ^1**^0 Escaping : Top ^1**^0"
+	MAP si_deep 		"5" "Conduit" 		"say_team ^1**^0 Escaping : Conduit ^1**^0"
+
+	// Depot
+ 	MAP si_depot 		"2" "Left" 		"say_team ^1**^0 Escaping : Left Route ^1**^0"
+ 	MAP si_depot 		"3" "Right" 		"say_team ^1**^0 Escaping : Right Route ^1**^0"
+ 	MAP si_depot 		"4" "Sewers" 		"say_team ^1**^0 Escaping : Sewers ^1**^0"
+
+ 	// Early
+ 	MAP si_early 		"2" "Sewers" 		"say_team ^1**^0 Escaping : Sewers ^1**^0"
+ 	MAP si_early 		"3" "Windows" 		"say_team ^1**^0 Escaping : Windows/Main ^1**^0"
+ 	MAP si_early 		"4" "Main" 		"say_team ^1**^0 Escaping : Windows/Main ^1**^0"
+
+	// Forge
+ 	MAP si_forge 		"2" "Sewers" 		"say_team ^1**^0 Escaping : Sewers ^1**^0"
+ 	MAP si_forge 		"3" "Main" 		"say_team ^1**^0 Escaping : Main Entrance ^1**^0"
+
+	// Guppy
+ 	MAP si_guppy 		"2" "Main" 		"say_team ^1**^0 Escaping : Main Entrance ^1**^0"
+	MAP si_guppy 		"3" "Tunnel" 		"say_team ^1**^0 Escaping : Tunnels ^1**^0"
+	MAP si_guppy 		"4" "Upper Lobby/Exit" 		"say_team ^1**^0 Escaping Upper Lobby/Exit: Main Entrance ^1**^0"
+
+ 	// Hirise
+ 	MAP si_hirise 		"2" "Left" 		"say_team ^1**^0 Escaping : Left Side ^1**^0"
+ 	MAP si_hirise 		"3" "Right" 		"say_team ^1**^0 Escaping : Right Side ^1**^0"
+ 	MAP si_hirise 		"4" "Top" 		"say_team ^1**^0 Escaping : Top ^1**^0"
+
+ 	// Laser
+ 	MAP si_laser 		"2" "Vents" 		"say_team ^1**^0 Escaping : Vents ^1**^0"
+ 	MAP si_laser 		"3" "Elevator" 		"say_team ^1**^0 Escaping : Elevator ^1**^0"
+ 	MAP si_laser 		"4" "Main" 		"say_team ^1**^0 Escaping : Main Way ^1**^0"
+ 	MAP si_laser 		"5" "Sewers" 		"say_team ^1**^0 Escaping : Sewers ^1**^0"
+
+ 	// Mercato
+ 	MAP si_mercato 		"2" "Elevator" 		"say_team ^1**^0 Escaping : Elevator ^1**^0"
+ 	MAP si_mercato 		"3" "Main" 		"say_team ^1**^0 Escaping : Main Way ^1**^0"
+
+ 	// Metropolis
+ 	MAP si_metropolis 	"2" "Top" 		"say_team ^1**^0 Escaping : Top Way ^1**^0"
+ 	MAP si_metropolis 	"3" "Low" 		"say_team ^1**^0 Escaping : Lower Route ^1**^0"
+
+ 	// Mill
+ 	MAP si_mill 		"2" "Tunnel" 		"say_team ^1**^0 Escaping : Tunnel ^1**^0"
+ 	MAP si_mill 		"3" "Main" 		"say_team ^1**^0 Escaping : Main ^1**^0"
+ 	MAP si_mill 		"4" "Back" 		"say_team ^1**^0 Escaping : Back Passage ^1**^0"
+
+ 	// Mtg
+ 	MAP si_mtg 		"2" "Train" 		"say_team ^1**^0 Escaping : Train ^1**^0"
+ 	MAP si_mtg 		"3" "Elevator" 		"say_team ^1**^0 Escaping : Elevator ^1**^0"
+ 	MAP si_mtg 		"4" "Main" 		"say_team ^1**^0 Escaping : Main Way ^1**^0"
+
+	// Optica
+ 	MAP si_optica 		"2" "Under. left" 	"say_team ^1**^0 Escaping : Underground Left ^1**^0"
+ 	MAP si_optica 		"3" "Under. right" 	"say_team ^1**^0 Escaping : Underground Right ^1**^0"
+ 	MAP si_optica 		"4" "Main" 		"say_team ^1**^0 Escaping : Main ^1**^0"
+
+ 	// Overtime
+ 	MAP si_overtime 	"2" "Left" 		"say_team ^1**^0 Escaping : Left Side ^1**^0"
+ 	MAP si_overtime 	"3" "Right" 		"say_team ^1**^0 Escaping : Right Side ^1**^0"
+ 	MAP si_overtime 	"4" "Roof" 		"say_team ^1**^0 Escaping : Roof ^1**^0"
+
+	// Replicant
+	MAP si_replicant 	"2" "Bottom" 		"say_team ^1**^0 Escaping : Bottom Way ^1**^0"
+	MAP si_replicant 	"3" "Top" 		"say_team ^1**^0 Escaping : Top Way ^1**^0"
+
+	// Retrovirus
+ 	MAP si_retrovirus 	"2" "Left" 		"say_team ^1**^0 Escaping : Left Way ^1**^0"
+ 	MAP si_retrovirus 	"3" "Right" 		"say_team ^1**^0 Escaping : Right Way ^1**^0"
+ 	MAP si_retrovirus 	"4" "Elevator" 		"say_team ^1**^0 Escaping : Elevator ^1**^0"
+
+	// Tube
+ 	MAP si_tube 		"2" "Main" 		"say_team ^1**^0 Escaping: Main Entrance^1**^0"
+ 	MAP si_tube 		"3" "Bunker" 	"say_team ^1**^0 Escaping: Bunker^1**^0"
+ 	MAP si_tube 		"4" "Upper Labs" 		"say_team ^1**^0 Escaping: Upper Labs Entrance^1**^0"
+ 	MAP si_tube 		"5" "Bottom Labs" 		"say_team ^1**^0 Escaping: Bottom Labs Entrance^1**^0"
+ 	MAP si_tube 		"6" "Side Labs" 		"say_team ^1**^0 Escaping: side Labs Entrance^1**^0"
+
+	// Turf
+ 	MAP si_turf 		"2" "Lobby" 		"say_team ^1**^0 Escaping: Lobby ^1**^0"
+ 	MAP si_turf 		"3" "Lower" 		"say_team ^1**^0 Escaping: Lower Entrance ^1**^0"
+ 	MAP si_turf 		"4" "Garage" 		"say_team ^1**^0 Escaping: Garage Access ^1**^0"
+ 	MAP si_turf 		"5" "Vent" 		"say_team ^1**^0 Escaping: Labs Vent ^1**^0"
+	MAP si_turf 		"6" "Elevator" 		"say_team ^1**^0 Escaping: Elevator/Storage ^1**^0"
+
+ 	// Urban
+ 	MAP si_urban 		"2" "Garage" 		"say_team ^1**^0 Escaping : Garage ^1**^0"
+ 	MAP si_urban 		"3" "Main" 		"say_team ^1**^0 Escaping : Main Entrance ^1**^0"
+
+ 	// Spa
+ 	MAP si_spa 		"2" "Top" 		"say_team ^1**^0 Escaping: Top ^1**^0"
+ 	MAP si_spa 		"3" "Water" 		"say_team ^1**^0 Escaping: Water ^1**^0"
+ 	MAP si_spa 		"4" "Left" 		"say_team ^1**^0 Escaping: Left ^1**^0"
+ 	MAP si_spa 		"5" "Right" 		"say_team ^1**^0 Escaping: Right ^1**^0"
+
+	// Wonderland
+	MAP si_wonderland 	"2" "Back" 		"say_team ^1**^0 Escaping : Back ^1**^0"
+	MAP si_wonderland 	"3" "Main" 		"say_team ^1**^0 Escaping : Main Entrance ^1**^0"
+	MAP si_wonderland 	"4" "Tower" 		"say_team ^1**^0 Escaping : Tower Route ^1**^0"
+}
+
+// General communication
+"5" "General"
+{
+ 				"1" "Roger" 		"say_team ** Roger that **"
+ 				"2" "Negative" 		"say_team ** Negative **"
+ 				"3" "Ignore" 		"say_team ** Ignore last message **"
+}
+
+// Reporting location
+			"6" "Location" 		"say_team [%H|%A] <%loc> %t"
+
+// Performance
+"9" "Performance"
+{
+
+	// Customize explosions quickly
+	"1" "Quick explosion settings"
+	{
+		"1" "Enhanced details (default)"	"cl_explosion_detail 2"
+		"2" "Standard details"			"cl_explosion_detail 1"
+		"3" "No explosion"			"cl_explosion_detail 0"
+	}
+
+	// Customize explosions in details
+ 	"2" "Detailed explosion settings"
+ 	{
+
+		// Sprites
+ 		"1" "Sprites"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_sprites 1"
+ 			"2" "Off"		"cl_explosion_sprites 0"
+ 		}
+
+		// Alternate sprite
+		"2" "Alternate sprite"
+ 		{
+ 			"1" "On"		"cl_explosion_alternate_sprite 1"
+ 			"2" "Off (default)"	"cl_explosion_alternate_sprite 0"
+ 		}
+
+		// Sparks
+ 		"3" "Sparks"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_sparks 1"
+ 			"2" "Off"		"cl_explosion_sparks 0"
+ 		}
+
+		// Scorch mark
+ 		"4" "Scorch mark"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_scorch 1"
+ 			"2" "Off"		"cl_explosion_scorch 0"
+ 		}
+
+		// Smoke
+ 		"5" "Smoke"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_smoke 1"
+ 			"2" "Off"		"cl_explosion_smoke 0"
+ 		}
+
+		// Shockwave
+ 		"6" "Shockwave"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_shockwaves 1"
+ 			"2" "Off"		"cl_explosion_shockwaves 0"
+ 		}
+
+		// Debris
+ 		"7" "Debris"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_debris 1"
+ 			"2" "Off"		"cl_explosion_debris 0"
+ 		}
+
+ 		// Under-water explosion bubbles
+ 		"8" "Underwater bubbles"
+ 		{
+ 			"1" "On (default)"	"cl_explosion_bubbles 1"
+ 			"2" "Off"		"cl_explosion_bubbles 0"
+ 		}
+ 	}
+
+	// Glow effect
+	"3" "Glow effect"
+	{
+		"1" "Off (default)"		"glow_blur_steps 0"
+		"2" "On"			"glow_blur_steps 4"
+	}
+
+ 	// Dynamic lights
+ 	"4" "Dynamic lights"
+	{
+		"1" "Explosions on (default)"		"cl_explosion_dynamiclight 1"
+		"2" "Explosions off"			"cl_explosion_dynamiclight 0"
+		"3" "Muzzleflash on (default)"		"cl_effects_muzzleflash_dynamiclight 1"
+		"4" "Muzzleflash off"			"cl_effects_muzzleflash_dynamiclight 0"
+		"5" "EMP trail on (default)"		"cl_effects_emptrail_dynamiclight 1"
+		"6" "EMP trail off"			"cl_effects_emptrail_dynamiclight 0"
+	}
+
+	// Detail textures
+	"5" "Detail textures"
+	{
+		"1" "Off (default)"		"r_detailtextures 0"
+		"2" "On"			"r_detailtextures 1"
+	}
+
+	// Tau & EMP effects
+	"6" "Tau & EMP effects"
+	{
+		"1" "Tau balls on (default)"		"cl_effects_gaussballs 1"
+		"2" "Tau balls off"			"cl_effects_gaussballs 0"
+		"3" "Tau glow on (default)"		"cl_effects_gaussglow 1"
+		"4" "Tau glow off"			"cl_effects_gaussglow 0"
+		"5" "EMP balls on (default)"		"cl_effects_empballs 1"
+		"6" "EMP balls off"			"cl_effects_empballs 0"
+		"7" "EMP glow on (default)"		"cl_effects_empglow 1"
+		"8" "EMP glow off"			"cl_effects_empglow 0"
+	}
+
+	// Other effects
+	"7" "Other effects"
+	{
+		"1" "Uzi tracers on (default)"		"cl_effects_tracers 1"
+		"2" "Uzi tracers off"			"cl_effects_tracers 0"
+		"3" "Shell eject on (default)"		"cl_effects_shelleject 1"
+		"4" "Shell eject off"			"cl_effects_shelleject 0"
+	}
+
+	// View weapon model on/off
+	"8" "View model"
+	{
+		"1" "On (default)" 		"r_drawviewmodel 1"
+		"2" "Off" 			"r_drawviewmodel 0"
+	}
+
+	// Map overview
+	"9" "Overview"
+	{
+		"1" "On (default)" 		"hud_overview 1"
+		"2" "Off" 			"hud_overview 0"
+	}
+}
+
+// Game commands
+"0" "Game commands"
+{
+
+	// Settings
+ 	"1" "Settings"
+ 	{
+
+ 		// Tutorial on/off
+ 		"1" "Tutorial hints"
+ 		{
+ 			"1" "On" 			"cl_tutorial 1"
+ 			"2" "Off" 			"cl_tutorial 0"
+ 		}
+
+ 		// Customize vote menu
+ 		"2" "Vote menu options"
+ 		{
+ 			"1" "Popup off" 		"cl_votemenu_popup 0"
+ 			"2" "Popup on" 			"cl_votemenu_popup 1"
+ 			"3" "Lightmode off" 		"cl_votemenu_lightmode 0"
+ 			"4" "Lightmode on" 		"cl_votemenu_lightmode 1"
+ 			"5" "Mouse cursor off" 		"cl_votemenu_capturemouse 0"
+ 			"6" "Mouse cursor on" 		"cl_votemenu_capturemouse 1"
+ 			"7" "Quick vote off"		"cl_votemenu_quickvote 0"
+ 			"8" "Quick vote on"		"cl_votemenu_quickvote 1"
+ 		}
+
+ 		// 3rd person camera option
+ 		"3" "3rd person camera"
+ 		{
+ 			"1" "No 3rd pers cam" 		"cl_allowthirdperson 0"
+ 			"2" "Briefcase only" 		"cl_allowthirdperson 1"
+ 			"3" "Cloak only" 		"cl_allowthirdperson 2"
+ 			"4" "Both BC & Cloak" 		"cl_allowthirdperson 3"
+ 		}
+
+ 		// Customize FOV
+ 		"4" "FOV"
+ 		{
+ 			"1" "90 (default)" 		"default_fov 90"
+ 			"2" "95" 			"default_fov 95"
+ 			"3" "100" 			"default_fov 100"
+ 			"4" "105" 			"default_fov 105"
+ 			"5" "110" 			"default_fov 110"
+ 			"6" "115" 			"default_fov 115"
+ 			"7" "120" 			"default_fov 120"
+ 			"8" "125" 			"default_fov 125"
+ 			"9" "130" 			"default_fov 130"
+ 		}
+
+ 		// Team colored crosshairs
+ 		"5" "Team crosshairs"
+ 		{
+ 			"1" "Off (default)"		"cl_team_crosshairs 0"
+ 			"2" "On"			"cl_team_crosshairs 1"
+ 		}
+
+		// Allow colored text
+		"6" "Colored text"
+		{
+			"1" "Allowed (default)"		"hud_saytext_allow_colors 1"
+			"2" "Disabled"			"hud_saytext_allow_colors 0"
+		}
+
+		// Announcer
+		"7" "Announcer voice"
+		{
+			"1" "On (default)"		"cl_announcer 1"
+			"2" "Off"			"cl_announcer 0"
+		}
+	}
+
+	// HUD settings
+	"2" "HUD"
+	{
+ 		// Location indicator
+ 		"1" "Location"
+ 		{
+ 			"1" "Off (default)"		"hud_location_indicator 0"
+ 			"2" "On"			"hud_location_indicator 1"
+ 		}
+
+		// Team panel
+		"2" "Team panel"
+		{
+			"1" "On (default)"		"hud_teampanel 1"
+			"2" "Off"			"hud_teampanel 0"
+		}
+
+ 		// Speed-o-meter
+ 		"3" "Speed-o-meter"
+ 		{
+ 			"1" "Text off (default)"	"hud_speedometer_text 0"
+ 			"2" "Text on"			"hud_speedometer_text 1"
+ 			"3" "Bar off (default)"		"hud_speedometer_bar 0"
+ 			"4" "Bar on"			"hud_speedometer_bar 1"
+ 		}
+
+		// Ammo history
+ 		"4" "Ammo history"
+ 		{
+ 			"1" "Off (default)"		"hud_show_ammohistory 0"
+ 			"2" "Weapons only"		"hud_show_ammohistory 1"
+ 			"3" "Weapons & ammo"		"hud_show_ammohistory 2"
+ 		}
+
+		// Filter notices
+		"5" "Filter notices"
+		{
+			"1" "No (default)"		"hud_notices_filter 0"
+			"2" "Yes - level 1"		"hud_notices_filter 1"
+			"3" "Yes - level 2"		"hud_notices_filter 2"
+		}
+
+		// Colored notices
+		"6" "Colored notices"
+		{
+			"1" "No"			"hud_notices_colors 0"
+			"2" "Yes (default)"		"hud_notices_colors 1"
+		}
+
+ 		// Netgraph on/off
+ 		"7" "Netgraph"
+ 		{
+ 			"1" "Off (default)"		"net_graph 0"
+ 			"2" "On" 			"net_graph 3"
+ 		}
+	}
+
+
+	// Command vote
+	"3" "Vote yes"				"yes"
+	"4" "Vote no"				"no"
+
+ 	// Vote menu
+ 	"5" "Research vote" 			"vote"
+
+ 	// Change model
+	"6" "Model change" 			"changemodel"
+
+	// Team switch
+	"7" "Team switch" 			"changeteam"
+
+	// Reset sounds
+	"8" "Reset Sounds" 			"stopsound"
+}

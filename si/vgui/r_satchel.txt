@@ -1,0 +1,5 @@
+Primary fire: place a satchel
+
+Secondary fire: detonate all satchels
+
+The number of satchels you can field depends on your Ammo implant level. (No tech: 1 satchel, Ammo mk.1: 2 satchels, Ammo mk.2: 3 satchels)

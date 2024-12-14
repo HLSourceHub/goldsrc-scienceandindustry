@@ -1,0 +1,27 @@
+// New map briefing file format
+// si_organic
+
+// REQUIRED
+//   MapName
+//   Author
+//   Summary
+//   Credits
+//
+// Objective - Zero to three allowed
+//   For each, Text is required, and Image is optional
+//   Images are loaded from si/maps/vgui/, must be TGA file, have an alpha
+//   channel, and be smaller than 240x180.
+
+MapName = "Organic"
+Author = "Joe-Bob (joe-bob@planethalflife.com)"
+Summary = "RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead. (5 points)"
+Credits = "Thanks to."
+
+Objective = "Dingo"
+Image = "si_organic_3.tga"
+Text = "Kidnap the enemy administrator's Dingo.  Open the Dingo's cage with the button on the administrator's desk, and return him to your administrator.  Watch out, he bites!  The enemy will buy the Dingo back with some of their technology.  (3 points)"
+
+Objective = "Loot"
+Image = "si_organic_2.tga"
+Text = "Destroy the enemy security computer to open the door to the enemy weapons storage.  You can collect several weapon techknologies there. (Several enemy weapons)"
+

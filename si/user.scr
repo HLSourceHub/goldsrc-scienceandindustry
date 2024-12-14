@@ -1,0 +1,471 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Tue May 08 04:49:18 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"cl_tutorial"
+	{
+		"Hint popups"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_teampanel"
+	{
+		"Teammates' location panel"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_overview"
+	{
+		"Small overview (disable to gain FPS)"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_overview_rotates"
+	{
+		"Small overview rotates"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_announcer"
+	{
+		"Announcer voice"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"glow_blur_steps"
+	{
+		"Glow effect"
+		{
+			LIST
+			"Disabled" "0"
+			"Enabled: 1 pass" "1"
+			"Enabled: 2 passes" "2"
+			"Enabled: 3 passes" "3"
+			"Enabled: 4 passes" "4"
+		}
+		{ "0" }
+	}
+
+	"r_detailtextures"
+	{
+		"Detail textures"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_notices_filter"
+	{
+		"Filter notices"
+		{
+			LIST
+			"No filter" "0"
+			"Filter common notices" "1"
+			"Filter most notices" "2"
+		}
+		{ "0" }
+	}
+
+	"hud_notices_colors"
+	{
+		"Colored notices"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_allowthirdperson"
+	{
+		"Use thirdperson camera"
+		{
+			LIST
+			"Never"			"0"
+			"Briefcase only"	"1"
+			"Cloak only"		"2"
+			"Briefcase and Cloak"	"3"
+		}
+		{ "3" }
+	}
+
+	"cl_votemenu_popup"
+	{
+		"Popup vote menu"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_votemenu_capturemouse"
+	{
+		"Vote menu capture mouse"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_votemenu_quickvote"
+	{
+		"Quick voting"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_votemenu_lightmode"
+	{
+		"Light vote menu"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_capturemouse"
+	{
+		"Command menu capture mouse"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_location_indicator"
+	{
+		"HUD location indicator"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_speedometer_text"
+	{
+		"HUD speed-o-meter text"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_speedometer_bar"
+	{
+		"HUD speed-o-meter bar"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_show_ammohistory"
+	{
+		"HUD ammo history"
+		{
+			LIST
+			"Disabled" "0"
+			"Weapons only" "1"
+			"Weapons and ammo" "2"
+		}
+		{ "0" }
+	}
+
+	"cl_team_crosshairs"
+	{
+		"Team colored crosshairs"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_quickspawn"
+	{
+		"Quick server join"
+		{
+			LIST
+			"Disabled" "0"
+			"As Charlie/Vinnie" "1"
+			"As Butch/Yvan" "2"
+			"As Random" "3"
+		}
+		{ "0" }
+	}
+
+	"hud_saytext_allow_colors"
+	{
+		"Allow colored chat text"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_models_bright"
+	{
+		"Brighter players"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_models_bright_notteammates"
+	{
+		"Not brighter teammates"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_models_bright_notdeadbodies"
+	{
+		"Not brighter bodies"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_models_hide_deadbodies"
+	{
+		"Hide dead bodies"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_models_afd"
+	{
+		"Force all AFD player models as"
+		{
+			LIST
+			"Disabled" "0"
+			"Vinnie" "1"
+			"Butch" "2"
+			"Low-polygon Vinnie" "3"
+			"Low-polygon Butch" "4"
+		}
+		{ "0" }
+	}
+
+	"cl_models_mcl"
+	{
+		"Force all MCL player models as"
+		{
+			LIST
+			"Disabled" "0"
+			"Charlie" "1"
+			"Yvan" "2"
+		}
+		{ "0" }
+	}
+
+	"cl_effects_muzzleflash_dynamiclight"
+	{
+		"Muzzle flash dynamic lights"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_detail"
+	{
+		"Explosion detail"
+		{
+			LIST
+			"No explosion" "0"
+			"Standard HL" "1"
+			"Enhanced SI" "2"
+		}
+		{ "2" }
+	}
+
+	"cl_explosion_sprites"
+	{
+		"Explosion sprites"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_alternate_sprite"
+	{
+		"Explosion alternate sprite"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_explosion_sparks"
+	{
+		"Explosion sparks"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_sounds"
+	{
+		"Explosion sounds"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_scorch"
+	{
+		"Explosion scorch marks"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_smoke"
+	{
+		"Explosion smoke"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_shockwaves"
+	{
+		"Explosion shockwaves"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_debris"
+	{
+		"Explosion debris"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_dynamiclight"
+	{
+		"Explosion dynamic lights"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_explosion_bubbles"
+	{
+		"Underwater explosion bubbles"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_effects_tracers"
+	{
+		"Akimbo snUzis and Tommygun tracers"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_effects_shelleject"
+	{
+		"Ejected shells"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_effects_gaussballs"
+	{
+		"Tau Cannon balls"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_effects_gaussglow"
+	{
+		"Tau Cannon glow"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_effects_empballs"
+	{
+		"EMP Cannon balls"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_effects_empglow"
+	{
+		"EMP Cannon glow"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_drawviewmodel"
+	{
+		"Draw view weapon model (not saved)"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"default_fov"
+	{
+		"Default FOV"
+		{ NUMBER 1 180 }
+		{ "90" }
+	}
+
+	"hud_fastswitch"
+	{
+		"Weapon slot fastswitch"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"net_graph"
+	{
+		"Net graph"
+		{
+			LIST
+			"Don't show" 	"0"
+			"Style 1" 	"1"
+			"Style 2" 	"2"
+			"Style 3" 	"3"
+		}
+		{ "0" }
+	}
+
+	"net_graphpos"
+	{
+		"Net graph position"
+		{
+			LIST
+			"Bottom left" "0"
+			"Bottom right" "1"
+			"Bottom center" "2"
+		}
+		{ "2" }
+	}
+
+	"r_decals"
+	{
+		"Decal limit"
+		{ NUMBER 0 4096 }
+		{ "250" }
+	}
+
+	"fps_max"
+	{
+		"Maximum frames per second"
+		{ NUMBER 1 100 }
+		{ "100" }
+	}
+}

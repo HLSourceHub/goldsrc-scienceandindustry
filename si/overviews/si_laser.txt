@@ -1,0 +1,24 @@
+
+
+global
+
+{
+
+	ZOOM	1.11
+
+	ORIGIN	0.00   0.00   272.00
+
+	ROTATED	0
+
+}
+
+
+layer
+
+{
+
+	IMAGE	"overviews/si_laser.tga"
+
+	HEIGHT	-321
+
+}

@@ -1,0 +1,21 @@
+====================================================
+    "Cheddar Beta 2"
+    by DeicHkiNd (mail@leetdesign.de)
+====================================================
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+ESPIONAGE - Steal the blueprints the enemys scientists sometimes leave near the coffe-machine, and return them to your administrator for a small research boost.
+(3 points)
+DESTROY - Destroy the enemy coffe-machine to disrupt their scientists.
+(1 point)
+COLLECT - In one abandoned building someone left a piece of tasty cheese. Return it to your administrator for a small cash-bonus.
+(1 point)
+
+----Credits-------------------------------------------------------------
+Lots of Textures from Cadaver and Chaos, also some textures from the Max Payne "the authentic Lobby shootout" Mod.
+M4d Cheese model by TNoF. :]

@@ -1,0 +1,14 @@
+// overview description file for si_vestibule.bsp
+
+global
+{
+	ZOOM	1.25
+	ORIGIN	-592.89 691.22 -48.50
+	ROTATED	0
+}
+
+layer
+{
+	IMAGE	"overviews/si_vestibule.tga"
+	HEIGHT	-593
+}

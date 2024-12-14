@@ -1,0 +1,5 @@
+Primary fire: place radios near enemy scientists
+
+Secondary fire: change the radio station
+
+The number of radios you can field depends on your Ammo implant level. (No tech: 2 radios, Ammo mk.1: 3 radios, Ammo mk.2: 4 radios)

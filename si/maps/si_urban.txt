@@ -1,0 +1,17 @@
+MapName = "Urban"
+Author = "Neil 'UKchaos' Hollingworth (ukchaos@btinternet.com)"
+Summary = "As MCL and AFD try to expand their territories, fighting breaks out onto the city streets. From the top of apartment blocks, to the Labs of the two rivals, nowhere is safe to hide."
+Credits = "Ambient traffic sound by 'George_Pooshoes'
+'Cityscape at Night' environment map by 'MJC'"
+
+Objective = "Sabotage"
+Text = "The forcefield control console can be destroyed to allow access into the Computer Labs from the garage, for 5 minutes."
+Image = "si_urban_forcefield.tga"
+
+Objective = "Computers"
+Text = "There are 4 main consoles in the Computer Labs, the destruction of which will dent the enemy funds."
+Image = "si_urban_computers.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_urban_labs.tga"

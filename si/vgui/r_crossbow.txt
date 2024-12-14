@@ -1,0 +1,3 @@
+Primary fire shoots a crossbow bolt. Bolts that hit walls will explode, and can be used for short jumps.
+
+Secondary fire zooms in.

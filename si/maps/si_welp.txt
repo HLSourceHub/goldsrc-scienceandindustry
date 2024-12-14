@@ -1,0 +1,4 @@
+MapName = "Welp"
+Author = "twincannon"
+
+Credits = "Based on original TF map by Sgt.Thundercok"

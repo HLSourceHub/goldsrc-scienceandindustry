@@ -1,0 +1,143 @@
+//halflife
+
+c1a0_w1			detail/concrete		1.0	1.0
+c1a4_silo2		detail/concrete		1.0	2.0
+c3a2b_reac2		detail/metal		1.0	2.0
+
+crete2_flr03c		detail/metal		0.125	0.5
+duct_flr01		detail/metal		0.5	0.5
+duct_vnt2		detail/metal		0.5	0.5
+elev1_trim		detail/metal		0.125	1.0
+
+-0fifties_c		detail/worN		0.5	0.5
+-1fifties_c		detail/worN		0.5	0.5
+-2fifties_c		detail/worN		0.5	0.5
+
+freezer_pan2		detail/metal		0.5	0.5
+freezerc2		detail/metal		1.0	1.0
+generic61		detail/metal		1.0	1.0
+generic64		detail/metal		0.125	0.5
+
+generic98a		detail/metal		0.25	0.5
+generic98c		detail/metal		0.5	0.25
+generic98d		detail/metal		0.25	0.5
+
+
+lab10_dr1c		detail/metal		0.5	0.125
+lab10_tnk2		detail/metal		0.5	0.125
+
+lab1_bluxc1		detail/linoleum		1.0	1.0
+lab1_comp9e2		detail/metal		0.25	1.0
+lab1_glss1		detail/linoleum		0.5	0.5
+lab1_glu1		detail/metal		0.25	0.5
+
+lab1_panel2		detail/metal		1.0	1.0	
+lab1_panele		detail/metal		1.0	1.0
+lab1_panelf		detail/metal		2.0	1.0
+
+lab1_trim3		detail/metal		0.125	1.0
+lab1_w1a		detail/metal		1.0	1.0
+
+out_pave1		detail/asphalt		1.0	1.0
+out_wall3a		detail/metal		0.5	1.0
+out_wall3b		detail/metal		0.5	1.0
+
+-0silo2_flr11		detail/stone		0.5	0.5
+-1silo2_flr11		detail/stone		0.5	0.5
+-2silo2_flr11		detail/stone		0.5	0.5
+-3silo2_flr11		detail/stone		0.5	0.5
+
+-0silo2_p2b		detail/metal		1.0	1.0
+-1silo2_p2b		detail/metal		1.0	1.0
+-2silo2_p2b		detail/metal		1.0	1.0
+-3silo2_p2b		detail/metal		1.0	1.0
+
+table2			detail/metal		0.5	1.0
+
+tnnl_flr7		detail/stone		1.0	1.0
+
+xcrate9c		detail/metal		0.5	0.25
+
+//brr
+
+si_central1a		detail/metal		1.0	0.5
+si_central1f		detail/metal		1.0	0.25
+
+si_core5b		detail/metal		1.0	1.0
+
+si_crete2		detail/concrete		0.5	1.0
+si_crete3b		detail/concrete		0.25	0.5
+si_cretebord1a		detail/concrete		1.0	0.25
+si_cretebord1b		detail/concrete		1.0	0.25
+si_cretebord1c		detail/concrete		1.0	0.25
+si_cretebord1d		detail/concrete		1.0	0.25
+
+si_door1glass_a		detail/metal		1.0	1.0
+si_door1glass_m		detail/metal		1.0	1.0
+
+si_door2_edge		detail/metal		0.5	1.0
+
+si_flr_dark		detail/linoleum		0.5	0.5
+si_flr_light		detail/linoleum		0.5	0.5
+
+si_hub			detail/metal		1.0	1.0
+
+si_hub5b		detail/metal		1.0	1.0
+si_hub5d		detail/metal		1.0	1.0
+
+si_hub5e		detail/linoleum		0.5	0.5
+si_hub5f		detail/linoleum		0.125	0.5
+
+si_metal1		detail/metal		0.5	0.5
+si_metal2		detail/metal		0.5	0.5
+si_office_monba		detail/metal		0.5	0.25
+
+si_wall1a		detail/metal		0.5	1.0
+si_walld_afd		detail/metal		0.5	1.0
+si_walld_mcl		detail/metal		0.5	1.0
+si_walle_afd		detail/metal		0.5	1.0
+si_walle_mcl		detail/metal		0.5	1.0
+si_wallf_afd		detail/metal		0.5	1.0
+si_wallf_mcl		detail/metal		0.5	1.0
+
+//virus
+
+brick_base		detail/concrete		2.0	2.0
+brick_base_trim		detail/concrete		2.0	2.0
+brick_window		detail/concrete		2.0	2.0
+
+lv_wood_flr2		detail/linoleum		1.0	1.0
+vrs_greytile		detail/linoleum		2.0	2.0
+vrs_greytile2		detail/linoleum		1.0	1.0
+
+vrs_morguewall		detail/metal		1.0	1.0
+vrs_morguewall1		detail/metal		1.0	1.0
+
+vrs_plaster		detail/linoleum		2.0	2.0
+vrs_trim		detail/linoleum		2.0	0.25
+
+vrs_wdplswall_a		detail/worn		2.0	2.0
+vrs_wdstlwall		detail/worn		2.0	2.0
+vrs_wdstlwall_m		detail/worn		2.0	2.0
+
+vrs_whitetile		detail/linoleum		2.0	2.0
+
+vrs_wood_dr		detail/wood		0.5	1.0
+vrs_wood_dr_afd		detail/wood		0.5	1.0
+vrs_wood_dr_mcl		detail/wood		0.5	1.0
+
+vrs_woodbrd1		detail/wood		2.0	0.25
+vrs_woodtrim1		detail/wood		2.0	0.25
+
+//si
+
+brick6_crete		detail/concrete		2.0	1.0
+
+chaos_building2		detail/metal		1.0	2.0
+chaos_building3		detail/metal		1.0	2.0
+
+generic012_afd		detail/metal		2.0	2.0
+generic012_mcl		detail/metal		2.0	2.0
+
+off_dr1			detail/metal		2.0	2.0
+

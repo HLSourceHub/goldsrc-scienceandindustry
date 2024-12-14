@@ -1,0 +1,12 @@
+global
+{
+	ZOOM	1.28
+	ORIGIN	-571.50 706.00 -48.50
+	ROTATED	0
+}
+
+layer
+{
+	IMAGE	"overviews/si_vestibule.tga"
+	HEIGHT	-593
+}

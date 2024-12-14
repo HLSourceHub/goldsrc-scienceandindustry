@@ -1,0 +1,2 @@
+Increases the armor regneration rate.
+Scientist needles give more armor.

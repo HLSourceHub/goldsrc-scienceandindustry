@@ -1,0 +1,3 @@
+Gameplay: -5 seconds unconscious time for scis, 120% max scientist efficiency (150% with mindray), slightly slower efficiency recovery
+
+Coffee makes downed scientists get up faster, and makes more money.

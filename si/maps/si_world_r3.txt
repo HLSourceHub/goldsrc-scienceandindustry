@@ -1,0 +1,21 @@
+
+====================================================
+    "World"
+    by Maroth (maroth@mail.com)
+====================================================
+
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+SABOTAGE - Destroy any of the 5 large computers to slow down enemy
+research and lower their cash intake for 5 minutes.
+(2 points)
+
+
+----Other Notes--------------------------------------------------------
+Thanx to all that helped with testing!!

@@ -1,0 +1,11 @@
+MapName = "Rigger"
+Author = "Sun"
+Credits = "in b4 it sucks" 
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_rigger_labs.tga"
+
+Objective = "Capture the Rig"
+Text = "Take the resource in your base to the top of the central rig. This will earn your company money as long as you control it."
+Image = "si_rigger_rig.tga"

@@ -1,0 +1,98 @@
+//halflife
+
+babtech_bordl9		detail/metal		0.5	0.125
+babtech_ceil01		detail/concrete		0.5	0.5
+
+c1a0_c1			detail/linoleum		1.0	0.5
+c1a0_labflre		detail/linoleum		1.0	1.0
+c1a0_w4			detail/metal		1.0	1.0
+c1a0b_dr4b		detail/metal		1.0	1.0
+
+c1a1_w1b4		detail/concrete		1.0	1.0
+c1a1_w1b4		detail/concrete		1.0	1.0
+c1a1w1i			detail/concrete		1.0	1.0
+
+c1a3_dr1		detail/metal		1.0	1.0
+
+c1a4_c1c		detail/concrete		1.0	1.0
+c2a3compactor1		detail/concrete		1.0	1.0
+
+cardbox1		detail/wood_vert	0.25	0.25
+cardbox4		detail/wood_vert	0.25	0.25
+cardboxbot1		detail/wood_vert	0.25	0.25
+cardboxtop2		detail/wood_vert	0.25	0.25
+
+crete2_flr03c		detail/metal		0.125	0.5
+crete4_flr01		detail/stone		1.0	1.0
+crete4b1		detail/metal		1.0	0.25
+
+drkmtlt_bord11		detail/worn_hvy		0.5	0.5
+drkmtlt_ceil01		detail/linoleum		1.0	1.0
+
+fifties_cch1		detail/worn		0.5	0.5
+fifties_cch2		detail/worn		0.5	0.125
+fifties_cch3		detail/worn		0.5	0.125
+fifties_cch4		detail/worn		0.5	0.5
+
+fiftsfile1		detail/metal		0.5	0.5
+fiftsfile2b		detail/metal		0.5	0.5
+
+generic012		detail/metal		1.0	1.0
+lab1_bluxc1		detail/linoleum		1.0	1.0
+
+lab1_c4a001		detail/metal		0.5	0.5
+lab1_c4d2		detail/linoleum		0.5	0.5
+lab1_comp9e2		detail/metal		0.5	1.0
+
+lab1_w6flr1		detail/linoleum		0.5	0.5
+lab1_w8a2		detail/linoleum		1.0	1.0
+lab1_w8ceil1		detail/metal		0.5	0.5
+lab1_w8ceil1b		detail/metal		0.5	0.5
+lab1_w8flr1		detail/linoleum		0.5	0.5
+lab1_w80		detail/concrete		1.0	1.0
+
+
+lab2_w3a2		detail/concrete		1.0	1.0
+lab2_w4a3		detail/concrete		1.0	1.0
+lab2_w4c		detail/metal		1.0	1.0
+lab3_brd5		detail/metal		1.0	0.125
+
+out_pave2		detail/asphalt		1.0	1.0
+out_wall2		detail/metal		0.5	1.0
+out_wall2a		detail/metal		0.5	1.0
+
+out_wall7f		detail/concrete		0.5	2.0
+out_wlk2		detail/worn_hvy		1.0	0.5
+
+pfab_trsh1b		detail/wood_vert	0.25	0.5
+pfab_trsh1c		detail/wood_vert	0.25	0.125
+pfab_trsh1d		detail/wood_vert	0.25	0.125
+
+steel			detail/metal		0.5	1.0
+tnnl_c1b3		detail/concrete		1.0	1.0
+tnnl_c3d		detail/concrete		1.0	1.0
+tnnl_flr1		detail/concrete		1.0	1.0
+tnnl_flr1a		detail/metal		1.0	1.0
+tnnl_flr2		detail/stone		1.0	1.0
+tnnl_flr7b		detail/stone		1.0	1.0
+tnnl_w5a		detail/concrete		1.0	1.0
+
+~lab1_comp8b		detail/wood		0.5	1.0
+
+//si
+
++0si_a_pure		detail/metal		0.5	1.0
++0si_a_puremcl		detail/metal		0.5	1.0
++0si_h_pure		detail/metal		0.5	1.0
++0si_h_puremcl		detail/metal		0.5	1.0
+
+tnnl_c3c_afd		detail/concrete		1.0	1.0
+
+//metropolis		
+
+afd_wall1		detail/concrete		1.0	1.0
+afd_wall2		detail/concrete		1.0	1.0
+afd_outwall1		detail/concrete		0.5	2.0
+lab1_wn_afd		detail/concrete		1.0	1.0
+mcl_wrap_thingy		detail/linoleum		1.0	1.0
+

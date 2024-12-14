@@ -1,0 +1,26 @@
+// New map briefing file format
+// si_mesa
+
+// REQUIRED
+//   MapName
+//   Author
+//   Summary
+//   Credits
+//
+// Objective - Zero to three allowed
+//   For each, Text is required, and Image is optional
+//   Images are loaded from si/maps/vgui/, must be TGA file, have an alpha
+//   channel, and be smaller than 240x180.
+
+MapName = "Mesa"
+Author = "Permanganate (permanganate@planethalflife.com)"
+Summary = "It's noon on an isolated mesa where gravity control experiments are being conducted. Go around or through to get to the other corporation."
+Credits = "Everyone who beta tested!"
+
+Objective = "Recruitment"
+Image = "si_mesa_sci.tga"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead. (5 points)"
+
+Objective = "Sabotage"
+Image = "si_mesa_gyro.tga"
+Text = "The gyro control computer at the front of the labs can be broken. The total cost each time it's destroyed is ~$30k and 5 scientist-minutes. (3 points)"

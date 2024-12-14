@@ -1,0 +1,23 @@
+
+====================================================
+    "Joined"
+    Mapping by	Maroth (maroth@mail.com)
+    Textures by Kirk
+    Concept by Third Nipple of Fury and Maroth
+====================================================
+
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 2 scientists in this map. SCI CAPPING DOESNT WORK!!!
+IT CRAHSES THE MAP
+(5 points)
+
+SABOTAGE - Very long, push a button, destroy 2 comps then if youve done it quick
+enough, go destroy the other 3 comps......
+(2 points)
+
+RESOURCES - Cap one of the 2 resources.......
+
+----Other Notes--------------------------------------------------------
+THIS NEEDS LOTS OF TESTING!!!

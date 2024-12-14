@@ -1,0 +1,124 @@
+//brr
+
+si_central1a		detail/metal		2.0	1.0
+si_central1b		detail/metal		2.0	1.0
+
+si_core			detail/metal		1.0	1.0
+
+si_core1a		detail/metal		0.5	0.5
+si_core1b		detail/metal		0.5	0.5
+si_core1c		detail/metal		0.5	0.5
+si_core1d		detail/metal		0.5	0.5
+
+si_core1e		detail/metal		1.0	1.0
+
+si_core2a		detail/metal		0.25	0.5
+si_core2d		detail/metal		0.25	0.5
+
+si_core2f		detail/metal		1.0	0.25
+si_core2g		detail/metal		1.0	0.25
+si_core2i		detail/metal		1.0	0.25
+
+si_core3d		detail/metal		0.25	0.5
+si_core3e		detail/metal		0.25	0.5
+
+si_core3g		detail/concrete		0.25	0.5
+si_core3h		detail/concrete		0.25	0.5
+si_core3i		detail/concrete		0.25	0.5
+
+si_core3j		detail/concrete		0.5	0.5
+si_core3k		detail/concrete		0.5	0.5
+
+si_core6a		detail/metal		1.0	1.0
+si_core6b		detail/metal		0.5	0.5
+
+si_crete1		detail/concrete		0.5	1.0
+si_crete2		detail/concrete		0.5	1.0
+si_cretebord1b		detail/concrete		1.0	0.25
+
+si_door1		detail/metal		1.0	1.0
+si_door2_edge		detail/metal		0.5	1.0
+
+si_flr_dark		detail/linoleum		0.5	0.5
+si_flr_light		detail/linoleum		0.5	0.5
+
+si_gasboxfront1		detail/metal		0.25	0.5
+si_gasboxfront2		detail/metal		0.25	0.5
+si_gasboxleft		detail/metal		0.25	0.5
+si_gasboxright		detail/metal		0.25	0.5
+
+
+si_hub			detail/metal		1.0	1.0
+
+si_hub1a		detail/metal		0.5	0.5
+si_hub1b		detail/metal		0.5	0.5
+si_hub1c		detail/metal		0.5	0.5
+si_hub1d		detail/metal		0.5	0.5
+
+si_hub1e		detail/metal		1.0	1.0
+
+si_hub2a		detail/metal		0.25	0.5
+si_hub2d		detail/metal		0.25	0.5
+
+si_hub2f		detail/metal		1.0	0.25
+si_hub2g		detail/metal		1.0	0.25
+si_hub2i		detail/metal		1.0	0.25
+
+si_hub3d		detail/metal		0.25	0.5
+si_hub3e		detail/metal		0.25	0.5
+
+si_hub3g		detail/concrete		0.25	0.5
+si_hub3h		detail/concrete		0.25	0.5
+si_hub3i		detail/concrete		0.25	0.5
+
+si_hub3j		detail/concrete		0.5	0.5
+si_hub3k		detail/concrete		0.5	0.5
+
+si_hub6a		detail/metal		1.0	1.0
+si_hub6b		detail/metal		0.5	0.5
+
+si_lab0k		detail/linoleum		0.5	0.5
+si_lab1s		detail/linoleum		0.5	0.5
+
+si_metal1		detail/metal		0.5	0.5
+si_metal2		detail/metal		0.5	0.5
+
+si_wall1b		detail/metal		0.5	1.0
+si_wall1c		detail/metal		0.5	1.0
+si_wall1e		detail/metal		0.5	1.0
+si_wall2		detail/metal		0.5	1.0
+
+//deep
+
+deep_extra1_afd		detail/metal		2.0	2.0
+deep_extra1_mcl		detail/metal		2.0	2.0
+deep_extra2_afd		detail/metal		2.0	2.0
+deep_extra2_mcl		detail/metal		2.0	2.0
+
+core_arrow1		detail/metal		0.25	0.25
+core_arrow2		detail/metal		0.25	0.25
+
+deep_extra4_afd		detail/concrete		1.0	2.0
+deep_extra4_mcl		detail/concrete		1.0	2.0
+
+hub_arrow1		detail/metal		0.25	0.25
+hub_arrow2		detail/metal		0.25	0.25
+
+si_core2k		detail/metal		1.0	0.25
+
+si_core5a		detail/metal		1.0	1.0
+si_core5b2		detail/metal		1.0	1.0
+
+si_corebord		detail/metal		1.0	1.0
+si_cretebord1a2		detail/concrete		1.0	0.5
+
+si_hub2k		detail/metal		1.0	0.25
+
+vrs_plaster		detail/linoleum		2.0	2.0
+
+si_hub5a2		detail/metal		1.0	1.0
+si_hub5b2		detail/metal		1.0	1.0
+
+si_hubbord		detail/metal		1.0	1.0
+
+

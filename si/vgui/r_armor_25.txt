@@ -1,0 +1,1 @@
+Gameplay: +25 to max armor, -2 to max speed, +1 to armor charger rate

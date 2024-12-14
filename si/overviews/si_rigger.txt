@@ -1,0 +1,11 @@
+global 
+{
+    ZOOM    1.58
+    ORIGIN    -112.00 -32.00 104
+    ROTATED    0
+}
+layer 
+{
+    IMAGE    "overviews/si_rigger.tga"
+    HEIGHT    433
+}

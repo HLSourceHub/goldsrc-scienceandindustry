@@ -1,0 +1,131 @@
+//halflife
+
+air_c1			detail/metal		1.0	1.0
+basetrim01		detail/worn_hvy		0.125	0.5
+c1a0b_dr4		detail/metal		1.0	1.0
+c1a3_dr1		detail/metal		2.0	1.0
+c1a4tnnl1		detail/concrete		1.0	1.0
+c2a4e_w1		detail/concrete		1.0	1.0
+c2a4e_w1b		detail/concrete		1.0	1.0
+c2a4e_w1c		detail/concrete		1.0	1.0
+
+crate02			detail/wood		1.0	1.0
+crate02b		detail/wood		1.0	1.0
+crate03			detail/wood_vert	1.0	1.0
+crate05			detail/wood_vert	1.0	1.0
+crate08			detail/wood		1.0	1.0
+crate08b		detail/wood		0.5	0.5
+crate10			detail/wood_vert	1.0	2.0
+crate13			detail/wood_vert	1.0	1.0
+
+crete1_wall01		detail/concrete		1.0	1.0
+crete2_flr01		detail/stone		1.0	1.0	
+crete4_flr03		detail/concrete		1.0	1.0
+crete4_stp01		detail/worn_hvy		1.0	0.125
+crete4_tdr02		detail/worn_hvy		1.0	0.25
+
+duct_flr01		detail/metal		0.5	0.5
+duct_flr01a		detail/metal		0.5	0.5
+duct_flr02		detail/metal		0.5	0.5
+duct_flr02a		detail/metal		0.5	0.5
+duct_vnt		detail/metal		0.5	0.5
+duct_vnt2		detail/metal		0.5	0.5
+duct_wall02		detail/metal		0.5	0.5
+
+elev1_trim		detail/metal		0.125	1.0
+fifties_cmp3c		detail/metal		0.5	1.0
+fifties_dsk5dx		detail/metal		0.25	0.125
+fifties_wall4v		detail/worn		1.0	1.0
+fiftsfile1		detail/metal		0.25	0.25
+fiftsfile1b		detail/metal		0.25	0.25
+fiftsfile2		detail/metal		0.25	0.25
+fiftsfile2b		detail/metal		0.25	0.25
+
+generic012		detail/metal		1.0	1.0
+generic77		detail/metal		1.0	1.0
+lab1_bluxc1		detail/worn		1.0	1.0
+lab1brd3e		detail/metal		1.0	0.25
+lab1brd3fy		detail/metal		1.0	0.25
+
+lab1_gdpnl5		detail/metal		0.5	1.0
+lab1_panel1		detail/metal		1.0	1.0
+lab1_panel1c		detail/metal		0.25	1.0
+lab1_panel1d		detail/metal		0.25	0.5
+lab1_panel2		detail/metal		1.0	1.0
+lab1_panelh		detail/metal		1.0	1.0
+lab1_slot1		detail/metal		0.5	0.5
+lab1_slot6		detail/metal		0.5	0.5
+lab1_slot6b		detail/metal		0.5	1.0
+lab1_stair1b		detail/worn_hvy		0.5	0.125
+lab1_stair2b		detail/worn_hvy		0.5	0.125
+lab1_trim3		detail/metal		0.125	1.0
+lab1_w6			detail/worn_hvy		1.0	1.0
+lab1_w7a		detail/wood		1.0	1.0
+
+lab3_w5			detail/metal		1.0	1.0
+-0lab3_w6		detail/metal		1.0	1.0
+-1lab3_w6		detail/metal		1.0	1.0
+-2lab3_w6		detail/metal		1.0	1.0
+lab3_w6a		detail/metal		1.0	1.0
+lab3_w9			detail/metal		1.0	0.5
+
+metal_bord021		detail/metal		0.5	0.5
+metal_wall01b		detail/metal		0.5	0.5
+metal_wall04		detail/metal		0.5	0.5
+
+out_pave1		detail/asphalt		1.0	1.0
+silo2_wet4d		detail/concrete		1.0	1.0
+
+steel 			detail/metal		0.5	1.0
+table2			detail/metal		0.5	1.0
+
+~lab1_comp8b		detail/metal		0.5	1.0
+
+//si
+
++0si_a_pure		detail/metal		0.5	1.0
++0si_a_puremcl		detail/metal		0.5	1.0
++0si_h_pure		detail/metal		0.5	1.0
++0si_h_puremcl		detail/metal		0.5	1.0
+
+//daybreak
+
+blinds			detail/metal		0.5	0.5
+c2a4_c1_s1		detail/worn		1.0	1.0
+
+dybk_ceil1		detail/worn		2.0	2.0
+dybk_floor1		detail/linoleum		2.0	2.0
+dybk_floor2		detail/linoleum		2.0	2.0
+dybk_floor_afd		detail/linoleum		2.0	2.0
+dybk_floor_mcl		detail/linoleum		2.0	2.0
+dybk_wall1		detail/worn		2.0	2.0
+dybk_wall2		detail/worn		2.0	2.0
+dybk_wall3		detail/worn		2.0	2.0
+dybk_wall_afd1		detail/worn		2.0	2.0
+dybk_wall_afd2		detail/worn		2.0	2.0
+dybk_wall_afd3		detail/worn		2.0	2.0
+dybk_wall_afd4		detail/worn		2.0	2.0
+dybk_wall_mcl1		detail/worn		2.0	2.0
+dybk_wall_mcl2		detail/worn		2.0	2.0
+dybk_wall_mcl3		detail/worn		2.0	2.0
+dybk_wall_mcl4		detail/worn		2.0	2.0
+outoforder		detail/worn		0.5	0.25
+
+si_door2_edge		detail/metal		0.5	1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

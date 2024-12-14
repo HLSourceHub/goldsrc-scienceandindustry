@@ -1,0 +1,6 @@
+Primary fire: Directional shockwave
+
+Secondary fire: Sphere shockwave around you
+
+Use this to knock back projectiles or throw people!
+Vomiting removes poisons and reveals cloakers.

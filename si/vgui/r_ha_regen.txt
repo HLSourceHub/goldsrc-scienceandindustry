@@ -1,0 +1,1 @@
+Gameplay: Excess health regeneration becomes armor. Excess armor regeneration becomes health.

@@ -1,0 +1,26 @@
+
+====================================================
+    "Cash"
+    by Corona (Vinnie_corona@hotmail.com)
+====================================================
+
+
+----Objectives----------------------------------------------------------
+
+COLLECTION - Run to the other company and rob there safe, 
+run back to your base without getting killed. Drop the cash into your 
+own safe and your company will have 10.000 dollars more. (4 points)
+
+
+----Credits-------------------------------------------------------------
+
+Thanks to Electric-Gerbil (Matt Bryer), for making the bell sound near 
+the safe, and for making the two safe signs.
+
+Thanks to The-Speye for making 8 container textures.
+
+Venice Texture wad by Locknut, Locknut@netscape.net.
+
+Wood textures (non-mtg) Cid (converted by Deraj, deraj@mapfinger.com).
+
+www.planethalflife.com/the-lab/

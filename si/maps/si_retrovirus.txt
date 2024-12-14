@@ -1,0 +1,12 @@
+MapName = "Retrovirus"
+Author = "Cadaver (cadaver@planethalflife.com)"
+Summary = "The companies MCL and AFD have fought their way to this battle, opening a new hospital which will give employees Implants, making them harder, better, faster, stonger... both companies want the best technology to succeed, but who will triumph?"
+Credits = "Virus texture set by Cadaver.
+All models by third nipple of fury.
+Ambulance texture based on an original van texture by 3DMike.
+Ambulance prefab by 3DMike (3DMike@nmtrix.com)
+Additional textures by Chaos, JoeSmoe, Relic25 and unknown texture artists."
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_retrovirus_labs.tga"

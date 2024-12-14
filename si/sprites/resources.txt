@@ -1,0 +1,13 @@
+1 = carry_sci
+2 = carry_resource
+3 = carry_cash
+4 = carry_crystal
+5 = carry_secret
+6 = carry_cd
+7 = carry_wrench
+8 = carry_case
+9 = carry_binary
+10 = carry_wine	
+11 = carry_art
+12 = carry_toxin
+13 = carry_bio

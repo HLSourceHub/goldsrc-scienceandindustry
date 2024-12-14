@@ -1,0 +1,84 @@
+//halflife
+
+c1a4_fan		detail/metal		1.0	1.0
+duct_vnt2		detail/metal		0.5	0.5
+
+fifties_cmp1a		detail/metal		0.5	1.0
+fifties_cmp1b		detail/metal		0.5	1.0
+
+fifties_dsk5a		detail/metal		0.25	0.25
+fifties_dsk5b		detail/metal		0.25	0.25
+fiftsfile1		detail/metal		0.25	0.25
+fiftsfile1b		detail/metal		0.25	0.25
+fiftsfile2b		detail/metal		0.25	0.25
+fiftsfile3		detail/metal		0.25	0.5
+
+generic104		detail/metal		0.5	1.0
+generic104a		detail/metal		0.25	1.0
+generic104b		detail/metal		0.5	0.25
+
+generic119		detail/metal		0.5	1.0
+generic_111a		detail/metal		0.5	0.5
+
+-0silo2_p2b		detail/metal		1.0	1.0
+-1silo2_p2b		detail/metal		1.0	1.0
+-2silo2_p2b		detail/metal		1.0	1.0
+-3silo2_p2b		detail/metal		1.0	1.0
+
+xcrate10a		detail/metal		0.25	0.25
+xcrate10b		detail/metal		0.5	0.25
+xcrate10c		detail/metal		0.5	0.25
+
+//spa
+
+spa_capital		detail/concrete		0.25	0.5
+spa_cracked		detail/stone		1.0	1.0
+
+spa_crate		detail/wood		1.0	1.0
+spa_crate2		detail/wood		1.0	1.0
+spa_crate3		detail/wood		1.0	1.0
+spa_crate_top		detail/wood		1.0	1.0
+
+spa_flr_limechq		detail/stone		2.0	2.0
+
+spa_flr_trim		detail/stone		0.5	1.0
+spa_flr_trim_b		detail/stone		0.5	1.0
+spa_flr_trim_q		detail/stone		0.5	1.0
+spa_grnt_stud		detail/stone		1.0	0.125
+
+spa_marb_wllb2		detail/concrete		0.5	1.0
+spa_marb_wllg2		detail/concrete		0.5	1.0
+
+spa_marble		detail/concrete		1.0	1.0
+spa_marble_trim		detail/concrete		1.0	0.5
+
+spa_mosaic_end		detail/stone		1.0	2.0
+spa_mosaic_tld		detail/stone		1.0	1.0
+spa_mosaic_trim		detail/stone		1.0	2.0
+
+spa_nero		detail/stone		1.0	1.0
+
+spa_rock		detail/rock		2.0	2.0
+
+spa_rooftile		detail/stone		1.0	0.5
+
+spa_shutter_b		detail/wood		0.5	1.0
+spa_shutter_g		detail/wood		0.5	1.0
+
+spa_sign_afd		detail/stone		1.0	0.5
+spa_sign_mcl		detail/stone		1.0	0.5
+
+spa_smalltiles		detail/concrete		1.0	0.5
+spa_vase_top		detail/concrete		0.5	0.5
+
+spa_wall_grnt1		detail/stone		1.0	1.0
+
+spa_wall_grnt_w		detail/stone		2.0	0.5
+spa_wall_toptrm		detail/stone		2.0	0.5
+spa_wall_trim2		detail/stone		2.0	0.5
+
+
+spa_wood		detail/wood		2.0	0.5
+spa_wall_grnt2		detail/stone		1.0	1.0
+
+rc_rc_c7grass		detail/grass		1.0	1.0

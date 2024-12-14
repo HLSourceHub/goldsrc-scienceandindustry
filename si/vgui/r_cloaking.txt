@@ -1,0 +1,8 @@
+Primary fire: cloak fades with movement, battery drains slowly
+
+Secondary fire: always fully cloaked, battery drains fast
+
+
+Use this to run through tripmine beams safely.
+EMP and GI shockwaves will reveal you.
+Try not to bump into anyone!

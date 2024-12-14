@@ -1,0 +1,1 @@
+// Teleport grenade detonate

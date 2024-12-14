@@ -1,0 +1,14 @@
+MapName = "Mill"
+Author = "Cadaver (cadaver@planethalflife.com)"
+Summary = "An abandoned Lancastrian mill complex is the perfect location for these corporation's nefarious machinations. Who would suspect that such lethal armament development could take place in such an idyllic landscape?"
+Credits = "Textures by Locknut, shaithis, Gizmo and MattC. 
+Sky by George_Pooshoes.
+Inspired by as_steel, by Acid 8000."
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_mill_labs.tga"
+
+Objective = "Sabotage"
+Text = "Each base has a Computer Room containing 3 computer consoles, each one contributing the equivalent of 1 scientist to your ongoing research efforts. Both research and cash production are adversely affected when destroyed."
+Image = "si_mill_sab.tga"

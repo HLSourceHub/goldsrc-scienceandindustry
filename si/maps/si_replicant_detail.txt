@@ -1,0 +1,153 @@
+//halflife
+
+barrel3			detail/metal		0.5	1.0
+barreltop		detail/metal		0.5	0.5
+
+c1a0_labflr		detail/linoleum		1.0	1.0
+c1a0_wx			detail/concrete		1.0	1.0
+
+c1a3secdr02		detail/metal		0.5	1.0
+
+c1a4_silo2		detail/concrete		1.0	2.0
+c1a4_silo4a		detail/concrete		2.0	2.0
+
+c3a2b_reac3		detail/metal		1.0	2.0
+crete2_flr03c		detail/metal		0.125	0.5
+
+crete3_wall02		detail/stone		1.0	1.0
+crete4_flr03		detail/stone		1.0	1.0
+
+drkmtlt_bord11		detail/worn_hvy		0.5	0.5
+
+duct_flr02		detail/metal		0.5	0.5
+duct_vnt2		detail/metal		0.5	0.5
+elev1_trim		detail/metal		0.125	1.0
+
+fiftsfile1		detail/metal		0.25	0.25
+fiftsfile2b		detail/metal		0.25	0.25
+fiftsfile3b		detail/metal		0.25	0.5
+
+-0freezer_pan1		detail/metal		0.5	1.0
+-1freezer_pan1		detail/metal		0.5	1.0
+-2freezer_pan1		detail/metal		0.5	1.0
+-3freezer_pan1		detail/metal		0.5	1.0
+
+generic036		detail/metal		0.125	1.0
+generic61		detail/metal		1.0	1.0
+generic95		detail/metal		1.0	1.0
+generic_111a		detail/metal		0.5	0.5
+lab10_dr1c		detail/metal		0.5	0.125
+
+lab1_bluxc1		detail/linoleum		1.0	1.0
+lab1_comp10f		detail/metal		0.5	1.0
+lab1_comp9e2		detail/metal		0.5	1.0
+
+lab1_door1c		detail/metal		1.0	1.0
+lab1_dr4b		detail/metal		1.0	1.0
+
+lab1_flr4c		detail/linoleum		0.5	0.5
+lab1_glss1		detail/linoleum		0.5	0.5
+lab1_glu1		detail/metal		0.5	0.25
+lab1_stair1b		detail/worn_hvy		0.5	0.125
+lab1_trim3		detail/metal		0.125	1.0
+
+lab1_w1b		detail/metal		1.0	1.0
+lab1_w8ceil1		detail/metal		0.5	0.5
+
+nwbarrel		detail/metal		0.5	1.0
+
+out_boxa		detail/metal		1.0	0.5
+out_boxb		detail/metal		0.5	0.5
+out_boxd		detail/metal		1.0	0.5
+
+out_dmp4a		detail/wood		1.0	0.5
+out_dmp4b		detail/wood		1.0	0.5
+out_dmp4c		detail/wood		1.0	0.5
+
+out_pave2		detail/asphalt		1.0	1.0
+out_wall3a		detail/metal		0.5	1.0
+out_wall3b		detail/metal		0.5	1.0
+
+-0silo2_p2b		detail/metal		1.0	1.0
+-1silo2_p2b		detail/metal		1.0	1.0
+-2silo2_p2b		detail/metal		1.0	1.0
+-3silo2_p2b		detail/metal		1.0	1.0
+
+table2			detail/metal		0.5	1.0
+tnnl_flr1a		detail/metal		0.25	1.0
+
+//urban
+
+crete_wall_si		detail/concrete		2.0	2.0
+doulble_asphalt		detail/asphalt		2.0	2.0
+
+generic012_afd		detail/metal		2.0	2.0
+generic012_mcl		detail/metal		2.0	2.0
+
+off_dr1			detail/metal		2.0	2.0
+silo_w1_grey		detail/worn_hvy		2.0	2.0
+
+//mtg
+
+mtg_wall_7		detail/concrete		2.0	1.0
+
+-0rep_afd_panel		detail/metal		1.0	0.5
+-1rep_afd_panel		detail/metal		1.0	0.5
+
+//replicant
+
+freezer_pan		detail/metal		0.5	1.0
+mtg_wall_grey		detail/concrete		2.0	1.0
+out_manhole1		detail/metal		0.5	0.5
+rep_afd_wall2		detail/concrete		2.0	1.0
+
+rep_brns_pps		detail/metal		1.0	0.5
+rep_brns_trm		detail/metal		1.0	0.5
+rep_brns_trm2		detail/metal		2.0	0.25
+rep_brns_wll		detail/metal		2.0	2.0
+
+rep_frame		detail/worn		1.0	2.0
+rep_galv		detail/metal		1.0	1.0
+
+rep_greywall		detail/concrere		2.0	2.0
+rep_greywall_tr		detail/concrere		2.0	2.0
+rep_greywall_w2		detail/concrere		2.0	2.0
+rep_greywall_wn		detail/concrere		2.0	2.0
+
+rep_grille		detail/metal		2.0	2.0
+rep_grille_dr		detail/metal		2.0	2.0
+rep_grille_trm		detail/metal		2.0	0.25
+
+-0rep_mcl_panel		detail/metal		1.0	0.5
+-1rep_mcl_panel		detail/metal		1.0	0.5
+
+rep_mcl_wall2		detail/concrete		2.0	1.0
+rep_pipe		detail/metal		0.5	0.5
+rep_pipe_nit		detail/metal		0.5	0.5
+
+rep_steel		detail/metal		2.0	0.25
+rep_stl			detail/metal		1.0	1.0
+rep_stl_pps		detail/metal		1.0	0.5
+rep_stl_trm		detail/metal		1.0	0.5
+
+si_door1glass		detail/metal		1.0	1.0
+si_door2_edge		detail/metal		0.5	1.0
+
+yb4			detail/metal		1.0	1.0
+
+//si
+
+c1a1_flr2b_extra	detail/linoleum		1.0	1.0
+c1a1_flr2b_mcl		detail/linoleum		1.0	1.0
+fifties_dr4d_mc		detail/linoleum		0.5	1.0
+
+//virus
+
+brick_base		detail/concrete		2.0	2.0
+brick_base_trim		detail/concrete		2.0	2.0
+brick_window		detail/concrete		2.0	2.0
+
+vrs_greytile		detail/linoleum		2.0	2.0
+vrs_trim		detail/metal		2.0	0.25
+
+

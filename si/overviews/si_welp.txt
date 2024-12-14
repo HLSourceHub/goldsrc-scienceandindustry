@@ -1,0 +1,18 @@
+// overview description file for si_welp.bsp
+
+
+global 
+{
+	ZOOM	1.23
+	ORIGIN	0.00 89.06 -53
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/si_welp.bmp"
+	HEIGHT	-53
+}
+
+//Overview: Zoom 1.23, Map Origin (0.00, 89.06, 448.00), Z Min 949.00, Z Max -53.00, Rotated 1
+ 

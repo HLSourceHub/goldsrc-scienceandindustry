@@ -1,0 +1,3 @@
+Primary fire: bolts which damage armor and disable implants.
+
+Secondary fire: Use all energy for a grenade which removes armor, tripmines, radios and satchels in the area.

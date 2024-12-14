@@ -1,0 +1,14 @@
+// overview description file for 2fort.bsp
+
+global 
+{
+	ZOOM	1.22
+	ORIGIN	0.00   -340.00   -2112.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/si_overfloater.bmp"
+	HEIGHT	-2112
+}

@@ -1,0 +1,11 @@
+global 
+{
+    ZOOM    1.15
+    ORIGIN    361.00 -552.50 -18.50
+    ROTATED    1
+}
+layer 
+{
+    IMAGE    "overviews/si_mill.tga"
+    HEIGHT    540
+}

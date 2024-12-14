@@ -1,0 +1,121 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>Map Guide - SCIENCE AND INDUSTRY</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="../css/si.css">
+</head>
+<body bgcolor="#FFFFFF" link="#666666" vlink="#666666">
+	<table width="560" border="0" cellpadding="2" cellspacing="0">
+    <!--begin map guide-->
+    <tr>
+      <td>
+      <img src="../images/si_logo.jpg" align="left">
+      <b>SCIENCE AND INDUSTRY MAPPING GUIDELINES</b>
+      <br clear="all">
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>ITEM_RESOURCE</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Introduction to <i>item_resource
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>The resource entity is designed to be a dynamic tool for mappers so that they may add custom gameplay modes to their maps. At its core it's simply an item that is collected and delivered to the administrator, but its customizability allows it to broaden the tactics of the game as well as deepen the atmosphere of a map.</p>
+<p>It's probably easiest to explain what an Science & Industry resource entity by giving a couple of examples:
+        <ul>
+          <li>A precious crystal that your scientists could use in their optics research</li>
+          <li>A Top Secret folder of your competitors newest research</li>
+          <li>Hazardous toxic waste containers that are needed for biochemical research</li>
+          <li>A case of your competitors hard earned cash, stolen from their bank vault</li>
+          <li>A biological speciman that needs to be collected intact and quickly by your scientists for it to be of any use</li>
+          <li>An armed explosive cannister that could yield valuable advances for your corporation if you can get it to them to disarm in time</li>
+        </ul></p>
+<p>What follows is an description of all the flags and key names that can be set on an <i>item_resource</i>, so that mappers can look up what exactly everything does. Then there is a section on general pointers to using resources well in your map. And finally we will go through how to implement some of our example resources.</p>
+<p>Feel free to email <a href="mailto:si@planethalflife.com">si@planethalflife.com</a> with any clarification questions or suggestions to improve this document.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Spawn Flags
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p><b>Don't respawn</b> <i>[default off]</i> - The resource will spawn once initially, and then never respawn.<br><b>Drop Resource</b> <i>[default off]</i><br><b>Stolen Resource</b> <i>[default off]</i> - Bonus (either cash or research) gained from delivering this resource are stolen from its owner.<br><b>Random Body</b> <i>[default off]</i> - A random body group will be assigned to this resource each time it respawns. Set the total amount of body groups to choose from with the Body/MaxBodies key value.<br><b>Scaled Body</b> <i>[default off]</i> - A body will be given to this resource scaled to the amount of bonus it gives out. Larger bonuses will use larger body groups.<br><b>Random Skins</b> <i>[default off]</i> - A random skin group will be assigned to this resource each time it respawns. Set the total amount of skin groups to choose from with the Skin/MaxSkins key value.<br><b>Radius Damage</b> <i>[default off]</i> - The End-Timer Damage inflicted will also affect a small radius around the carrier.<br><b>Shell Glow Effect</b> <i>[default off]</i> - The resource will be covered in a shimmering glow effect. The color of this is based on this resources team: Blue for MCL, Green for AFD, and White for unaligned.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Entity Fields
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p><b>Description</b> <i>[default "Resource"]</i><br>This is the carried resource's name that is displayed on the HUD and to other players.</p>
+<p><b>Pickup Message</b> <i>[default "Deliver this to your administrator"]</i><br>A short message that is displayed on the players screen when they pick up this resource.</p>
+<p><img src="../images/carry13.jpg"><img src="../images/carry46.jpg"><img src="../images/carry79.jpg"><br><b>Carry Icon</b> <i>[default "Generic"]</i><br>Choices: Scientist, Generic, Cash, Crystal, Top Secret, CD, Wrench, Briefcase, Binary<br>You can specify the icon you would like displayed on the HUD when the player is carrying this resource. The icon appears in the same place as the scientist carry icon does, and includes the Description of the resource above the icon. Custom carry icons are not possible outside of this list, but it is our intention to expand this list to accomodate any possible needs.</p>
+<p><a href="../images/resource_cash.jpg"><img src="../images/resource_cash.jpg" width="100" height="100" alt="The cash resource model"></a>
+<a href="../images/resource_crystal.jpg"><img src="../images/resource_crystal.jpg" width="100" height="100" alt="The crystal resource model"></a>
+<a href="../images/resource_cd.jpg"><img src="../images/resource_cd.jpg" width="100" height="100" alt="The CD resource model"></a>
+<a href="../images/resource_documents.jpg"><img src="../images/resource_documents.jpg" width="100" height="100" alt="The document resource model"></a>
+<a href="../images/resource_specimencan.jpg"><img src="../images/resource_specimencan.jpg" width="100" height="100" alt="The specimen canister resource model"></a>
+<a href="../images/resource_gunkcan.jpg"><img src="../images/resource_gunkcan.jpg" width="100" height="100" alt="The radioactive canister resource model"></a>
+<a href="../images/resource_datastreamer.jpg"><img src="../images/resource_datastreamer.jpg" width="100" height="100" alt="The datastream reel model"></a><br><b>World Model</b> <i>[default "models/resource_crystal.mdl"]</i><br>This is the model that appears on the ground before the player picks it up. The appearance of this model can be altered by using the "Shell Glow Effect" spawn flag, or perhaps by editing it's render effects to make it slightly transparent. All normal rules for rendering effects apply.</p>
+<p><b>Carry Model</b> <i>[default "models/carryresource.mdl"]</i><br>The model that is displayed on the player as he is carrying the resource. <i>Note: later builds will allow this to be a p_ model, with the effect of preventing the player from using any weapons while carrying the resource</i>.</p>
+<p><b>View Model</b> <i>[default (none)]</i><br><i>Note: in conjunction with the ability to specify a p_ model, the resource can also assign a v_ model to display to the player. This is optional</i>.</p>
+<p><b>Body/MaxBodies</b> <i>[default 0]</i><br>World models with body groups can select which group to display. If either the "Random Body" or "Scaled Body" spawn flags are set, this number is used to define the number of body groups available in the world model.</p>
+<p><b>Skin/MaxSkins</b> <i>[default 0]</i><br>World models with skin groups can select which group to display. If the "Random Skin" spawn flags are set, this number is used to define the number of skin groups available in the world model.</p>
+<p><b>Team</b> <i>[default "Unaligned"]</i><br>Choices: Unaligned (No Team), MCL (Blue), AFD (Green)<br>Like most Science & Industry entites, the resource requires a team setting. The resource, however, can be set to be "Unaligned", so that either team can harvest it. Stolen resources cannot be unaligned.</p>
+<p><b>Cash Stored</b> <i>[default 0]</i><br>Choices: No cash, Minor ($1,000), Medium ($5,000), Good ($10,000), Major ($25,000)<br>A resource with Cash Stored set to greater than zero will yield that amount when deliverd. If the resource is set to be a Stolen Resource, that cash will be deducted from the owner of the resource.</p>
+<p><b>Research Stored</b> <i>[default 0]</i><br>Choices: No research, Small (30 sec), Medium (1 min), Large (2 min), Major (3 min)<br>A resource with Research Stored set to greater than zero will grant that much research when delivered. If the resource is set to be a Stolen Resource, that research will be deducted from the owner of the resource. These modifiers to research only apply to current research, not already completed research. The research bonus is independent of the owners current research goal.</p>
+<p><b>Delay Spawn Time</b> <i>[default 0]</i><br>Choices: Don't delay, Short (1 min), Medium (2 min), Long (5 min)<br>A resource's time before it spawns the very first time can be controlled with this setting. If set to 0, the resource spawns as soon as the map is loaded.</p>
+<p><b>Replacement Time</b> <i>[default 30]</i><br>Choices: Instant, Very Quick (15 sec), Short (30 sec), Medium (1 min), Long (2 min), Very Long (5 min)<br>When a resource is picked it up, unless the No Respawn spawn flag is set, it will respawn at a certain amount of time. This setting controls that amount of time.</p>
+<p><b>Delivery Time Limit</b> <i>[default 0]</i><br>Choices: No time limit, Very Quick (15 seconds), Short (30 seconds), Medium (1 minutes), Long (2 minutes)<br>If a time limit is set with here on the carrier's time to deliver the resource, that can tie in a number of effects. If the player misses the time limit, the effect of his delivery (e.g. cash bonus, research bonus) is scaled by the missed time limit setting (see below). If the resource is set with an End-Timer Damage setting greater than zero, that damage will be infliced to the player when the time runs out.</p>
+<p><b>Effect of missed Time limit</b> <i>[default 0]</i><br>Choices: Cancels effect, 25% effect, 50% effect, 75% effect, 100% effect (no change)<br>If a player misses the delivery time limit, the results of his capture are modified by this setting.</p>
+<p><b>Importance</b> <i>[default "Medium"]</i><br>Choices: Insignificant, Minor, Medium, Major, Critical<br>When the player delivers the resource, his bonus points are determined by the resources impotance.</p>
+<p><b>End-Timer Damage</b> <i>[default 0]</i><br>When the delivery timer runs out, this amount of damage is inflicted upon the carrier.</p>
+<p><b>Periodic Carry Damage</b> <i>[default 0]</i><br>Periodic damage is set to occure at a rate of this amount of damage per every two seconds.</p>
+<p><b>Damage Type</b> <i>[default GENERIC]</i><br>Choices: GENERIC, CRUSH, BULLET, SLASH, BURN, FREEZE, FALL, BLAST, CLUB, SHOCK, SONIC, ENERGYBEAM, DROWN, PARALYSE, NERVEGAS, POISON, RADIATION, DROWNRECOVER, CHEMICAL, SLOWBURN, SLOWFREEZE<br>The damage inflicted when delivery time is up and the damage inflicted periodically are both of this damage type.</p></p><b>Carry Speed</b> <i>[default 100]</i><br>Choices: 100% (normal), 90%, 80%, 70% (scientist carrying speed), 60%<br>A player's speed when carrying this resource is this percentage of his normal speed. The player's speed returns to normal after the resource is delivered.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Pointers
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>Remember that you are not constricted by the values given in the fgd for the fields of your <i>item_resource</i>. These are just suggested values to give you more of an idea of what effect your resource can have. If you want a different value that isn't listed, then feel free to change it manually. Also, these values are directed toward the typical use of these resources. Although typically a resource will slow a player down, this need not be the case. You could, for example, have an item_resource that works as a speed power up, giving the player an enhanced speed, possibly with some periodic damage or end-of-timer damage.</p>
+<p>Resources placed in a central neutral area of a map can create interesting warzones for control. Resources placed in or near a lab can provide an alternative to scientist recuiting. Resources in more remote areas can provide harvesting scenarios. Take the placement of a resource into <i>careful</i> consideration.</p>
+<p>Above all, don't put an <i>item_resource</i> in your map if it doesn't make sense to have it in there. This is not a required entity for every map. It's easy to go feature happy on a map and end up creating confusing over-complicated gameplay. Keep the goals of the map well defined.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Examples
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p><u>A precious crystal that your scientists could use in their optics research</u><br>This is one of the most simple uses of the resource entity. This should be a non-aligned resource, as that we're not stealing it from someone in particular, just harvesting it. Set the model and sprite to match the crystal theme, and then customize the skin and body to your taste. A nice touch here can be to use the random body option with a cluster of crystal resources in order to give it a natural look. Give the crystal resource a small research stored amount, and decide whether it should be collected once or respawn periodically. Other possible effects include giving it an instant delivery time effect, and then set it to inflict some slash damage. That way the player will take damage in harvesting the sharp crystals.</p>
+<p><u>A Top Secret folder of your competitors newest research</u><br>This is similar to our crystal resource, except that it's associated with a team, will be locating inside their base, and will probably yield a higher research bonus.</p>
+<p><u>Hazardous toxic waste containers that are needed for biochemical research</u><br>Another un-aligned resource, but with a twist. The hazardous waste does periodic damage, so set that value to a small number (1 or 2 should do), and give it the damage type RADIATION. Give the entity some sort of research bonus upon deliver (probably of decent size, due to the danger involved in carrying it).</p>
+<p><u>A case of your competitors hard earned cash, stolen from their bank vault</u><br>Similar to the Top Secret folder, except that this resource stores cash instead of research, and that it's a <i>stolen</i> resource. If the owner doesn't protect this entity well, they'll be hurting twice as bad.</p>
+<p><u>A biological speciman that needs to be collected intact and quickly by your scientists for it to be of any use</u><br>Give the resource some sort of medium to large resource bonus. Set a delivery time limit, and then set the effect of a missed time limit to be low, like 25-50%. For a more drastic effect, you can set the effect to negative (i.e. -50%), and you're company will actually lose time on a botched delivery.</p>
+<p><u>An armed explosive cannister that could yield valuable advances for your corporation if you can get it to them to disarm in time</u><br>Set delivery time limit for the bomb's detonation time. Give it a large amount of BLAST damage for a missed time limit, and make it radius damage for extra carnage. If the player makes it in time, give the company a good-sized research/cash bonus. Otherwise that player just bought a one-way ticket to the cloning machines.</p>
+      </td>
+    </tr>
+    <!--end map guide-->
+	</table>
+</body>
+</html>

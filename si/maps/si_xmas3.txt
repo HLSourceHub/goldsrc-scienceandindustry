@@ -1,0 +1,28 @@
+
+====================================================
+    "Christmas 3"
+    by Electric-Gerbil (electric.gerbil@planethalflife.com)
+====================================================
+
+~**~ Merry Christmas! ~**~
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+ESPIONAGE - Steal the christmas present under the enemy christmas
+tree in their labs and return it to your administrator to make your
+scientists more happy in their work. (3 points)
+
+COLLECTION - The christmas tree in the center of the map has two
+presents underneath it. Bring one of these back to your administrator
+to make him think more of you. (2 points)
+
+
+----Credits-------------------------------------------------------------
+
+Thanks to Crinity for the skymap, and Third Nipple of Fury for the
+christmas tree model.

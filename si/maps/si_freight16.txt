@@ -1,0 +1,22 @@
+
+================================================================
+    "Freight - Beta 1.6"
+    By Electric-Gerbil (electric.gerbil@planethalflife.com)
+================================================================
+
+         *******************************************************
+    IMPORTANT: This is just a beta version of the map. Not all of the
+    features are fully implemented. There may also be some slight bugs.
+    I still have to complete the node network for the scientists.
+         *******************************************************
+
+----Objectives--------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+COLLECTION - There is a piece of computer hardware in the track electronics
+control computer that your scientists can use to improve their own research
+computers. Take this to your administrator. (3 points)

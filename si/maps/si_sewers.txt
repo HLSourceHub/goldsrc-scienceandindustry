@@ -1,0 +1,49 @@
+====================================================
+	"Sewers" 
+	by PapasNewBag (papasnewbag@planethalflife.com)
+====================================================
+
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+SABOTAGE - Each base has a Computer room containing 4 computer consoles
+that link to the corporate mainframe. Destroying these will cause the
+scientists of that corporation to be unable to research as efficiently
+and make them lose some progress on their current project. (1 point per
+console)
+
+There is also a pump machine in the main bridge area of each base. This
+can be destroyed in order to flood the area for one minute. (2 points)
+
+The company's cloning machines can be found in the back of their base
+near the storage room. A grate must be broke in order to get access to
+it, and an alarm will sound if any unauthorized person enters the area.
+Destroying it will add $600 to the owning company's cloning cost and
+about 5 seconds to their cloning time. (3 points)
+
+RESOURCES - The abandoned building on the surface is a drop-off point
+for some less-than-legal operations. Intercept the cash and use it to
+feed your company's efforts instead. (2 points)
+
+----Tips----------------------------------------------------------------
+
+There is an underwater entrance from nearby the silo that surfaces in
+the storage room. This can be blocked off temporarily at either side by
+thick doors with the buttons found on either end.
+
+Another entrance can be found from the central tunnel area after pumping
+out the water in the middle room. To do this hit the controls on the
+middle of the far wall.
+
+The surface provides an excellent way to surprise your opponent from
+above.
+
+----Credits-------------------------------------------------------------
+
+Custom textures - Magic and Airmoran
+Thanks to BehroozWolf for saving this map from never being finished

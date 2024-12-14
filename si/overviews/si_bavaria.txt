@@ -1,0 +1,20 @@
+global
+
+{
+	ZOOM	1.19
+
+	ORIGIN	0.00 14.00 48.00
+
+	ROTATED	0
+
+}
+
+
+layer
+
+{
+
+	IMAGE	"overviews/si_bavaria.tga"
+
+	HEIGHT	-577.00
+}

@@ -1,0 +1,50 @@
+//halflife
+
+c1a1c_w1		detail/concrete		2.0	1.0
+c1a1c_w1c		detail/concrete		1.0	1.0
+c1a1c_w2		detail/concrete		1.0	1.0
+
+c1a4i_c1a		detail/metal		1.0	0.5
+
+crete1_wall01		detail/stone		1.0	1.0
+crete3_flr05b		detail/stone		1.0	0.5
+crete4_flr02d		detail/stone		0.5	0.5
+
+duct_vnt2		detail/metal		0.5	0.5
+duct_wall02		detail/metal		0.5	0.5
+
+elev1_dr		detail/metal		0.5	1.0
+elev2_dr		detail/metal		1.0	1.0
+
+generic107b		detail/wood		0.5	0.25
+generic_92		detail/concrete		1.0	1.0
+lab1_door01		detail/metal		1.0	1.0
+lab1_flr4b		detail/stone		1.0	1.0
+
+-0out_grss1		detail/grass		0.25	0.25
+-1out_grss1		detail/grass		0.25	0.25
+-2out_grss1		detail/grass		0.25	0.25
+
+out_w6a			detail/wood_vert	1.0	1.0
+out_w6b			detail/wood_vert	1.0	1.0
+out_w6e			detail/wood_vert	1.0	0.5
+
+out_w8dr1		detail/metal		0.5	1.0
+out_wall3a		detail/metal		0.5	1.0
+out_wall3b		detail/metal		0.5	1.0
+
+out_wall9		detail/concrete		1.0	0.5
+sign83			detail/metal		1.0	0.25
+
+tnnl_swr1		detail/stone		1.0	1.0
+tnnl_swr2		detail/stone		1.0	1.0
+
+trrm_wood2		detail/wood		1.0	0.25
+
+//movealong
+
+asphalt2		detail/asphalt		1.0	1.0
+asphaltline		detail/asphalt		1.0	1.0
+shutteredwindow		detail/wood_vert	1.0	1.0
+w_darkwoodpanel		detail/wood_vert	1.0	1.0
+olddoor			detail/wood_vert	0.5	1.0

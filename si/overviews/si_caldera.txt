@@ -1,0 +1,12 @@
+global
+{
+	ZOOM	1.16
+	ORIGIN	-40.00 -576.00 299
+	ROTATED	1
+}
+
+layer
+{
+	IMAGE	"overviews/si_caldera.tga"
+	HEIGHT	643
+}

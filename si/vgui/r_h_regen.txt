@@ -1,0 +1,1 @@
+Gameplay: 2 health/sec regen, +25 sci max health, scientists can heal players, + 1 health charger rate, +$25 player clone cost

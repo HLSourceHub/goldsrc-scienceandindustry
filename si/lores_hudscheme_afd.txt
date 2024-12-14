@@ -1,0 +1,191 @@
+// HUD design scheme (512x384 and below)
+
+// UnitName = "UnitName"
+// Position = "Global position"
+//
+// Segment = "Sprite"
+// Value = "Sprite name"
+// Position = "Relative position"
+//
+// Segment = "Special"
+// Value = "#Special title"
+// Position = "Relative position"
+
+// RESEARCH HUD UNIT
+UnitName = "Research"
+Position = "-62 -49"	// Negative values represent from the bottom or right
+
+Segment = "Sprite"
+Value = "res_head_afd"	// Research box
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "res_side_afd"
+Position = "0 13"
+
+Segment = "Sprite"
+Value = "res_side_afd"
+Position = "51 13"
+
+Segment = "Sprite"
+Value = "res_bottom_afd"
+Position = "1 44"
+
+Segment = "Special"
+Value = "#Sci_Eff"	// Scientist efficiency "Snowflake"
+Position = "2 17"
+
+Segment = "Special"
+Value = "#Sci_Num"	// Number of scientists
+Position = "14 17"
+
+Segment = "Special"
+Value = "#Vote_Icon"	// Number of scientists
+Position = "32 17"
+
+Segment = "Special"
+Value = "#Progress"	// Next goal progress bar
+Position = "16 34"
+
+
+// PERSONAL HUD UNIT
+UnitName = "Personal"
+Position = "10 -76"
+
+Segment = "Sprite"
+Value = "per_head_afd"	// Personal box
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "per_side_afd"
+Position = "0 13"
+
+Segment = "Sprite"
+Value = "per_side_afd"
+Position = "56 13"
+
+Segment = "Sprite"
+Value = "per_bottom_afd"
+Position = "0 70"
+
+Segment = "Special"
+Value = "#Cross"	// Health cross
+Position = "7 15"
+
+Segment = "Special"
+Value = "#Health_val"	// Health value
+Position = "21 16"
+
+Segment = "Special"
+Value = "#Shield"	// Armor shield
+Position = "7 29"
+
+Segment = "Special"
+Value = "#Armor_val"	// Armor value
+Position = "21 30"
+
+Segment = "Special"	// GUN 1
+Value = "#Ammo_clip1"	// Ammo in gun1
+Position = "2 45"
+
+Segment = "Special"
+Value = "#Divider1"	// Line between the ammo values
+Position = "26 45"
+
+Segment = "Special"
+Value = "#Ammo_left1"	// Ammo left out of gun
+Position = "29 45"
+
+Segment = "Special"	// GUN 2
+Value = "#Ammo_clip2"	// Ammo in gun2
+Position = "2 59"
+
+Segment = "Special"
+Value = "#Divider2"	// Line between the ammo values
+Position = "26 59"
+
+Segment = "Special"
+Value = "#Ammo_left2"	// Ammo left out of gun
+Position = "29 59"
+
+Segment = "special"
+Value = "#Charge_left"
+POsition = "0 59"
+
+Segment = "special"
+Value = "#Charge_right"
+POsition = "56 50"
+
+
+// STATUS HUD UNIT
+UnitName = "Status"
+Position = "-62 2"
+
+Segment = "Sprite"
+Value = "sco_head_afd"	// Status box (still uses the research sides and bottom
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "per_side_afd"
+Position = "0 13"
+
+Segment = "Sprite"
+Value = "per_side_afd"
+Position = "56 13"
+
+Segment = "Sprite"
+Value = "per_bottom_afd"
+Position = "1 70"
+
+Segment = "Special"
+Value = "#Score_MCLL"	// MCL score (and logo)
+Position = "2 14"
+
+Segment = "Special"
+Value = "#Score_MCLR"
+Position = "49 14"
+
+Segment = "Special"
+Value = "#Score_AFDL"	// AFD score (and logo)
+Position = "2 32"
+
+Segment = "Special"
+Value = "#Score_AFDR"
+Position = "49 32"
+
+Segment = "Special"
+Value = "#TimeleftL"	// Timeleft (and clock)
+Position = "2 52"
+
+Segment = "Special"
+Value = "#TimeleftR"
+Position = "49 52"
+
+
+// NONE UNIT - For segments outside units
+UnitName = "None"
+Position = "0 0"
+
+Segment = "Special"
+Value = "#Notices_SW"
+Position = "76 -19"
+
+Segment = "Special"
+Value = "#Notices_SE"
+Position = "-72 -19"
+
+Segment = "Special"
+Value = "#Chat_Location_0"
+Position = "10 -76"
+
+Segment = "Special"
+Value = "#Chat_Location_1"
+Position = "10 30"
+
+Segment = "Special"
+Value = "#chat_Intermission"
+Position = "10 30"
+
+Segment = "Special"
+Value = "#Death_Notice_NE"
+Position = "-11 72"

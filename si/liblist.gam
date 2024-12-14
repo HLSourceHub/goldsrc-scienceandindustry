@@ -1,0 +1,19 @@
+// Liblist.gam mod setup file for Science and Industry
+// Load order is determined by file order.
+
+game "Science and Industry"
+url_info "http://www.scienceandindustrygame.com/"
+url_dl "http://www.scienceandindustrygame.com/"
+manual "http://www.scienceandindustrygame.com/"
+version "1.2"
+size "210000000"
+svonly "0"
+cldll "1"
+hlversion "1108"
+type "multiplayer_only"
+nomodels "1"
+mpentity "info_sidetect"
+gamedll "dlls\si.dll"
+gamedll_linux "dlls/si.so"
+icon "resource\si_icon"
+edicts "4096"

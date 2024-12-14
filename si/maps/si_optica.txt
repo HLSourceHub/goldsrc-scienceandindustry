@@ -1,0 +1,24 @@
+====================================================
+    "Optica"
+    by tommyd (tjd159@psu.edu)
+====================================================
+
+----Summary-------------------------------------------------------------
+
+The eternally-warring corporations pit their wits against one another in
+a sprawling, twisting industrial complex.
+
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+
+SABOTAGE - There are 4 computer screens that are breakable for each
+side. Destroying these will disrupt enemy operations.
+
+
+----Credits-------------------------------------------------------------
+
+Textures by tommyd

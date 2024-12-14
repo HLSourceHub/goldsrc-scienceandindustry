@@ -1,0 +1,15 @@
+MapName = "Replicant"
+Author = "Cadaver (cadaver@planethalflife.com)"
+Summary = "In the near future, two corporations are embroiled in a bitter feud over patents to proprietary cloning and nanotechnology processes. This is no job for lawyers, however - it's time to put those implants to use and enter the fray."
+Credits = "Textures by Cadaver, Chaos, unknown texture artists
+London sky by Marc Schroeder aka Term.
+Spawn vortex texture by Rewolf Software, inspired by the HLDM map 
+Odyssey, by Peter Manson."
+
+Objective = "Sabotage"
+Text = "There are 3 terminals in the computer room across the street from the main building. Destroy these computers to give your opponents a cash-flow problem."
+Image = "si_replicant_computers.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_replicant_labs.tga"

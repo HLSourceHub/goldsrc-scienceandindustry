@@ -1,0 +1,11 @@
+maps/si_mesa.res
+maps/si_mesa.txt
+maps/vgui/si_mesa_1.tga
+maps/vgui/si_mesa_2.tga
+maps/vgui/si_mesa_gyro.tga
+maps/vgui/si_mesa_sci.tga
+si_mesa.wad
+si_mno4.wad
+si_wolf.wad
+overviews/si_mesa.tga
+overviews/si_mesa.txt

@@ -1,0 +1,176 @@
+//halflife
+
+babtech_flr02		detail/concrete		0.5	0.5
+c1a1_bktb		detail/metal		0.5	0.5
+c1a1_crate1		detail/metal		1.0	1.0
+c1a1_crate2		detail/metal		1.0	1.0
+c1a1_flr1		detail/metal		0.5	0.5
+c1a4_c1c		detail/concrete		1.0	1.0
+c2a3turbine4		detail/worn_hvy		1.0	0.5
+c2a4_vat1		detail/metal		2.0	0.5
+c2a4_vat2		detail/metal		2.0	0.5
+c2a4_vat4		detail/metal		1.0	0.5
+cardbox1		detail/wood_vert	0.25	0.25
+cardboxtop1		detail/wood_vert	0.25	0.25	
+
+crate02b		detail/wood		1.0	1.0
+crate03			detail/wood_vert	1.0	1.0
+crate05			detail/wood_vert	1.0	1.0
+crate08			detail/wood		1.0	1.0
+crate08b		detail/wood		0.5	0.5
+crate10			detail/wood_vert	1.0	2.0
+crate13			detail/wood_vert	1.0	1.0
+
+crete2_flr01		detail/stone		1.0	1.0	
+crete4_flr02		detail/stone		1.0	1.0
+
+crete4b1		detail/metal		1.0	0.25
+
+duct_break		detail/metal		0.5	0.5
+duct_flr01		detail/metal		0.5	0.5
+duct_flr01a		detail/metal		0.5	0.5
+duct_vnt		detail/metal		0.5	0.5
+duct_vnt2		detail/metal		0.5	0.5
+elev1_trim		detail/metal		0.125	1.0
+elev2_dr		detail/metal		1.0	1.0
+
+
+fifties_dsk5b		detail/metal		0.25	0.25
+fifties_dsk5dx		detail/metal		0.25	0.125
+fifties_flr02c		detail/stone		1.0	1.0
+fiftsfile3		detail/metal		0.25	0.5
+
+frostgrate		detail/metal		0.5	0.5
+
+generic012		detail/metal		1.0	1.0
+generic029		detail/metal		1.0	0.25
+generic031		detail/metal		1.0	0.25
+
+generic101b2		detail/metal		1.0	1.0
+
+lab1_bluxc1		detail/linoleum		1.0	1.0
+
+lab1_brd3b		detail/metal		0.25	0.125
+lab1_brd3fy		detail/metal		1.0	0.25
+
+lab1_comp10f		detail/metal		0.25	1.0	
+lab1_comp9e2		detail/metal		0.25	1.0
+lab1_gdpnl5		detail/metal		0.5	1.0
+
+lab1_stair2a		detail/metal		0.5	0.125
+
+lab1_trim3		detail/metal		0.125	1.0
+
+lab3_w9			detail/metal		1.0	0.5
+
+lab5_c2b		detail/worn_hvy		0.5	0.5
+
+metal_bord021		detail/metal		0.5	0.5
+metal_wall01b		detail/metal		0.5	0.5
+metal_wall04		detail/metal		0.5	0.5
+
+out_pave2		detail/asphalt		1.0	1.0
+silo2_wet4d		detail/concrete		1.0	1.0
+
+steel 			detail/metal		0.5	1.0
+table2			detail/metal		0.5	1.0
+
+~lab1_comp8b		detail/metal		0.5	1.0
+
+out_con			detail/concrete		1.0	1.0
+out_dirt1		detail/grass		1.0	1.0
+
+out_dmp1a		detail/worn		0.5	0.25
+out_dmp1b		detail/worn		0.25	0.25
+out_dmp1c		detail/worn		0.5	0.25
+out_dmp			detail/worn		0.5	0.25
+
+out_hcw1a		detail/concrete		1.0	1.0
+out_pave2		detail/asplalt		1.0	1.0
+out_w8dr1		detail/metal		0.5	1.0
+out_wall1a		detail/concrete		0.5	1.0
+out_wall1b		detail/concrete		0.5	1.0
+
+out_wall2b		detail/metal		0.125	1.0
+out_wall2c		detail/metal		0.125	1.0
+
+out_wall4a		detail/concrete		0.5	0.5
+out_wall8		detail/concrete		1.0	1.0
+
+poster13		detail/worn		1.0	0.5
+poster14		detail/worn		1.0	0.5
+
+rocketennoz		detail/metal		1.0	1.0
+
+silo2_c1b		detail/wood_vert	1.0	1.0
+
+-0silo2_flr11		detail/linoleum		0.5	0.5
+-1silo2_flr11		detail/linoleum		0.5	0.5
+-2silo2_flr11		detail/linoleum		0.5	0.5
+-3silo2_flr11		detail/linoleum		0.5	0.5
+
+silo2_wet4b		detail/stone		1.0	1.0
+silo2_wet4c		detail/stone		1.0	1.0
+silo2_wet4d		detail/stone		1.0	1.0
+
+tnnl_flr5b		detail/stone		1.0	1.0
+tnnl_flr5c		detail/stone		0.5	0.5
+
+tnnl_w5a		detail/concrete		1.0	1.0
+tnnl_w4a		detail/concrete		1.0	1.0
+
+tnnl_w4			detail/concrete		1.0	1.0
+tnnl_w5e2		detail/concrete		1.0	1.0
+tnnl_w5g		detail/concrete		1.0	1.0
+
+trk_seat		detail/worn_hvy		0.5	0.25
+trk_tire		detail/worn_hvy		0.5	0.5
+trk_tread		detail/worn_hvy		0.5	0.125
+
+trrm_pan3		detail/metal		1.0	1.0
+trrm_pan4		detail/metal		1.0	1.0
+trrm_pan5		detail/metal		1.0	1.0
+trrm_pan6		detail/metal		0.5	0.5
+trrm_pan7		detail/metal		1.0	1.0
+trrm_pan8		detail/metal		1.0	0.5
+
+trrm_vata		detail/metal		1.0	1.0
+trrm_vatb		detail/metal		1.0	1.0
+trrm_vatc		detail/metal		1.0	1.0
+trrm_vatd		detail/metal		1.0	1.0
+
+xcrate10a		detail/metal		0.25	0.25
+xcrate10c		detail/metal		0.5	0.25
+xcrate10d		detail/metal		0.5	0.25
+xcrate10e		detail/grass		0.5	0.25
+
+xcrate9c		detail/metal		0.5	0.25
+
+//si
++0si_a_pure		detail/metal		0.5	1.0
++0si_a_puremcl		detail/metal		0.5	1.0
++0si_h_pure		detail/metal		0.5	1.0
++0si_h_puremcl		detail/metal		0.5	1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

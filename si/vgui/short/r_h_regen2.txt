@@ -1,0 +1,2 @@
+Increases the health regneration rate.
+Scientist needles give more health.

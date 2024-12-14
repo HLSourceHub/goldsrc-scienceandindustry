@@ -1,0 +1,5 @@
+Hold primary fire to prime. Release when you want to throw.
+
+Hold secondary fire to prime. Release when you want to drop it beside you.
+
+Thrown grenades take on some of your speed.

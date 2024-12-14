@@ -1,0 +1,26 @@
+// New map briefing file format
+// si_mercato
+
+// REQUIRED
+//   MapName
+//   Author
+//   Summary
+//   Credits
+//
+// Objective - Zero to three allowed
+//   For each, Text is required, and Image is optional
+//   Images are loaded from si/maps/vgui/, must be TGA file, have an alpha
+//   channel, and be smaller than 240x180.
+
+MapName = "Bagman"
+Author = "Corona (Vinnie_corona@hotmail.com)"
+Summary = "This is an urban map, both company's are set along side a storage area. You can capture the scientist and break the computers. Allthough its a small map, there are three ways to get in, via the main door, via the windows or via the roof. You can get up in the air via the pipes in the corners of the middle area. The sky is verry high, so you cant touch it even with the gaus."
+Credits = "Textures from wadfather: Crates by: whiteblaizer@hotmail.com ; some Urban textures by: Todd 'Mr.CleaN' Rose (mrclean@planetquake.com) ; some urban textures by Dethtex (schwenz@evilfucker.com)"
+
+Objective = "RECRUITMENT"
+Image = "si_bagman_sci.tga"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead. (5 points)"
+
+Objective = "SABOTAGE"
+Image = "si_bagman_sci.tga"
+Text = "Destroy the enemy's equipment (2 points)" 

@@ -1,0 +1,12 @@
+maps/si_optica.res
+maps/si_optica.loc
+maps/si_optica.txt
+overviews/si_optica.bmp
+overviews/si_optica.txt
+gfx/env/td2bk.tga
+gfx/env/td2dn.tga
+gfx/env/td2ft.tga
+gfx/env/td2lf.tga
+gfx/env/td2rt.tga
+gfx/env/td2up.tga
+td_si.wad

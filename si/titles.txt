@@ -1,0 +1,1079 @@
+//TITLES FOR HALF-LIFE
+// Position command $position x y
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// effect -1 is print center (normal text in center of screen)
+// effect -2 is print notify (normal text in top left of screen)
+// effect -3 is print center (text piped straight into console)
+// effect -4 is print talk (normal text in lower middle of screen)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+// the only flags TFC uses are the effect value -4 through -1, for screen positions
+
+$effect 0
+
+
+///////// MENUS /////////
+
+Title_MapBriefing
+{
+Map Briefing
+}
+
+Title_SelectYourTeam
+{
+Select Your Corporation
+}
+
+Title_SelectYourModel
+{
+Select Your Cloning Form
+}
+
+mcl
+{
+MCL
+}
+
+afd
+{
+AFD
+}
+
+charlie
+{
+Charlie
+}
+
+paris
+{
+Paris
+}
+
+yvan
+{
+Yvan
+}
+
+butch
+{
+Butch
+}
+
+vinnie
+{
+Vinnie
+}
+
+tony
+{
+Tony
+}
+
+random
+{
+Random
+}
+
+Title_Charlie
+{
+Charlie
+}
+
+Title_Paris
+{
+Paris
+}
+
+Title_Yvan
+{
+Yvan
+}
+
+Title_Butch
+{
+Butch
+}
+
+Title_Vinnie
+{
+Vinnie
+}
+
+Title_Tony
+{
+Tony
+}
+
+Title_Random
+{
+Random
+}
+
+Mcl_full
+{
+Midland Carbide Labs
+}
+
+Afd_full
+{
+Amalgamated Fluorodynamics
+}
+
+Auto_full
+{
+Human Resources will decide where to use your talents
+}
+
+Spect_full
+{
+Observe the corporate war
+}
+
+Team_AutoAssign
+{
+AutoAssign
+}
+
+Menu_Spectate
+{
+Spectate
+}
+
+Menu_OK
+{
+Okay
+}
+
+Menu_Cancel
+{
+Cancel
+}
+
+
+///////// TIMER TEXT /////////
+
+
+Timer_1
+{
+%d seconds to respawn
+}
+
+Timer_2
+{
+%d seconds of spawn protection
+}
+
+Timer_3
+{
+%d seconds to vote on next research
+}
+
+Timer_4
+{
+Game starts in %d seconds
+}
+
+Timer_5
+{
+%d seconds to capture resource
+}
+
+///////// POINT AWARDS /////////
+
+
+Notice_Kill_Def
+{
+You killed an enemy in the base [ %s points ].
+}
+
+Notice_Kill_DefNoisy
+{
+You killed an enemy in the base [ %s points ].
+Please be more quiet about it next time.
+}
+
+Notice_Kill_DefRecruiter
+{
+You defended the recruiter [ %s points ].
+}
+
+Notice_Kill_Recruiter
+{
+You stopped an enemy recruiter [ %s points ].
+}
+
+Notice_Kill_RecruiterResource
+{
+You stopped an enemy stealing a resource [ %s points ].
+}
+
+Notice_Sci_Recruit
+{
+You recruited a new scientist: %s [ %s points ].
+}
+
+Notice_Sci_RecruitAssist
+{
+You helped recruit a new scientist: %s [ %s points ].
+}
+
+Notice_Sci_OtherRecruit
+{
+Your teammate %s recruited scientist %s.
+}
+
+Notice_Sci_Drop
+{
+Your teammate %s dropped a scientist at
+%s.
+}
+
+Notice_Sci_RecruiterKilled
+{
+Your teammate %s stopped an enemy recruiter at
+%s.
+}
+
+Notice_Resource_Capture
+{
+You found some valuable resources: %s [ %s points ].
+}
+
+Notice_Resource_OtherCapture
+{
+Your teammate %s has captured %s.
+}
+
+Notice_Resource_Drop
+{
+Your teammate %s dropped a resource at
+%s.
+}
+
+Notice_Research_CanSalvage
+{
+You acquired an enemy experimental weapon.
+}
+
+Notice_Research_Salvage
+{
+You salvaged an enemy weapon: %s [ %s points ]
+}
+
+Notice_Research_OtherSalvage
+{
+Your teammate %s salvaged an enemy weapon: %s
+}
+
+Notice_Research_Inspect
+{
+The enemy is researching: %s
+}
+
+Notice_Sabotage
+{
+You destroyed enemy breakables [ %s points ].
+}
+
+
+///////// EXPENSES /////////
+
+
+Notice_Kill_Death
+{
+Cloning your body will cost $%s.
+}
+
+Notice_Sci_NewHire
+{
+Your company hires %s, costing $%s.
+}
+
+Notice_Sci_Kill
+{
+Killing an enemy scientist
+has made your scientists nervous.
+}
+
+Notice_Kill_TeamKiller
+{
+Your scientists have installed a chip in
+you to try and cure your homicidal tendencies.
+STOP KILLING YOUR TEAM MEMBERS!
+}
+
+Notice_Sabotage_Opponent
+{
+Your breakables have been destroyed.
+}
+
+Notice_Sabotage_Replace
+{
+Your company started to repair
+breakables costing $%s.
+}
+
+Notice_Award_LlamaOn
+{
+Your poor behavior has been noticed by your
+company's administrator and he has put you
+on probation.
+}
+
+Notice_Award_LlamaOff
+{
+The administrator has deemed you as ready to
+be removed from probationary status and return
+as a full member of the team.
+}
+
+Notice_Award_EotMOn
+{
+You are the employee of the month!
+Congratulations!
+}
+
+Notice_Award_EotMOff
+{
+You are no longer employee of the month! Sorry.
+}
+
+
+///////// RESEARCH /////////
+
+Notice_Research_Castvote
+{
+Vote for the first research project!
+}
+
+Notice_Research_Start
+{
+Starting research on %s.
+Vote for the next project!
+}
+
+Notice_Research_Completed
+{
+%s research completed.
+Starting research on %s.
+Vote for the next project!
+}
+
+Notice_Research_End
+{
+%s research completed.
+}
+
+Notice_Research_Future
+{
+Your company's success has attracted
+the attention of the scientific
+community, and is awarded a grant
+of $25000.
+}
+
+Notice_Research_Espionage
+{
+The newly recruited scientist brings
+research info from his former employer.
+You are rewarded for your efforts.
+}
+
+Notice_Sci_Missing
+{
+Scientist missing from the labs!
+}
+
+Notice_Sci_Dead
+{
+Scientist %s has been murdered!
+}
+
+Notice_Research_Vote
+{
+Vote recorded for %s
+}
+
+Notice_Research_VoteResults
+{
+%s will be researched next
+}
+
+EotM_Vote
+{
+The Employee of the Month voted for this technology.  If you aren't sure what to vote for, this would be a safe choice.
+}
+
+Salvage_Vote
+{
+This technology has been stolen from your opponent.  It will be much quicker to research.
+}
+
+
+///////// SCOREBOARD /////////
+
+
+TEAMS
+{
+Companies
+}
+
+PLAYERS
+{
+Employees
+}
+
+Player
+{
+employee
+}
+
+Player_plural
+{
+employees
+}
+
+CLASS
+{
+Position
+}
+
+SCORE
+{
+Score
+}
+
+DEATHS
+{
+Deaths
+}
+
+LATENCY
+{
+Ping
+}
+
+VOICE
+{
+Voice
+}
+
+Unassigned
+{
+Unemployed
+}
+
+Spectators
+{
+Unemployed
+}
+
+NoClass
+{
+Intern
+}
+
+Llama
+{
+Llama
+}
+
+Employee
+{
+Employee
+}
+
+EmployeeOfTheMonth
+{
+Employee (*)
+}
+
+Goon
+{
+Goon
+}
+
+MailClerk
+{
+Mail Clerk
+}
+
+Brain
+{
+Brain
+}
+
+Resource
+{
+Manager
+}
+
+Muted
+{
+You have muted %s.
+}
+
+Unmuted
+{
+You have unmuted %s.
+}
+
+No_longer_hear_that_player
+{
+You will no longer hear that player speak.
+}
+
+
+///////// SPECTATOR MENU /////////
+
+
+Spec_Mode1
+{
+Locked Chase-Camera
+}
+
+Spec_Time
+{
+Time
+}
+
+Spec_Mode2
+{
+Free Chase-Camera
+}
+
+Spec_Mode3
+{
+Free-Look
+}
+
+Spec_Mode4
+{
+First Person
+}
+
+Spec_Mode5
+{
+Free Map Overview
+}
+
+Spec_Mode6
+{
+Chase Map Overview
+}
+
+Spec_NoTarget
+{
+No valid targets. Cannot switch to Chase-Camera Mode.
+}
+
+Spec_Help_Title
+{
+Spectator Mode
+}
+
+Spec_Help_Text
+{
+Use the following keys to change view styles:
+
+ FIRE1 - Chase next player
+ FIRE2 - Chase previous player
+ JUMP - Change view modes
+ USE - Change inset window mode
+
+ DUCK  - Enable spectator menu
+
+In Overview Map Mode move around with:
+
+ MOVELEFT - move left
+ MOVERIGHT - move right
+ FORWARD - zoom in
+ BACK - zoom out
+ MOUSE - rotate around map/target
+}
+
+Spec_Slow_Motion
+{
+Slow Motion
+}
+
+Spec_Replay
+{
+Instant Replay
+}
+
+Spec_Auto
+{
+Auto
+}
+
+Spec_Map
+{
+Map
+}
+
+OBS_NONE
+{
+Camera Options
+}
+
+OBS_CHASE_LOCKED
+{
+Locked Chase-Cam
+}
+
+OBS_CHASE_FREE
+{
+Free Chase-Cam
+}
+
+OBS_ROAMING
+{
+Roaming
+}
+
+OBS_IN_EYE
+{
+First Person
+}
+
+OBS_MAP_FREE
+{
+Free Overview
+}
+
+OBS_MAP_CHASE
+{
+Chase-Cam Overview
+}
+
+SPECT_OPTIONS
+{
+Options
+}
+
+CAM_OPTIONS
+{
+Camera Options
+}
+
+Spec_Duck
+{
+
+}
+
+Directed
+{
+Auto
+}
+
+Spec_Mode_Inset0
+{
+Inset Window Off
+}
+
+Spec_Mode_Inset1
+{
+Inset Chase-Camera Mode
+}
+
+Spec_Mode_Inset2
+{
+Inset First Person Mode
+}
+
+Spec_Mode_Inset3
+{
+Inset Map Mode
+}
+
+Spec_Help2
+{
+
+}
+
+Spec_Only_Help
+{
+DUCK to Change Inset Mode  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Directed
+{
+Auto
+}
+
+
+///////// MESSAGES /////////
+
+
+No_Armor
+{
+Your company needs to research armor for this to work.
+}
+
+Balance
+{
+Your team currently has an unfair advantage. Please
+fix the current situation or action will be taken.
+}
+
+Cloak
+{
+Cloak ON
+}
+
+DeCloak
+{
+Cloak OFF
+}
+
+Notice_ChangeModel
+{
+Your model will be changed next time
+you are cloned.
+}
+
+Notice_TeamButton
+{
+This only works for the other company.
+}
+
+Notice_NoTripmine
+{
+You cannot place any more tripmines.
+}
+
+Notice_NoSatchel
+{
+You cannot place any more satchels.
+}
+
+Notice_Startmatch
+{
+Starting match.
+}
+
+Notice_FreeMessage
+{
+%s
+}
+
+///////// TECHNOLOGIES /////////
+
+
+R_NULL
+{
+Start Research
+}
+
+R_GRENADE
+{
+Fragmentation Grenade
+}
+
+R_357
+{
+.357 Magnum
+}
+
+R_SHOTGUN
+{
+Assault Shotgun
+}
+
+R_SATCHEL
+{
+Satchel Charges
+}
+
+R_MP5
+{
+MP-5 (9mmAR)
+}
+
+R_CROSSBOW
+{
+Crossbow
+}
+
+R_TRIPMINE
+{
+Trip Mines
+}
+
+R_MP5_GRENADE
+{
+MP-5 Contact Grenades
+}
+
+R_GAUSS
+{
+Tau Cannon (Gauss Gun)
+}
+
+R_RPG
+{
+Laser-Guided RPG
+}
+
+R_MINDRAY
+{
+Mindray
+}
+
+R_VOMIT
+{
+GI-Destabilizer
+}
+
+R_RADIO
+{
+Tactical Radios
+}
+
+R_MANUFACTURING
+{
+Manufacturing Process Upgrade
+}
+
+R_ARMOR_25
+{
+Armor Upgrade (MkI)
+}
+
+R_ARMOR_50
+{
+Armor Upgrade (MkII)
+}
+
+R_ARMOR_75
+{
+Armor Upgrade (MkIII)
+}
+
+R_ARMOR_100
+{
+Armor Upgrade (MkIV)
+}
+
+R_ARMOR_HEAVY
+{
+Heavy Armor
+}
+
+R_PRODUCTION
+{
+Production Speed Upgrade
+}
+
+R_CLONING
+{
+Cloning Method Upgrade
+}
+
+R_CHARGERS
+{
+Health/Armor Charger Upgrade
+}
+
+R_COFFEE
+{
+Upgrade Coffee Strength
+}
+
+R_HEALING
+{
+Scientist Healing Upgrade
+}
+
+R_BRIEFCASE
+{
+C4 Briefcase Bomb
+}
+
+R_H_REGEN
+{
+Regenerative Biotechnology
+}
+
+R_A_REGEN
+{
+Regenerative Armor Tech
+}
+
+R_LEGS_1
+{
+Cybernetic Leg Implants (MkI)
+}
+
+R_LEGS_2
+{
+Cybernetic Leg Implants (MkII)
+}
+
+R_AMMO_REPLICATE
+{
+Personal Ammunition Replicators
+}
+
+R_STRENGTH
+{
+Bionic Muscle Fiber Replacements
+}
+
+R_OPTICS
+{
+Ocular Implants
+}
+
+R_CLOAKING
+{
+Personal Cloaking Device
+}
+
+R_SNUZI
+{
+Akimbo snUZIs
+}
+
+R_GRAPPLE
+{
+Grappling Hook
+}
+
+R_AMMO_REPLICATE2
+{
+Ammunition Replicators (MkII)
+}
+
+R_HA_REGEN
+{
+Tissue Recycling Module
+}
+
+R_A_REGEN2
+{
+Advanced Regenerative Armor Tech
+}
+
+R_TOMMYGUN
+{
+Thompson Submachine Gun
+}
+
+R_ROCKET_PISTOL
+{
+Rocket Pistol
+}
+
+R_STRENGTH2
+{
+Exoskeleton Implants
+}
+
+R_COLT
+{
+Colt Defender
+}
+
+R_FEV
+{
+Flesh Eating Virus
+}
+
+R_SUPER_JUMP
+{
+Super Jump Module
+}
+
+R_EMPCANNON
+{
+EMP Cannon
+}
+
+R_TELEPORT
+{
+Teleport Kit
+}
+
+R_NAILGUN
+{
+Nailgun
+}
+
+///////// RADIO STATIONS /////////
+
+
+Radio1
+{
+102.1 KBBL
+Timeless Classics
+}
+
+Radio2
+{
+99.9 KTNO
+All Techno, All the Time
+}
+
+Radio3
+{
+103.7 KBBY
+The Best of the 80's and More!
+}
+
+Radio4
+{
+106.1
+KBOM
+Electric Ecstacy
+}
+
+Radio5
+{
+88.5 KTOY
+Toy Time!
+}
+
+Radio6
+{
+107.8 KBOP
+So Trendy it Hurts!
+}
+
+Radio7
+{
+106.0 KFNK
+Fear the Funk
+}
+
+
+///////// SUGGESTIONS /////////
+
+
+Notice_Sci_Defend
+{
+You have %s scientists.
+Defend them!
+}
+
+Notice_Sci_Attack
+{
+You have %s scientists.
+Attack and get more!
+}
+
+Notice_Sci_AttackStill
+{
+You still have %s scientists.
+Attack and get more!
+}

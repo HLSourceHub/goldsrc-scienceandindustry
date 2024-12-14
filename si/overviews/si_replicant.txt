@@ -1,0 +1,14 @@
+// overview description file for si_replicant.bsp
+
+global 
+{
+	ZOOM	1.08
+	ORIGIN	720.00   519.50   -240.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_replicant.bmp"
+	HEIGHT	-400.00
+}

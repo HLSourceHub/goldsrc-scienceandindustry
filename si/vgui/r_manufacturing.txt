@@ -1,0 +1,1 @@
+Gameplay: -5 seconds to hire scientists, 75% cost to repair breakables, +$3 cash/sec per scientist, -2 seconds unconscious time for scis, salvaged techs give you more research

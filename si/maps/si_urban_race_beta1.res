@@ -1,0 +1,4 @@
+si_urban_race.wad
+maps/si_urban_race_beta1_detail.txt
+maps/si_urban_race_beta1.txt
+maps/si_urban_race_beta1.res

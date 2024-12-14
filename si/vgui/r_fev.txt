@@ -1,0 +1,3 @@
+Primary fire: vial makes a cloud that infects players with poison.
+
+Secondary fire: Drink a vial. Even though you might die, the adrenaline rush can help you get something done in a hurry! (Boosts briefcase damage and move speed)

@@ -1,0 +1,26 @@
+====================================================
+    "Virus"
+    by Cadaver (cadaver@planethalflife.com)
+====================================================
+
+----Objectives----------------------------------------------------------
+
+Espionage - There is a biospecimen can in each base that can be stolen 
+and returned to the Drop-Off point for a one minute research boost.
+(2 points)
+
+Collection - There is a canister of viral toxin in the ambulance in the
+courtyard. Return it to the Drop-Off point for a three minute research
+boost and $10,000.
+(3 points)
+
+YOU CANNOT CAPTURE SCIENTISTS ON THIS MAP, ONLY RESOURCES.
+
+----Credits-------------------------------------------------------------
+
+Virus texture set by Cadaver. 
+All models by third nipple of fury.
+Ambulance texture based on an original van texture by 3DMike.
+Ambulance prefab by 3DMike (3DMike@nmtrix.com)
+Additional textures by Chaos, JoeSmoe, Relic25 and unknown texture 
+artists.

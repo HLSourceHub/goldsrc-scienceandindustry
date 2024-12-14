@@ -1,0 +1,26 @@
+====================================================
+    "Particle Accelerator"
+    by w00tles (w00tles@w00tles.demon.co.uk)
+====================================================
+
+----Background----------------------------------------------------------
+
+Several hours ago, an AFD mob stormed MCL's primary subatomic research 
+facility. Taking over one end of the accelerator, AFD began disrupting
+MCL's research. The companies are now in a state of corporate war.
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+ESPIONAGE - Steal the Test Specimen from the enemy's particle 
+accelerator, and return it your administrator for a 3 minute research 
+boost. (3 points)
+
+RESOURCES - Someone very important left the facility upon AFD's
+arrival; it seems that in their haste they left their money behind. 
+Collect it from the top of the middle wall, and return it to your
+administrator for a $5000 cash boost. (1 point)

@@ -1,0 +1,99 @@
+//halflife
+
+basetrim01		detail/worn_hvy		0.125	0.5
+basetrim02		detail/worn_hvy		0.5	0.125
+c1a0b_dr4		detail/metal		1.0	1.0
+c1a1w1c			detail/worn		1.0	1.0
+c3a1_gear1		detail/metal		1.0	1.0
+con1_wall01p		detail/metal		0.5	1.0
+crete1_wall01		detail/concrete		1.0	1.0
+crete2_flr01		detail/stone		1.0	1.0
+crete2_flr02		detail/stone		1.0	1.0
+crete2_flr03c		detail/metal		0.125	0.5	
+crete4_flr02		detail/stone		1.0	1.0
+duct_flr02		detail/metal		0.5	0.5
+duct_flr02a		detail/metal		0.5	0.5
+duct_vnt		detail/metal		0.5	0.5
+elev1_dr		detail/metal		0.5	1.0
+fifties_dsk5dx		detail/metal		0.25	0.125
+generic015r		detail/worn_hvy		1.0	0.5
+generic01b2		detail/worn_hvy		1.0	1.0
+generic101b2		detail/metal		1.0	1.0
+lab1_comp10a		detail/metal		0.5	1.0
+lab1_comp10b		detail/metal		0.5	1.0
+lab1_comp10c		detail/metal		0.5	1.0
+lab1_comp10d		detail/metal		0.5	1.0
+lab1_comp10e		detail/metal		0.5	1.0
+lab1_comp10f		detail/metal		0.5	1.0
+lab1_panelf		detail/metal		0.5	0.5
+lab1_trim3		detail/metal		0.125	1.0
+lab1_w6			detail/worn_hvy		1.0	1.0
+lab1_w8A2		detail/worn_hvy		1.0	1.0
+lab3_BRD2		detail/metal		0.5	0.125
+metal_bord021		detail/metal		0.5	0.5
+metal_wall01b		detail/metal		0.5	0.5
+metal_wall04		detail/metal		0.5	0.5
+out_dirt1		detail/grass		1.0	1.0
+out_pave2		detail/asphalt		1.0	1.0
+
+steel 			detail/metal		0.5	1.0
+table2			detail/metal		0.5	1.0
+tnnl_flr4		detail/worn_hvy		1.0	1.0
+
+xcrate12A		detail/metal		1.0	1.0
+xcrate12B		detail/metal		1.0	1.0
+
+~lab1_comp7b		detail/metal		0.5	1.0
+~lab1_comp8b		detail/metal		0.5	1.0
+
+//si	
+
+c1a1_flr2b_afd		detail/linoleum		1.0	1.0
+c1a1_flr2b_extr		detail/linoleum		1.0	1.0
+c1a1_flr2b_mcl		detail/linoleum		1.0	1.0
+fifties_dr4d_af		detail/metal		1.0	1.0
+fifties_dr4d_mc		detail/metal		1.0	1.0
+
++0si_a_pure		detail/metal		0.5	1.0
++0si_a_puremcl		detail/metal		0.5	1.0
++0si_h_pure		detail/metal		0.5	1.0
++0si_h_puremcl		detail/metal		0.5	1.0
+
+
+//urban
+
+brick6_crete		detail/worn_hvy		2.0	2.0
+brick6b_extra		detail/worn_hvy		2.0	2.0
+c1a1w1_si		detail/worn		1.0	2.0
+chaos_afd_wall5		detail/worn		2.0	1.0
+chaos_mcl_wall5		detail/worn		2.0	1.0
+chaos_si_wall5		detail/worn		2.0	1.0
+chaos_si_wall6		detail/worn		2.0	1.0
+crete_wall_si		detail/concrete		2.0	2.0
+doulble_asphalt		detail/asphalt		2.0	2.0
+generic012_afd		detail/metal		2.0	2.0
+generic012_mcl		detail/metal		2.0	2.0
+generic015k_si		detail/worn_hvy		2.0	0.125
+generic015m_si		detail/worn_hvy		1.0	2.0
+off_wall7_1exra		detail/concrete		4.0	2.0
+off_wall7_2exra		detail/concrete		4.0	2.0
+off_wall7_3exra		detail/concrete		4.0	1.0
+off_dr1			detail/metal		2.0	2.0
+silo_w1_grey		detail/worn_hvy		2.0	2.0
+silo_w1_trim		detail/worn_hvy		0.125	1.0
+silo_w1b_grey		detail/worn_hvy		1.0	2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+MapName = "Urban Race"
+Author = "MrBozo (mrbozo@si-central.com)"
+Summary = "Grab the money on the other side of the map and bring it to your admin."
+Credits = "UKChaos for the urban style that I just copied."

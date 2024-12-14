@@ -1,0 +1,15 @@
+MapName = "Mind The Gap"
+Author = "Neil 'UKchaos' Hollingworth (ukchaos@btinternet.com)"
+Summary = "With nearly every other financial sector already dominated by the two business tycoons AFD and MCL; now even local commodities like public transport are in danger of being ripped apart in the enigmatic struggle for power. Join the fight for your company's share in the railway industry."
+Credits = "Additional advert textures: Afropik, Cadaver, Electric Gerbil, TNoF, TheROsingleB
+'Mind the gap' sound: Vondi
+Traffic sound: George_Pooshoes
+Poster model: ARNIE"
+
+Objective = "Sabotage"
+Text = "There are 3 power control units in the maintenance room. Destroying these will disrupt enemy operations."
+Image = "si_mtg_computers.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_mtg_labs.tga"

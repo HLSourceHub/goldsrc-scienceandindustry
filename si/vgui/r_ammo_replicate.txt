@@ -1,0 +1,1 @@
+Gameplay: Ammo regenerates in the held weapon

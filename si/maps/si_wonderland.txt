@@ -1,0 +1,24 @@
+MapName = "Wonderland" 
+Author = "PapasNewBag (papasnewbag@planethalflife.com)"
+Summary = "Two corporations compete with each other from their arctic research installations in the mountains. Creep through the snowy valleys to give them a surprise."
+
+Tips = "There are four entrances to your base:
+
+The first is directly outside the cloning rooms, and is the main entrance. This one will see the most use
+
+The second is from the observation tower, and it comes into your base on the second level. Don't neglect this one.
+
+The third enters into your garage in the rear area of your base. It comes in right by your administrator, so remember this option if the heat is too much on a scientist carrier.
+
+The fourth is not open initially. You must take advantage of a collapsed tunnel and carve an entrance from the rockside in the canyon area into the basement. Try to prevent your opponent from creating this breach in your base."
+
+Credits = "Snow textures and inspiration - Gearbox software"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_wonderland_labs.tga"
+
+Objective = "Embryo"
+Text = "In each corporation's freezer is a valuable embryo that contains much of their experimental bio-enhancement work. Steal your opponents embryo for a research bonus and $25,000. But be quick about it, because if the specimen is outside of the freezer for too long it will spoil and the bonuses for capturing it will be lessened; you have one minute to sucessfully deliver it to your administrator."
+Image = "si_wonderland_freezer.tga"
+

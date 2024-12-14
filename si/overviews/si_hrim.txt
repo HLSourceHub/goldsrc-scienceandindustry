@@ -1,0 +1,12 @@
+global 
+{
+	ZOOM	1.10
+	ORIGIN	0.50 0.00 -368
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_hrim.tga"
+	HEIGHT	-368
+}

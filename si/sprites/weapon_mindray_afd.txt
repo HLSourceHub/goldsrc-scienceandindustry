@@ -1,0 +1,10 @@
+9
+weapon			320 320hud1	80	160	80	20
+weapon_s		320 320hud1	80	180	80	20
+ammo			320 320hud2	0	34	18	18
+crosshair		320 crosshairs_afd	72	24	24	24
+weapon			640 640hud2	0	180	170	45
+weapon_s		640 640hud5	0	180	170	45
+ammo      640 640siBattery  32 0 32  32
+ammo2     640 640siBattery  32 32  32  32
+crosshair		640 crosshairs_afd	72	24	24	24

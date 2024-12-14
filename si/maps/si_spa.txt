@@ -1,0 +1,16 @@
+MapName = "Spa"
+Author = "Cadaver (cadaver@planethalflife.com)"
+Summary = "Some say the elixir of life is a myth - they are wrong; it was discovered and harnessed by ancient cultures. Ultimately, however, they could not control its power, and the location of the spring of eternal life was lost to the world...until now. With the spring rediscovered, MCL and AFD race to harness its life-prolonging and regenerative properties once more."
+Credits = "Spa texture set by Cadaver.
+Ivy texture by DigiChaos.
+Cog resource model by Third Nipple of Fury."
+
+Objective = "Sabotage"
+Text = "There is a cog in the unpacked office room near cloning facilities on the upper level. Take this cog to your enemy's PIPEWORKS room, and stand by the cog mechanism on the wall to deliver the cog, and open the Pipeworks door.
+
+The Pipeworks contain 3 important pumping stations which channel the water around the complex - destroy the pump controls."
+Image = "si_spa_cog.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_spa_labs.tga"

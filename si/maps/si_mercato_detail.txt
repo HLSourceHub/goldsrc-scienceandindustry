@@ -1,0 +1,94 @@
+//halflife
+
+c2a4x_c3		detail/metal		1.0	1.0
+elev1_dr		detail/metal		0.5	1.0
+elev1_trim		detail/metal		0.125	1.0
+fifties_dr1		detail/wood_vert	0.5	1.0
+
+generic035		detail/metal		0.125	1.0
+generic64b		detail/metal		0.125	0.5
+
+-0silo2_p2		detail/metal		1.0	1.0
+-1silo2_p2		detail/metal		1.0	1.0
+-2silo2_p2		detail/metal		1.0	1.0
+-3silo2_p2		detail/metal		1.0	1.0
+
+trrm_wood2		detail/wood		1.0	0.25
+~lab1_comp7b		detail/wood_vert	0.5	1.0
+
+//mercato
+
+64crate0		detail/wood_vert	0.5	0.5
+64crate1		detail/wood_vert	0.5	0.5
+64cratetop		detail/wood_vert	0.5	0.5
+
+bigcrate0		detail/wood_vert	1.0	1.0
+bigcrate1		detail/wood_vert	1.0	1.0
+bigcrate2		detail/wood_vert	1.0	1.0
+bigcratetop		detail/wood_vert	1.0	1.0
+
+bluerug			detail/worn		0.5	0.5
+
+-0bstucco		detail/concrete		1.0	1.0
+-1bstucco		detail/concrete		1.0	1.0
+-2bstucco		detail/concrete		1.0	1.0
+
+bstuccobrdr		detail/concrete		2.0	1.0
+bstuccopost		detail/concrete		1.0	1.0
+bstuccowidepost		detail/concrete		2.0	1.0
+bstuccownd		detail/concrete		2.0	1.0
+
+-0clayroof		detail/stone		1.0	2.0
+-1clayroof		detail/stone		1.0	2.0
+-2clayroof		detail/stone		1.0	2.0
+clayroofside		detail/stone		0.125	0.5
+
+concrete		detail/concrete		2.0	2.0
+
+cratebox		detail/wood		0.5	0.5
+crateboxlabel		detail/wood		0.5	0.5
+drkwood			detail/wood		1.0	0.25
+
+greenrug		detail/worn		0.5	0.5
+
+-0grystucco		detail/stone		1.0	1.0
+-1grystucco		detail/stone		1.0	1.0
+-2grystucco		detail/stone		1.0	1.0
+
+grystuccobrdr		detail/stone		1.0	1.0
+grystuccospade		detail/stone		2.0	2.0
+mkrfloor		detail/stone		1.0	1.0
+
+muralarc		detail/concrete		2.0	2.0
+murallong		detail/concrete		2.0	2.0
+
+oakdoor			detail/wood_vert	0.5	1.0
+olddoor			detail/wood_vert	0.5	1.0
+oldwood			detail/wood_vert	1.0	1.0
+
+pebblecobble		detail/stone		1.0	1.0
+rockwall		detail/concrete		1.0	1.0
+-0sandybrick		detail/concrete		0.5	1.0
+-1sandybrick		detail/concrete		0.5	1.0
+
+shutteredwindow		detail/window		1.0	0.5
+stonewall		detail/concrete		1.0	2.0
+
+wbarrelside		detail/wood		0.5	0.5
+wbarreltop		detail/wood		0.5	0.5
+whiterockwall		detail/concrete		1.0	1.0
+
+wine_front		detail/metal		1.0	2.0
+wine_side		detail/metal		1.0	2.0
+wine_side2		detail/metal		1.0	2.0
+
+-0wlstucco		detail/concrete		0.5	1.0
+-1wlstucco		detail/concrete		0.5	1.0
+-2wlstucco		detail/concrete		0.5	1.0
+-3wlstucco		detail/concrete		0.5	1.0
+
+wlstuccobrdr		detail/concrete		1.0	1.0
+wlstuccownd		detail/concrete		1.0	1.0
+
+
+

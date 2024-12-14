@@ -1,0 +1,5 @@
+Primary fire charges up. To jump, look away from where you want to go and fire.
+
+Secondary fire zooms in.
+
+Can shoot through 1 wall, or ricochet off surfaces.

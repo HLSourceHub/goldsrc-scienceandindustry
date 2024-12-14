@@ -1,0 +1,5 @@
+Primary fire: perfect accuracy, slow rate of fire
+
+Secondary fire: bad accuracy, very fast rate of fire
+
+This gun is meant for long range zoning. If someone sneaks up on you, use secondary fire to dispatch them in a hurry! 

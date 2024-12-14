@@ -1,0 +1,24 @@
+
+
+global
+
+{
+
+	ZOOM	1.34
+
+	ORIGIN	0.00   0.00   608.00
+
+	ROTATED	0
+
+}
+
+
+layer
+
+{
+
+	IMAGE	"overviews/si_mtg.tga"
+
+	HEIGHT	-65
+
+}

@@ -1,0 +1,1 @@
+Gameplay: +2 health/sec regen, +1 health charger rate

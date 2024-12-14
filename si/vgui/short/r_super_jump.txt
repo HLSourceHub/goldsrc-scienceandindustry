@@ -1,0 +1,7 @@
+Gameplay: can superjump upward or walljump
+
+To superjump: look up, push forward+jump
+
+To walljump: when close to a wall, look away and push forward+jump
+
+You can fly back to the wall and jump again! Try to chain jumps during fights to confuse your opponents and escape.

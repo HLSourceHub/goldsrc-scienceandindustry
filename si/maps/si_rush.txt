@@ -1,0 +1,31 @@
+====================================================
+    "Gold Rush"
+    by Behrooz Wolf (phyre_phoxz_party_profile@yahoo.com)
+====================================================
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+SABOTAGE - The switch on the sniper decks must be held in place by a team-
+mate to allow someone to enter the hatch nearby - inside, there is a critical
+cloning machine, the destruction of which will lead to the enemies cloning
+time being lengthened.
+
+SABOTAGE - The reactor core in the labs is costly to replace.
+
+----Story--------------------------------------------------------------
+
+A long time ago, in a desert far far away, valuable geological information
+was discovered to be resting in the rock strata of an abandoned gold mine.
+Ensure that your company's scientists have a safe, quiet, and productive 
+environment in which to investigate, as it is rumored that our competitors
+are also nearby.
+
+
+----Credits-------------------------------------------------------------
+
+Original map and layout by Cerebral Storm.

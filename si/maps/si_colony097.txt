@@ -1,0 +1,17 @@
+====================================================
+	"Lunar Mining Colony" 
+	by +Cadaver+ (cadaver@planethalflife.com)
+====================================================
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+----Credits-------------------------------------------------------------
+
+Custom Sign Textures by Nemo.
+Lunar environment map by Darc.
+Updated for 0.97 by Airmoran.

@@ -1,0 +1,34 @@
+====================================================
+    "Steel Forge"
+    by RhoadsToNowhere (rhoads2nw@comcast.net)
+    maintained by Cash Car Star (ccs@cashcarstar.hlgaming.com)
+====================================================
+
+----Summary-------------------------------------------------------------
+
+The corporate war between AFD and MCL has moved from the business
+facilities and high-tech labs to the dingy factories and refineries.
+Protect your steel plant from enemy attacks to ensure a supply of raw
+materials for your company!
+
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+
+SABOTAGE - Destroy the smelting machine located beyond the
+administrator.  Your opponent's production of steel will be hampered,
+and their rate of money accumulation will be slowed. Be cautious, as the
+molten metal around this machine is very dangerous.
+
+
+----Credits-------------------------------------------------------------
+
+Textures - Than, Whiteblazer, Valve Software (DMC textures),
+Questionable Ethics, and RhoadsToNowhere
+
+Statue models - RhoadsToNowhere
+
+Skybox - Marc Schroeder aka Term.

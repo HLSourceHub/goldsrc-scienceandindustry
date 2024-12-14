@@ -1,0 +1,23 @@
+
+
+global
+
+{
+
+	ZOOM	1.37
+
+	ORIGIN	0.00 0.00 -50.00
+
+	ROTATED	0
+
+}
+
+
+layer
+
+{
+
+	IMAGE	"overviews/si_tube.tga"
+	HEIGHT	-513.00
+
+}

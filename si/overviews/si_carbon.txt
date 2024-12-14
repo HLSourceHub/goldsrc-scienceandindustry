@@ -1,0 +1,14 @@
+// overview description file for si_carbon.tga
+
+global
+{
+	ZOOM	1.20
+	ORIGIN	-14.78 0.00 0.00	ROTATED	1
+}
+
+layer
+{
+	IMAGE	"overviews/si_carbon.tga"
+	HEIGHT	-826.00
+}
+

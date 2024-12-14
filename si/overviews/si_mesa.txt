@@ -1,0 +1,14 @@
+// overview description file for si_mesa.bsp
+
+global
+{
+	ZOOM	1.10
+	ORIGIN	0.00   1.56   -292.00
+	ROTATED	1
+}
+
+layer
+{
+	IMAGE	"overviews/si_mesa.tga"
+	HEIGHT	-1497.00
+}

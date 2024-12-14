@@ -1,0 +1,11 @@
+global
+{
+	ZOOM	1.50
+	ORIGIN	0.00 0.00 304.00
+	ROTATED	0
+}
+layer
+{
+	IMAGE	"overviews/si_covfefe.tga"
+	HEIGHT	609.00
+}

@@ -1,0 +1,14 @@
+// overview description file for si_early.bsp
+
+global 
+{
+	ZOOM	1.18
+	ORIGIN	0.00   4.00   -236.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_early.bmp"
+	HEIGHT	-913
+}

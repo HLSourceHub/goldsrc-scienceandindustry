@@ -1,0 +1,1 @@
+Gameplay: Ammo regenerates in all carried weapons

@@ -1,0 +1,1 @@
+Gameplay: +2 armor/sec regen, scientist needles give more armor

@@ -1,0 +1,89 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>Map Guide - SCIENCE AND INDUSTRY</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="../css/si.css">
+</head>
+<body bgcolor="#FFFFFF" link="#666666" vlink="#666666">
+	<table width="560" border="0" cellpadding="2" cellspacing="0">
+    <!--begin map guide-->
+    <tr>
+      <td>
+      <img src="../images/si_logo.jpg" align="left">
+      <b>SCIENCE AND INDUSTRY MAPPING GUIDELINES</b>
+      <br clear="all">
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>FUNC_TECH_BREAKABLE</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Introduction to <i>func_tech_breakable</i>
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p>The breakable tech entity allows corporations to sabotage each other's operations through methods that may not directly from the scientists. With these entities they can destroy vital equipment. This can range from the small (breaking the coffee machine to make the scientists irate), to the critical (hacking the computer main frame, or blowing out the main reactor). The repurcussions of not protecting your equipment can spell early bankruptcy and shame for your corporation.</p>
+<p>What follows is an description of all the flags and key names that can be set on a <i>func_tech_breakable</i>, so that mappers can look up what exactly everything does. Then there is a section on general pointers to using breakables well in your map. Finally there'll be a few descriptions of well executed tech_breakables in S&I maps.</p>
+<p>Feel free to email <a href="mailto:si@planethalflife.com">si@planethalflife.com</a> with any clarification questions or suggestions to improve this document.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Spawn Flags
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p><b>Only Trigger</b> <i>[default off]</i> - This breakable can only be broken by a trigger.<br><b>Touch</b> <i>[default off]</i> - does touching this breakable do damage?<br><b>Pressure</b> <i>[default off]</i> - does standing on this breakable do damage?<br><b>Don't respawn</b> <i>[default off]</i> - The breakable will spawn once initially, and then never respawn.<br><b>Instant Crowbar</b> <i>[default off]</i> - Bludgeoning weapons will distroy this in on hit.<br><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Entity Fields
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p><b>Description</b> <i>[default "TechBreak"]</i><br>This is the tech breakable's name that is displayed to all the other players and handled by the companies.</p>
+<p><b>Destroy Message</b> <i>[default "Some of your company's valuable research equipment has been destroyed, affecting the efficiency of your company's operations."]</i><br></p>
+<p><b>Team</b> <i>[default MCL]</i><br>Choices: MCL (Blue), AFD (Green)<br>Setting up the tech breakables requires a company to call their owner. No un-aligned tech breakables are allowed.</p>
+<p><b>Replacement Cost</b> <i>[default "Medium"]</i><br>Choices: No replacement cost, Cheap ($1,000), Medium ($5,000), Costly ($10,000), Expensive ($25,000), Critical ($100,000)<br>After a the entity is broken, it goes into a dormant replacing state. After that time is up and it's finally replaced, this amount is subtracted from the account of its owning company.</p>
+<p><b>Replacement Time</b> <i>[default 120]</i><br>Choices: Very Quick (30 sec), Short (1 min), Medium (2 min), Long (5 min)<br>This is the amount of time it takes from a breakables destruction to its replacement. Long replace times are tough on the owning company, as that they lose some of their functionality without their equipment. Replacing equipment, although expensive, is a <i>good</i> thing.</p>
+<p><b>Contributed Cash Production</b> <i>[default 0]</i><br>Choices: No cash production, $5/second, $10/second, $15/second, $30/second, $60/second<br>A tech breakable does not add more cash production to the standard S&I balanced norm. Rather, when it's missing, it's assumed that it was contributing a certain part of that. Therefore, when a tech breakable has been destroyed and is awaiting replacement, the owning company suffers. This value is the ammount of cash the company will produce less than normally.</p>
+<p><b>Contributed Research</b> <i>[default 0]</i><br>Choices: No research, Fourth of a scientist, Half a scientist, One scientist, Two scientists<br>A tech breakable does not add more research production to the standard S&I balanced norm. Rather, when it's missing, it's assumed that it was contributing a certain part of that. Therefore, when a tech breakable has been destroyed and is awaiting replacement, the owning company suffers. This value is the ammount of research the company will produce less than normally. The units are given in scientists because it's easiest to think of it that way.</p>
+<p><b>Research Stored</b> <i>[default 0]</i><br>Choices: No research stored, 10%, 25%, 50%, 75%, 100%<br>The information on all the research the scientists are doing has to be stored somewhere. This setting allows you to make this tech_breakable represent a proportion of this. When the entity is broken, the percent set here is lost from what the coroporation had already completed on their <i>current</i> research. No already finished research will be lost.</p>
+<p><b>Importance</b> <i>[default "Medium"]</i><br>Choices: Insignificant, Minor, Medium, Major, Critical<br>When the player destroys a <i>tech_breakable</i>, his bonus points are determined by the entity's impotance. Also, many of the effects of breakables are scaled to their importance rating.</p>
+<p><b>Technology Type</b> <i>[default "Generic"]</i><br>Choices: Generic, Computer, Cloning, Replicators, Implant Machinery, Communications, Coffee/Candy Machine<br>Further specifying the technology type of this breakable adds more specific consequences of its loss. These effects are heavily scaled to the items importance rating.
+        <ul>
+          <li><u>Generic</u> - no additional effects</li>
+          <li><u>Computer</u> - decrease in company's overall speed of cash generation</li>
+          <li><u>Cloning</u> - increased cloning delay and cost</li>
+          <li><u>Replicators</u> - increased delay in respawning weapons and ammo</li>
+          <li><u>Implant Machinery</u> - increased cloning delay</li>
+          <li><u>Communications</u> - decrease in scientist's cash generation and increase in scientist hiring and wake up time</li>
+          <li><u>Coffee/Candy Machine</u> - decrease in scientist efficiency and recovery from noise</li>
+        </ul></p>
+      </td>
+    </tr>
+    <tr>
+      <td class="header">
+        Examples
+      </td>
+    </tr>
+    <tr>
+      <td>
+<p><u>Case Study: si_metropolis</u><br><a href="../images/reactor.jpg"><img src="../images/reactor.jpg" height="300" width="450" alt="si_metropolis' reactor"></a><br>One of the most elegantly implemented tech breakable yet in Science & Industry would certainly have to be the reactor in <i>si_metropolis</i>.</p>
+      </td>
+    </tr>
+    <!--end map guide-->
+	</table>
+</body>
+</html>

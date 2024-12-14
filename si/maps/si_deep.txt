@@ -1,0 +1,13 @@
+MapName = "The Deep"
+Author = "Neil 'UKchaos' Hollingworth (ukchaos@btinternet.com)"
+Summary = "Desperate to expand their economic influence and concerned for the safety of their research teams, both AFD and MCL jumped at the chance to rent out space on a deep-sea reseach station. They quickly discoverd that not even miles of sea water could protect them from corporate greed. Raid the enemy labs to obtain samples of rare sea life forms or protect your own resources in the battle for an underwater monopoly."
+Credits = "'si_brr' textures by 'TNOF'
+'deepsea' environment map by 'Darc'"
+
+Objective = "Biospecimens"
+Text = "There are 2 biospecimen resources belonging to each team. Collect the enemy's specimen and return it back to your administrator for a research bonus."
+Image = "si_deep_biospecimens.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_deep_labs.tga"

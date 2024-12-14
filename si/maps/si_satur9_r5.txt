@@ -1,0 +1,26 @@
+SI_SATUR9
+Version: Redux #5
+by Brian "Cash Car Star" Grigg
+cashcarstar41@hotmail.com
+
+=========================================
+This is a beta version
+PLEASE post in the forums/e-mail me with comments
+=========================================
+
+----Objectives----------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+ESPIONAGE - Steal the datastreamer from the doo-hickey by having a
+teammate turn the thinga-majig and return to your administrator. You
+will gain 2 1/2 minutes of research, and the rival team will lose
+2 1/2 minutes of research. (3 points)
+
+
+Credits:
+Custom textures by: meat, Relic25, Rorshach, Crinity, third nipple of fury, myself
+Skybox by: BenTheKuno

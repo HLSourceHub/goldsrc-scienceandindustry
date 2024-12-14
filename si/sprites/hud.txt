@@ -1,0 +1,439 @@
+371	// number of sprites in this file
+
+//////////////////////////////////////////////////////////////////
+//
+// 320x200 to 512x384
+//
+//////////////////////////////////////////////////////////////////
+
+// AFD hud
+number_0_afd		320	320si1_afd	0	42	8	7
+number_1_afd		320	320si1_afd	8	42	8	7
+number_2_afd		320	320si1_afd	17	42	8	7
+number_3_afd		320	320si1_afd	25	42	8	7
+number_4_afd		320	320si1_afd	34	42	8	7
+number_5_afd		320	320si1_afd	41	42	8	7
+number_6_afd		320	320si1_afd	51	42	8	7
+number_7_afd		320	320si1_afd	59	42	8	7
+number_8_afd		320	320si1_afd	68	42	8	7
+number_9_afd		320	320si1_afd	76	42	8	7
+divider_afd		320	320si1_afd	84	40	1	11
+cross_afd		320	320si1_afd	0	16	10	10
+suit_full_afd		320	320si1_afd	0	28	10	10
+suit_empty_afd		320	320si1_afd	10	28	10	10
+per_head_afd		320	320si1_afd	0	0	57	13
+per_side_afd		320	320si1_afd	127	0	1	58
+per_bottom_afd		320	320si1_afd	56	24	57	1
+res_bottom_afd		320	320si1_afd	60	15	50	1
+res_head_afd		320	320si1_afd	59	0	52	13
+res_side_afd		320	320si1_afd	122	0	1	31
+sci_on_afd		320	320si1_afd	10	16	10	10
+sci_off_afd		320	320si1_afd	20	16	10	10
+next_afd		320	320si1_afd	31	16	23	3
+goal_on_afd		320	320si1_afd	0	52	19	2
+goal_off_afd		320	320si1_afd	20	52	19	2
+sco_head_afd		320	320si2		0	63	57	13
+
+// MCL hud
+number_0_mcl		320	320si1_mcl	0	42	8	7
+number_1_mcl		320	320si1_mcl	8	42	8	7
+number_2_mcl		320	320si1_mcl	17	42	8	7
+number_3_mcl		320	320si1_mcl	25	42	8	7
+number_4_mcl		320	320si1_mcl	34	42	8	7
+number_5_mcl		320	320si1_mcl	41	42	8	7
+number_6_mcl		320	320si1_mcl	51	42	8	7
+number_7_mcl		320	320si1_mcl	59	42	8	7
+number_8_mcl		320	320si1_mcl	68	42	8	7
+number_9_mcl		320	320si1_mcl	76	42	8	7
+divider_mcl		320	320si1_mcl	84	40	1	11
+cross_mcl		320	320si1_mcl	0	16	10	10
+suit_full_mcl		320	320si1_mcl	0	28	10	10
+suit_empty_mcl		320	320si1_mcl	10	28	10	10
+per_head_mcl		320	320si1_mcl	0	0	57	13
+per_side_mcl		320	320si1_mcl	127	0	1	58
+per_bottom_mcl		320	320si1_mcl	56	24	57	1
+res_bottom_mcl		320	320si1_mcl	60	15	50	1
+res_head_mcl		320	320si1_mcl	59	0	52	13
+res_side_mcl		320	320si1_mcl	122	0	1	31
+sci_on_mcl		320	320si1_mcl	10	16	10	10
+sci_off_mcl		320	320si1_mcl	20	16	10	10
+next_mcl		320	320si1_mcl	31	16	23	3
+goal_on_mcl		320	320si1_mcl	0	52	19	2
+goal_off_mcl		320	320si1_mcl	20	52	19	2
+sco_head_mcl		320	320si2  0	50	57	13
+
+// carry icons
+carry_sci		320	320si3	0 	0	25	25
+carry_resource		320	320si3	25	0	25	25
+carry_cash		320	320si3	50 	0	25	25
+carry_crystal		320	320si3	75 	0	25	25
+carry_secret		320	320si3	100 	0	25	25
+carry_cd		320	320si3	0 	25	25	25
+carry_wrench		640	320si3	25	25	25	25
+carry_case		320	320si3	50 	25	25	25
+carry_binary		320	320si3	75 	25	25	25
+carry_wine		320	320si3	100 	25	25	25
+carry_art		320	320si3	0 	50	25	25
+carry_toxin		320	320si3	25	50	25	25
+carry_bio		320	320si3	50 	50	25	25
+
+selection		320	320hud1	160	160	80	20
+
+bucket1			320	320hud2	108	16	12	12
+bucket2			320	320hud2	108	28	12	12
+bucket3			320	320hud2	108	40	12	12
+bucket4			320	320hud2	108	52	12	12
+bucket5			320	320hud2	108	64	12	12
+bucket6			320	320hud2	108	88	12	12
+bucket0			320	320hud2	108	76	12	12
+
+dmg_bio			320	320hud4	0	0	32	32
+dmg_poison		320	320hud4	0	0	32	32
+dmg_chem		320	320hud4	32	0	32	32
+dmg_cold		320	320hud4	64	0	32	32
+dmg_drown		320	320hud4	96	0	32	32
+dmg_heat		320	320hud4	128	0	32	32
+dmg_gas			320	320hud4	160	0	32	32
+dmg_rad			320	320hud4	192	0	32	32
+dmg_shock		320	320hud4	224	0	32	32
+
+flash_full		320	320hud2	16	72	18	16
+flash_empty		320	320hud2	34	72	18	16
+flash_beam		320	320hud2	52	72	6	16
+
+train_back		320	320hud3 0	0	48	48
+train_stop		320	320hud3 48	0	48	48
+train_forward1		320	320hud3 96	0	48	48
+train_forward2		320	320hud3 144	0	48	48
+train_forward3		320	320hud3 192	0	48	48
+
+title_half		320	320hud3 0	48	128	16
+title_life		320	320hud3 128	48	116	16
+
+// killed by sprites - weapons
+d_briefcase		320	320hud1	18	208	16	16
+d_briefcase_afd		320	320hud1	18	208	16	16
+d_vomit			320	320hud1	0	224	32	16
+d_vomit_afd		320	320hud1	0	224	32	16
+d_shotgun		320	320hud1	32	224	32	16
+d_shotgun_afd		320	320hud1	32	224	32	16
+d_bolt			320	320hud1	32	240	48	16
+d_bolt_afd		320	320hud1	32	240	48	16
+d_crossbow		320	320hud1	32	240	48	16
+d_crossbow_afd		320	320hud1	32	240	48	16
+d_gauss			320	320hud1	80	224	32	16
+d_gauss_afd		320	320hud1	80	224	32	16
+d_mindray		320	320hud1	144	208	48	16
+d_mindray_afd		320	320hud1	144	208	48	16
+d_grenade		320	320hud1	112	224	32	16
+d_grenade_afd		320	320hud1	112	224	32	16
+d_satchel		320	320hud1	112	240	32	16
+d_satchel_afd		320	320hud1	112	240	32	16
+d_tripmine		320	320hud1	192	208	32	16
+d_tripmine_afd		320	320hud1	192	208	32	16
+d_radio			320	320hud1	144	224	32	16
+d_radio_afd		320	320hud1	144	224	32	16
+d_rocketpistol		320	320hud1	144	240	32	16
+d_rocketpistol_afd	320	320hud1	144	240	32	16
+d_fleshgrenade		320	320hud1	144	240	32	16
+d_fleshgrenade_afd	320	320hud1	144	240	32	16
+d_tommygun		320	320hud1	144	240	32	16
+d_tommygun_afd		320	320hud1	144	240	32	16
+d_snUZI			320	320hud1	144	240	32	16
+d_snUZI_afd		320	320hud1	144	240	32	16
+d_colt			320	320hud1	144	240	32	16
+d_colt_afd		320	320hud1	144	240	32	16
+d_empcannon		320	320hud1	144	240	32	16
+d_empcannon_afd		320	320hud1	144	240	32	16
+d_nailgun		640 640hud13 170 0  48  24
+d_nailgun_afd		640 640hud13 170 0  48  24
+
+// killed by sprites - other
+d_skull			320	320hud1	144	240	32	16
+d_tracktrain		320	320hud1	224	208	32	16
+d_env_beam		320	320hud1	176	240	32	16
+d_env_laser		320	320hud1	176	240	32	16
+d_env_explosion		320	320hud1	208	224	16	16
+d_mortar		320	320hud1	208	224	16	16
+d_rotating		320	320hud1	208	240	16	16
+d_pendulum		320	320hud1	208	240	16	16
+d_door			320	320hud1	224	224	16	16
+d_door_rotating		320	320hud1 224	224	16	16
+d_plat			320	320hud1	240	224	16	16
+d_platrot		320	320hud1	240	224	16	16
+d_momentary_door	320	320hud1	224	224	16	16
+d_train			320	320hud1	224	208	32	16
+d_tank			320	320hud1	224	240	32	16
+
+// sprites already there ?
+carry_sci_afd		320	320si1_afd	98	33	25	25
+carry_sci_mcl		320	320si1_mcl	98	33	25	25
+
+item_battery		320 	320hud2	48	52	20	20
+item_healthkit		320	320hud2	68	52	20	20
+item_longjump		320	320hud2	88	52	20	20
+
+grenade			320	320hud2	36	34	18	18
+
+notice_timer_0		320	320si2		0	0	14	14
+notice_timer_1		320	320si2		0	28	14	14
+notice_timer_2		320	320si2		0	14	14	14
+notice_timer_3		320	320si2		14	28	14	14
+notice_timer_4		320	320si2		14	14	14	14
+notice_timer_5		320	320si2		28	28	14	14
+notice_timer_6		320	320si2		28	14	14	14
+notice_timer_7		320	320si2		42	28	14	14
+notice_timer_8		320	320si2		42	14	14	14
+notice_sci		320	320si2		56	0	14	14
+notice_resource		320	320si2		70	0	14	14
+notice_research		320	320si2		84	0	14	14
+notice_sabotage		320	320si2		98	0	14	14
+notice_kill		320	320si2		98	14	14	14
+notice_award		320	320si2		98	28	14	14
+
+status_timeleft		320	320si2		0	14	14	14
+status_afdlogo		320	320si2		14	0	14	14
+status_mcllogo		320	320si2		28	0	14	14
+
+//////////////////////////////////////////////////////////////////
+//
+// 640x480 to 1600x1200
+//
+//////////////////////////////////////////////////////////////////
+
+selection		640	640hud3	0	180	170	45
+
+bucket1			640	640hud7	168	72	20	20
+bucket2			640	640hud7	188	72	20	20
+bucket3			640	640hud7	208	72	20	20
+bucket4			640	640hud7	168	92	20	20
+bucket5			640	640hud7	188	92	20	20
+bucket6			640	640hud7	228	72	20	20
+bucket0			640	640hud7	208	92	20	20
+
+dmg_bio			640	640hud8	128	0	64	64
+dmg_poison		640	640hud8	128	0	64	64
+dmg_chem		640	640hud8	0	0	64	64
+dmg_cold		640	640hud9	64	0	64	64
+dmg_drown		640	640hud8	64	0	64	64
+dmg_heat		640	640hud9	128	0	64	64
+dmg_gas			640	640hud9	0	0	64	64
+dmg_rad			640	640hud9	192 	0	64	64
+dmg_shock		640	640hud8	192	0	64	64
+
+// AFD hud
+number_0_afd		640	640si1_afd	0	84	15	15
+number_1_afd		640	640si1_afd	17	84	15	15
+number_2_afd		640	640si1_afd	34	84	15	15
+number_3_afd		640	640si1_afd	51	84	15	15
+number_4_afd		640	640si1_afd	68	84	15	15
+number_5_afd		640	640si1_afd	85	84	15	15
+number_6_afd		640	640si1_afd	102	84	15	15
+number_7_afd		640	640si1_afd	119	84	15	15
+number_8_afd		640	640si1_afd	136	84	15	15
+number_9_afd		640	640si1_afd	153	84	15	15
+divider_afd		640	640si1_afd	171	81	2	20
+cross_afd		640	640si1_afd	0	32	19	20
+suit_full_afd		640	640si1_afd	0	57	20	20
+suit_empty_afd		640	640si1_afd	21	57	20	20
+per_head_afd		640	640si1_afd	0	0	115	27
+per_side_afd		640	640si1_afd	254	0	2	117
+per_bottom_afd		640	640si1_afd	113	51	111	2
+res_bottom_afd		640	640si1_afd	113	51	101	2
+res_head_afd		640	640si1_afd	119	0	105	27
+res_side_afd		640	640si1_afd	244	0	2	62
+sci_on_afd		640	640si1_afd	21	33	19	20
+sci_off_afd		640	640si1_afd	41	33	19	20
+next_afd		640	640si1_afd	62	33	48	7
+goal_on_afd		640	640si1_afd	0	105	39	4
+goal_off_afd		640	640si1_afd	40	105	39	4
+sco_head_afd		640	640si5  	105	96	105	27
+map_head_afd		640	640si5  	115	165	115	27
+map_side_afd		640	640si1_afd	254	0	2	112
+
+// MCL hud
+number_0_mcl		640	640si1_mcl	0	84	15	15
+number_1_mcl		640	640si1_mcl	17	84	15	15
+number_2_mcl		640	640si1_mcl	34	84	15	15
+number_3_mcl		640	640si1_mcl	51	84	15	15
+number_4_mcl		640	640si1_mcl	68	84	15	15
+number_5_mcl		640	640si1_mcl	85	84	15	15
+number_6_mcl		640	640si1_mcl	102	84	15	15
+number_7_mcl		640	640si1_mcl	119	84	15	15
+number_8_mcl		640	640si1_mcl	136	84	15	15
+number_9_mcl		640	640si1_mcl	153	84	15	15
+divider_mcl		640	640si1_mcl	171	81	2	20
+cross_mcl		640	640si1_mcl	0	32	19	20
+suit_full_mcl		640	640si1_mcl	0	57	20	20
+suit_empty_mcl		640	640si1_mcl	21	57	20	20
+per_head_mcl		640	640si1_mcl	0	0	115	27
+per_side_mcl		640	640si1_mcl	254	0	2	117
+per_bottom_mcl		640	640si1_mcl	113	51	111	2
+res_bottom_mcl		640	640si1_mcl	113	51	101	2
+res_head_mcl		640	640si1_mcl	119	0	105	27
+res_side_mcl		640	640si1_mcl	244	0	2	62
+sci_on_mcl		640	640si1_mcl	21	33	19	20
+sci_off_mcl		640	640si1_mcl	41	33	19	20
+next_mcl		640	640si1_mcl	62	33	48	7
+goal_on_mcl		640	640si1_mcl	0	105	39	4
+goal_off_mcl		640	640si1_mcl	40	105	39	4
+sco_head_mcl		640	640si5  	0	96	105	27
+map_head_mcl		640	640si5  	0	165	115	27
+map_side_mcl		640	640si1_mcl	254	0	2	112
+
+flash_full		640	640hud7	160	24	32	32
+flash_empty		640	640hud7	112	24	32	32
+flash_beam		640	640hud7 144	24	16	32
+
+train_back		640	640hud5 170	0	72	72
+train_stop		640	640hud5 170	72	72	72
+train_forward1		640	640hud5 170	144	72	72
+train_forward2		640	640hud6 170	0	72	72
+train_forward3		640	640hud6 170	72	72	72
+
+autoaim_c		640	crosshairs	96	0	24	24
+
+title_half		640	640hud4	0	226	256	30
+title_life		640	640hud5	0	226	220	30
+
+// carry icons
+carry_sci		640	640si3	0 	0	50	50
+carry_resource		640	640si3	50	0	50	50
+carry_cash		640	640si3	100 	0	50	50
+carry_crystal		640	640si3	150 	0	50	50
+carry_secret		640	640si3	200 	0	50	50
+carry_cd		640	640si3	0 	50	50	50
+carry_wrench		640	640si3	50 	50	50	50
+carry_case		640	640si3	100 	50	50	50
+carry_binary		640	640si3	150 	50	50	50
+carry_wine		640	640si3	200 	50	50	50
+carry_art		640	640si3	0 	100	50	50
+carry_toxin		640	640si3	50	100	50	50
+carry_bio		640	640si3	100	100	50	50
+
+// research goals
+goal_cash			640	640si2	0	0	32	16
+goal_unknown		640	640si2	0	16	32	16
+goal_healing		640	640si2	0	32	48	16
+goal_cloning		640	640si2	0	48	32	16
+goal_bomb			640	640si2	0	64	32	16
+goal_coffee			640	640si2	32	0	32	16
+goal_timer			640	640si2	32	16	32	16
+goal_cloak			640	640si2	32	48	32	16
+goal_armor			640	640si2	32	64	32	16
+goal_ocular			640	640si2	0	96	32	16
+goal_muscle			640	640si2	32	96	32	16
+goal_a_regen		640	640si2	0	128	48	16
+goal_legs1			640	640si2	0	144	48	16
+goal_superjump	640	640si2	48	144	48	16
+goal_h_regen		640	640si2	64	16	48	16
+goal_ha_regen   640 640si2  48  128 48  16
+goal_a_rep			640	640si2	64	32	48	16
+goal_charge			640	640si2	64	48	48	16
+goal_start			640	640si2	64	64	32	16
+goal_telekit  640  640hud13  170 24 24 24
+goal_armor_heavy			640	640hud13	170	48	48	20
+
+// killed by sprites - weapons
+d_briefcase			640	640hud1		192	0	32	16
+d_briefcase_afd		640	640hud1		192	0	32	16
+d_vomit				640	640hud1		192	16	32	16
+d_vomit_afd			640	640hud1		192	16	32	16
+d_shotgun			640	640hud1		192	64	48	16
+d_shotgun_afd		640	640hud1		192	64	48	16
+d_bolt				640	640hud1		192	80	48	16
+d_bolt_afd			640	640hud1		192	80	48	16
+d_crossbow			640	640hud1		192	80	48	16
+d_crossbow_afd		640	640hud1		192	80	48	16
+d_gauss				640	640hud1		192	112	48	16
+d_gauss_afd			640	640weapons_afd	192	0	32	16
+d_mindray			640	640hud1		192	144	48	16
+d_mindray_afd		640	640hud1		192	144	48	16
+d_grenade			640	640hud1		192	160	32	16
+d_grenade_afd		640	640hud1		192	160	32	16
+d_satchel			640	640hud1		192	176	32	16
+d_satchel_afd		640	640hud1		192	176	32	16
+d_tripmine			640	640hud1		192	192	32	16
+d_tripmine_afd		640	640hud1		192	192	32	16
+d_radio				640	640hud1		192	208	32	16
+d_radio_afd			640	640hud1		192	208	32	16
+d_rocketpistol		640	640si2		0	80	32	16
+d_rocketpistol_afd	640	640si2		0	80	32	16
+d_fleshgrenade		640	640si2		32	80	32	16
+d_fleshgrenade_afd	640	640si2		32	80	32	16
+d_tommygun			640	640hud1		192	48	48	16
+d_tommygun_afd		640	640hud1		192	48	48	16
+d_snUZI				640	640si2		64	0	32	16
+d_snUZI_afd			640	640si2		64	0	32	16
+d_colt				640	640si2		64	80	32	16
+d_colt_afd			640	640si2		64	80	32	16
+d_infection			640	640si2		32	80	32	16
+d_infection_afd		640	640si2		32	80	32	16
+d_empcannon			640	640hud10	192	200	48	24
+d_empcannon_afd		640	640hud10	192	200	48	24
+d_bomb				640	640si2		0	64	32	16
+d_bomb_afd			640	640si2		0	64	32	16
+d_nailgun			640 640hud13 170 0  48  24
+d_nailgun_afd		640 640hud13 170 0  48  24
+
+// killed by sprites - other
+d_skull			640	640hud1	192	224	32	16
+d_tracktrain		640	640hud1	192	240	32	16
+d_env_beam		640	640hud10	192	104	48	24
+d_env_laser		640	640hud10	192	104	48	24
+d_env_explosion		640	640hud10	192	128	24	24
+d_mortar		640	640hud10	192	128	24	24
+d_rotating		640	640hud10	216	128	24	24
+d_pendulum		640	640hud10	216	128	24	24
+d_door			640	640hud10	192	152	48	24
+d_door_rotating		640	640hud10	192	152	48	24
+d_plat			640	640hud10	216	152	24	24
+d_platrot		640	640hud10	216	152	24	24
+d_momentary_door	640	640hud10	192	152	48	24
+d_tracktrain		640	640hud1		192	240	32	16
+d_tank			640	640hud10	192	176	48	24
+item_battery		640 	640hud2	176	0	44	44
+item_healthkit		640 	640hud2	176	48	44	44
+item_longjump		640 	640hud2	176	96	44	44
+
+grenade			640 	640hud7	48      96      24      24
+
+// vote sprites
+vote_open			640	640si4		0	0	32	32
+vote_closed			640	640si4		32	0	32	32
+vote_voted			640	640si4		0	32	32	32
+
+notice_timer_0		640	640si5		0	0	32	32
+notice_timer_1		640	640si5		0	64	32	32
+notice_timer_2		640	640si5		0	32	32	32
+notice_timer_3		640	640si5		32	64	32	32
+notice_timer_4		640	640si5		32	32	32	32
+notice_timer_5		640	640si5		64	64	32	32
+notice_timer_6		640	640si5		64	32	32	32
+notice_timer_7		640	640si5		96	64	32	32
+notice_timer_8		640	640si5		96	32	32	32
+notice_sci		640	640si5		32	0	32	32
+notice_resource		640	640si5		64	0	32	32
+notice_research		640	640si5		96	0	32	32
+notice_sabotage		640	640si5		128	0	32	32
+notice_kill		640	640si5		128	32	32	32
+notice_award		640	640si5		128	64	32	32
+
+status_timeleft		640	640si5		28	151	14	14
+status_afdlogo		640	640si5		14	123	14	14
+status_mcllogo		640	640si5		28	123	14	14
+
+// implants
+i_armor			640	640implant3	          110	0	  55	42
+i_a_regen		640	640implant2	          0 	0	  55	42
+i_a_regen2		640	640implant2	        0	  42	55	42
+i_h_regen		640	640implant2	          110	0	55	42
+i_ha_regen		640	640implant2	        165	0	55	42
+i_legs_1		640	640implant1	          55	0	55	42
+i_legs_2		640	640implant1	          55	42	55	42
+i_superjump		640	640implant1	        110	0	55	42
+i_strength		640	640implant1	        0	0	55	42
+i_strength2		640	640implant1	        0	42	55	42
+i_optics		640	640implant1	0	        84	55	42
+i_ammo_replicate	640	640implant2     55	0	55	42
+i_ammo_replicate2	640	640implant2     55	42	55	42

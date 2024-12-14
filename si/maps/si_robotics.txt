@@ -1,0 +1,42 @@
+========================================================
+
+The Robotics Lab
+
+by Corporate Warfare (skarsten@optonline.net/doomtrooper@planetquake.com)
+
+========================================================
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+ESPIONAGE - In the computer lab, protected by a laser lock, is a CD that
+stores your competitor's top-secret Artificial Intelligence research.
+Find a way to disable the lock and 'liberate' the disc for your own
+purposes. (4 points)
+
+SABOTAGE - The vending machines in the lobby have been armor-plated and are immune
+to gunfire... but the ones in the lab enjoy no such protection.  In addition, the three computers in the grid-protected lab are breakable, as is the microwave at the snack station. 
+
+----Tips----------------------------------------------------------------
+
+The rear entry to the lab is only accessable from the inside keypad.
+This makes for a quick escape out of the lab, but beware hordes of angry
+security guards coming from the lobby to cut you off in the midfield.
+
+The lab is ventilated by a small airduct which can be broken for quick, one-way entry.
+
+Grenades banked around corners can have unexpected benefits.
+
+----Known Bugs----------------------------------------------------------
+
+It's possible to throw off an elevator's sync by triggering it while it's in motion
+(from the upper floor as someone calls it to the lower, for example.)
+The way to reset one is to push the lower floor button, then stand under the elevator.
+Let it bounce off your head, then kill yourself.
+
+If someone knows of a simple way to disable a button when triggering another to prevent
+this, drop me a line.

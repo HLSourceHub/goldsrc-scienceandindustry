@@ -1,0 +1,11 @@
+maps/si_biodome_rc1.res
+maps/si_biodome_rc1.txt
+gfx/env/dashdesertbk.tga
+gfx/env/dashdesertdn.tga
+gfx/env/dashdesertft.tga
+gfx/env/dashdesertlf.tga
+gfx/env/dashdesertrt.tga
+gfx/env/dashdesertup.tga
+si_biodome.wad
+si_tundra.wad
+si_wolf.wad

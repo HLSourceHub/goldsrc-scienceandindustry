@@ -1,0 +1,14 @@
+// overview description file for si_optica.bsp
+
+global 
+{
+	ZOOM	1.12
+	ORIGIN	0.00   -62.00   -84.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_optica.bmp"
+	HEIGHT	-489.00
+}

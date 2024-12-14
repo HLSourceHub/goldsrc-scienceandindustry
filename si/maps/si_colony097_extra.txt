@@ -1,0 +1,69 @@
+Okay, this is the original si_colony for SI .96, the only differences are using the new weapons system (making it compatible with SI.97), the gmen entities (the method of handling the entities have changed in SI .97), and changed health/armor textures (Just for the hell of it).
+
+Everything else remains the same.
+
+colony.bsp, si_colony097.bsp and si_colony097.txt go into the /si/maps folder.
+lunar1bk.tga, lunar1dn.tga, lunar1ft.tga, lunar1lf.tga, lunar1rt.tga, and lunar1up.tga go into \si\gfx\env
+
+That should be it. Enjoy.  The original si_colony's readme follows:
+------------------------------------------------------------------------------
+
+
+
+
+
+========================================
+   "Lunar Mining Colony" 
+========================================
+------General Information--------------------------------------------
+
+Title		:si_colony
+Filenames	:si_colony.bsp,
+Author		:+Cadaver+
+Author Email	:mike@mrosser.freeserve.co.uk
+Home page	:N/A
+Storyline	:Following the 1969 moon landing, corporate giants AFD and MCL immediately set up a colony
+		on our satellite to mine the valuable mineral sciberium. Unfortunately for the colonisers,
+		the money soon ran out, and the colonies were abandoned by their parent companies. Sciberium
+		is the stranded victims only hope of getting home, as it has combustive properties capable of
+		powering a rocket - there is only enough for one company to get home, however.....
+
+------Credits and Thanks---------------------------------------------
+
+Valve for HL, and for their help
+The rest of the SI Team for testing: Weirdo, Acid and Whiplash
+Nemo for the custom sign textures
+Darc for the Lunar environment map
+
+------Additional Info, Tips, and Notes-------------------------------
+
+The Administrator capture points are at the centre of the map - so you'd be wise to attempt to take control of that 
+area.
+
+------Bug's, Problems, etc-------------------------------------------
+
+Hallways are rather plain at the moment, due to a lack of time to properly finish the map detail-wise. More detail
+will be added for beta 0.97.
+No known bugs.
+
+------Play Information-----------------------------------------------
+SinglePlayer	: No
+Deathmatch	: No
+S&I		: Yes
+How Many Players: Good for large numbers of players
+
+------Construction---------------------------------------------------
+
+Base		: None
+Editor(s) used	: Worldcraft 2.1/3.3
+Build time	: OVer 5 months on and off
+Compile time	: Over an hour
+Compile Machine	: Dual Celerons, 256MB RAM
+
+
+------Copyright-Permissions------------------------------------------
+
+
+YOU MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS!!!. If you don't co-operate, then DON'T DISTRIBUTE
+IT IN ANY FORM!!.

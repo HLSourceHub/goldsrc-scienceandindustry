@@ -1,0 +1,12 @@
+MapName = "The Overfloater"
+Author = "Cash Car Star (cashcarstar41@hotmail.com)"
+Summary = "After development of a revolutionary material capable of floating on air due to intense intramolecular dipole forces, a prototype floating complex was set up in the upper layers of the stratoshpere. 'The Overfloater', as dubbed by land-based associates, has become the new frontier for an intense corporate feud."
+Credits = "Textures by evil lair. Sky by null."
+
+Objective = "Recruitment"
+Image = "si_overfloater_labs.tga"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead. (5 points)"
+
+Objective = "Collection"
+Image = "si_overfloater_chum.tga"
+Text = "The polymer responsible for the Overfloater requires a chemical found in the blood stream of the enigmatic chum toad. Grab one of these toxic amphibians that makes its home in the moist cumulous clouds and bring him to the admin. Your company will receive a suitable cash bonus, and 1 minute worth of research. (2 points)"

@@ -1,0 +1,14 @@
+// overview description file for si_alley.bsp
+
+global 
+{
+	ZOOM	1.25
+	ORIGIN	-571.50   706.00   -48.50
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_alley.bmp"
+	HEIGHT	-593.00
+}

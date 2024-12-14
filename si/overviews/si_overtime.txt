@@ -1,0 +1,14 @@
+// overview description file for si_overtime.bsp
+
+global 
+{
+	ZOOM	1.43
+	ORIGIN	-760.00   -980.00   -176.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_overtime.bmp"
+	HEIGHT	-350
+}

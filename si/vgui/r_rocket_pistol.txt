@@ -1,0 +1,3 @@
+Primary fire: shoot a rocket straight
+
+Secondary fire: shoot an arcing rocket

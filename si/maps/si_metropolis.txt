@@ -1,0 +1,16 @@
+MapName = "Metropolis"
+Author = "Cerebral Storm (yoda_thing@yahoo.com) and Behrooz Wolf (behroozwolf@hotmail.com)"
+Summary = "Fight between the two bases of AFD and MCL as the futuristic metropolis witnesses a new war between the companies. Make sure you recruit plenty of scientists to aid your company's research and development section, but keep an eye on your generator, those things are very pricey!"
+Credits = "Original map by Cerebral Storm. Updated and maintained by Behrooz Wolf."
+
+Objective = "Reactor core"
+Text = "The reactor core can be broken with the use of some teamwork to open the doors. This piece of technology costs a lot to replace."
+Image = "si_metropolis_reactor.tga"
+
+Objective = "Sabotage"
+Text = "The computer consoles in the labs can be broken, causing minor research loss."
+Image = "si_metropolis_computers.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_metropolis_labs.tga"

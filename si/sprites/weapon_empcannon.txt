@@ -1,0 +1,3 @@
+2
+crosshair		320 xhair	0	0	256	256
+crosshair		640 xhair	0	0	256	256

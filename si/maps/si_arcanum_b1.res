@@ -1,0 +1,10 @@
+maps/si_arcanum_b1.res
+maps/si_arcanum_b1.txt
+gfx/env/druidcove256_bk.tga
+gfx/env/druidcove256_dn.tga
+gfx/env/druidcove256_ft.tga
+gfx/env/druidcove256_lf.tga
+gfx/env/druidcove256_rt.tga
+gfx/env/druidcove256_up.tga
+sound/ambience/dee.wav
+sound/ambience/solo.wav

@@ -1,0 +1,247 @@
+// HUD design scheme (640x480 and above)
+
+// UnitName = "UnitName"
+// Position = "Global position"
+//
+// Segment = "Sprite"
+// Value = "Sprite name"
+// Position = "Relative position"
+//
+// Segment = "Special"
+// Value = "#Special title"
+// Position = "Relative position"
+
+// MAP UNIT
+UnitName = "Map"
+Position = "11 11"
+
+Segment = "Sprite"
+Value = "map_head_mcl"
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "map_side_mcl"
+Position = "0 27"
+
+Segment = "Sprite"
+Value = "map_side_mcl"
+Position = "113 27"
+
+Segment = "Sprite"
+Value = "per_bottom_mcl"
+Position = "2 137"
+
+Segment = "Special"
+Value = "#Map"	// Map position
+Position = "3 28"
+
+// RESEARCH HUD UNIT
+UnitName = "Research"
+Position = "-116 -100"	// Negative values represent from the bottom or right
+
+Segment = "Sprite"
+Value = "res_head_mcl"	// Research box
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "res_side_mcl"
+Position = "0 27"
+
+Segment = "Sprite"
+Value = "res_side_mcl"
+Position = "103 27"
+
+Segment = "Sprite"
+Value = "res_bottom_mcl"
+Position = "2 87"
+
+Segment = "Special"
+Value = "#Sci_Eff"	// Scientist efficiency "Snowflake"
+Position = "5 32"
+
+Segment = "Special"
+Value = "#Sci_Num"	// Number of scientists
+Position = "26 34"
+
+Segment = "Sprite"
+Value = "next_mcl"		// "NEXT GOAL" text
+Position = "5 57"
+
+Segment = "Special"
+Value = "#Next_Goal"	// Next goal icon
+Position = "5 69"
+
+Segment = "Special"
+Value = "#Progress"	// Next goal progress bar
+Position = "50 75"
+
+Segment = "Special"
+Value = "#Vote"		// Vote status icon
+Position = "60 32"
+
+
+// PERSONAL HUD UNIT
+UnitName = "Personal"
+Position = "11 -155"
+
+Segment = "Sprite"
+Value = "per_head_mcl"	// Personal box
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "per_side_mcl"
+Position = "0 27"
+
+Segment = "Sprite"
+Value = "per_side_mcl"
+Position = "113 27"
+
+Segment = "Sprite"
+Value = "per_bottom_mcl"
+Position = "2 142"
+
+Segment = "Special"
+Value = "#Cross"	// Health cross
+Position = "12 32"
+
+Segment = "Special"
+Value = "#Health_val"	// Health value
+Position = "40 35"
+
+Segment = "Special"
+Value = "#Shield"	// Armor shield
+Position = "12 61"
+
+Segment = "Special"
+Value = "#Armor_val"	// Armor value
+Position = "40 64"
+
+Segment = "Special"	// GUN 1
+Value = "#Ammo_type1"	// Ammo type icon
+Position = "2 88"
+
+Segment = "Special"
+Value = "#Ammo_clip1"	// Ammo in gun1
+Position = "12 93"
+
+Segment = "Special"
+Value = "#Divider1"	// Line between the ammo values
+Position = "59 93"
+
+Segment = "Special"
+Value = "#Ammo_left1"	// Ammo left out of gun
+Position = "63 93"
+
+Segment = "Special"	// GUN 2
+Value = "#Ammo_type2"	// Ammo type icon
+Position = "2 117"
+
+Segment = "Special"
+Value = "#Ammo_clip2"	// Ammo in gun2
+Position = "12 122"
+
+Segment = "Special"
+Value = "#Divider2"	// Line between the ammo values
+Position = "59 122"
+
+Segment = "Special"
+Value = "#Ammo_left2"	// Ammo left out of gun
+Position = "63 122"
+
+Segment = "Special"
+Value = "#BC_Armed"	// Armed briefcase icon
+Position = "12 122"
+
+Segment = "Special"	// ANALOG GUN
+Value = "#Ammo_analog_type"	// Icon
+Position = "12 88"
+
+Segment = "Special"
+Value = "#Ammo_analog_left"	// Ammo left
+Position = "40 93"
+
+Segment = "special"
+Value = "#Charge_left"
+POsition = "0 122"
+
+Segment = "special"
+Value = "#Charge_right"
+POsition = "112 122"
+
+
+// STATUS HUD UNIT
+UnitName = "Status"
+Position = "-116 11"
+
+Segment = "Sprite"
+Value = "sco_head_mcl"	// Status box (still uses the research sides and bottom)
+Position = "0 0"
+
+Segment = "Sprite"
+Value = "res_side_mcl"
+Position = "0 27"
+
+Segment = "Sprite"
+Value = "res_side_mcl"
+Position = "103 27"
+
+Segment = "Sprite"
+Value = "res_bottom_mcl"	// Line between scores and time
+Position = "2 65"
+
+Segment = "Sprite"
+Value = "res_bottom_mcl"
+Position = "2 87"
+
+Segment = "Special"
+Value = "#Score_MCLL"	// MCL score (and logo)
+Position = "4 29"
+
+Segment = "Special"
+Value = "#Score_MCLR"
+Position = "98 29"
+
+Segment = "Special"
+Value = "#Score_AFDL"	// AFD score (and logo)
+Position = "4 47"
+
+Segment = "Special"
+Value = "#Score_AFDR"
+Position = "98 47"
+
+Segment = "Special"
+Value = "#TimeleftL"	// Timeleft (and clock)
+Position = "4 69"
+
+Segment = "Special"
+Value = "#TimeleftR"
+Position = "98 69"
+
+
+// NONE UNIT - For segments outside units
+UnitName = "None"
+Position = "0 0"
+
+Segment = "Special"
+Value = "#Notices_SW"
+Position = "131 -41"
+
+Segment = "Special"
+Value = "#Notices_SE"
+Position = "-124 -41"
+
+Segment = "Special"
+Value = "#Chat_Location_0"
+Position = "10 -154"
+
+Segment = "Special"
+Value = "#Chat_Location_1"
+Position = "10 30"
+
+Segment = "Special"
+Value = "#chat_Intermission"
+Position = "10 30"
+
+Segment = "Special"
+Value = "#Death_Notice_NE"
+Position = "-11 110"

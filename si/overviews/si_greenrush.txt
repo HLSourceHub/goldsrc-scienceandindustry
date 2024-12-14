@@ -1,0 +1,14 @@
+// overview description file for si_green.bsp
+
+global
+{
+	ZOOM	1.32
+	ORIGIN	-32.00 4.00 -284.00
+	ROTATED	0
+}
+
+layer
+{
+	IMAGE	"overviews/si_greenrush.bmp"
+	HEIGHT	-953.00
+}

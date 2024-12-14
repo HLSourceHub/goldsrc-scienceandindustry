@@ -1,0 +1,14 @@
+// overview description file for si_wonderland.bsp
+
+global 
+{
+	ZOOM	1.25
+	ORIGIN	-160.00   -320.00   200.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_wonderland.bmp"
+	HEIGHT	-321.00
+}

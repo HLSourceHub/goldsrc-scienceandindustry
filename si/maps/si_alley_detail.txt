@@ -1,0 +1,125 @@
+//halflife
+
+c1a3_dr1		detail/metal		2.0	1.0
+c1a4_dome3		detail/metal		1.0	0.5
+c2a4x_glu		detail/metal		0.5	0.5
+c2a2a_w3		detail/metal		0.5	2.0
+
+crate02b		detail/wood		1.0	1.0
+crate05			detail/wood_vert	1.0	1.0
+crate06			detail/wood_vert	1.0	1.0
+crate10			detail/wood_vert	1.0	2.0
+crate13			detail/wood_vert	1.0	1.0
+
+crete2_flr03c		detail/metal		0.125	0.5
+
+duct_vnt		detail/metal		0.5	0.5
+duct_wall01		detail/metal		0.5	0.5
+duct_wall03		detail/metal		0.5	0.5
+duct_wall04		detail/metal		0.5	0.5
+
+
+fifties_cmp1b		detail/metal		0.5	1.0
+fifties_cmp2a		detail/metal		0.5	1.0
+fifties_cmp3c		detail/metal		0.5	1.0
+
+fifties_dr1		detail/wood_vert	0.5	1.0
+fifties_dr2		detail/wood_vert	0.5	1.0
+
+fifties_wall03		detail/concrete		1.0	1.0
+fifties_wall14v		detail/concrete		1.0	1.0
+
+fiftsfile2		detail/metal		0.5	0.5
+
+-0freezer_pan1		detail/metal		0.5	1.0
+-1freezer_pan1		detail/metal		0.5	1.0
+-2freezer_pan1		detail/metal		0.5	1.0
+-3freezer_pan1		detail/metal		0.5	1.0
+
+-0freezer_pan2		detail/metal		0.5	0.5
+-1freezer_pan2		detail/metal		0.5	0.5
+-2freezer_pan2		detail/metal		0.5	0.5
+-3freezer_pan2		detail/metal		0.5	0.5
+
+freezerd2		detail/metal		1.0	1.0
+frostceiling		detail/metal		0.25	0.25
+frostfloor		detail/metal		1.0	0.5
+
+frostpanel		detail/worn		0.5	1.0
+frostvat2		detail/worn		1.0	1.0
+
+lab1_brd3e		detail/metal		1.0	0.25
+lab1_comp7b		detail/wood_vert	0.25	1.0
+
+lab1_gdpnl5		detail/metal		0.5	1.0
+lab1_panel1d		detail/metal		0.25	0.5
+
+lab1_w1b		detail/metal		1.0	1.0
+lab1_w1f		detail/metal		1.0	1.0
+lab1_w4			detail/metal		1.0	1.0
+-0lab1_w4gad		detail/metal		1.0	1.0
+-1lab1_w4gad		detail/metal		1.0	1.0
+-2lab1_w4gad		detail/metal		1.0	1.0
+-3lab1_w4gad		detail/metal		1.0	1.0
+
+out_dmp4a		detail/wood		1.0	0.5
+out_dmp4b		detail/wood		0.5	0.5
+out_dmp4c		detail/wood		1.0	0.5
+
+out_gravel		detail/asphalt		1.0	1.0
+out_pave1		detail/asphalt		1.0	1.0
+
+out_wall3a		detail/metal		1.0	1.0
+out_wall3b		detail/metal		1.0	1.0
+out_wall3c		detail/metal		1.0	1.0
+
+steel			detail/metal		0.5	1.0
+trrm_wood2		detail/wood		1.0	0.25
+
+//alley
+
+afd_graff		detail/concrete		2.0	2.0
+afdsigntext		detail/wood		2.0	2.0
+afdsymsign		detail/wood		2.0	2.0
+
+barrel			detail/wood_vert	1.0	1.0
+dm_snow			detail/worn		1.0	1.0
+
+dogvenbrickband		detail/concrete		2.0	2.0
+dogvenbrickbase		detail/concrete		2.0	2.0
+dogvenbrickdoor		detail/concrete		2.0	2.0
+dogvenbrickivy1		detail/concrete		2.0	2.0
+dogvenbrickivy2		detail/concrete		2.0	2.0
+dogvenbrickivy3		detail/concrete		2.0	2.0
+dogvenbrickivy4		detail/concrete		2.0	2.0
+dogvenbrikwindow	detail/concrete		2.0	2.0
+
+
+mcl_graff		detail/concrete		2.0	2.0
+mclsigntext		detail/wood		2.0	2.0
+mclsymsign		detail/wood		2.0	2.0
+
+roof1			detail/stone		1.0	1.0
+slcobblestone		detail/stone		2.0	2.0
+slrooftop		detail/concrete		2.0	2.0
+
+slwall2562		detail/concrete		2.0	2.0
+wood_planks1		detail/wood_vert	1.0	1.0
+woodgrain_dark		detail/wood		1.0	0.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

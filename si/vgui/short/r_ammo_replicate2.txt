@@ -1,0 +1,2 @@
+Increases the ammunition regneration rate.
+Regenerates ammo on all carried guns.

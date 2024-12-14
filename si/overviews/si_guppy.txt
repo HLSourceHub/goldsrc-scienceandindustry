@@ -1,0 +1,24 @@
+
+
+global
+
+{
+
+	ZOOM	1.53
+
+	ORIGIN	0.00 0.00 -136.00
+
+	ROTATED	0
+
+}
+
+
+layer
+
+{
+
+	IMAGE	"overviews/si_guppy.tga"
+
+	HEIGHT	-497.00
+
+}

@@ -1,0 +1,21 @@
+MapName = "Mercato"
+Author = "Permanganate (permanganate@planethalflife.com)"
+Summary = "The Italian market can be a rich source of income for any business. Here two rival companies battle across and above the market for exotic wines, under-priced paintings and their opposition's research personnel."
+Credits = "Thanks to DigiChaos for permission to use the cs_italy textures, and to Chaos for the textures made specifically for this map."
+
+Objective = "Painting"
+Text = "The market has a picture for sale which you can take back to your art-appreciating admin to make him think more of you. (3 points)"
+Image = "si_mercato_paint.tga"
+
+Objective = "Wine Bottles"
+Text = "Steal the wine bottles in the enemy cellar, and return them to your administrator for a 3 minute research boost.  However, they go off quickly - get them to your administrator within one minute or they're worthless. (2 points)"
+Image = "si_mercato_wine.tga"
+
+Objective = "Sabotage"
+Text = "The wine analyser computer attached to a wine barrel in the cellars can be broken. It's the equivalent of 1 sci to the enemy's research. (2 points)
+The wine dispenser under the lobby can be broken. It slows down the enemy's research until they can get a replacement. (1 point)"
+Image = "si_mercato_sab.tga"
+
+Objective = "Recruitment"
+Text = "There are 6 scientists in this map. Kidnap an enemy scientist by hitting them with the briefcase. Take them back to the administrator, and he/she will start working for your company instead."
+Image = "si_mercato_labs.tga"

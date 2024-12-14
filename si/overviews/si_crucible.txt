@@ -1,0 +1,14 @@
+// overview description file for si_daybreak.bsp
+
+global
+{
+	ZOOM	1.92
+	ORIGIN	192.00   320.00   376.00
+	ROTATED	1
+}
+
+layer
+{
+	IMAGE	"overviews/si_crucible.bmp"
+	HEIGHT	721.00
+}

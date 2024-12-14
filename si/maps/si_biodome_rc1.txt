@@ -1,0 +1,58 @@
+====================================================
+    "Biodome"
+    main level design and concept by Tyrannos (scmckee@i-zoom.net)
+    main compiling and .map editing (in wordpad) by Aragaith  
+    (Aragaith@optonline.net)
+====================================================
+
+----Objectives----------------------------------------------------------
+
+RECRUITMENT - There are 6 scientists in this map. Kidnap an enemy
+scientist by hitting them with the briefcase. Take them back to the
+administrator, and he/she will start working for your company instead.
+(5 points)
+
+Retrieval: There are two rare lifeforms hidden in the biodome, 
+one for AFD and one for MCL. Retrieve your resource to gain points, 
+cash, and research time. 
+
+----Backstory-----------------------------------------------------------
+
+This Biodome was constructed by the parent company of AFD and MCL 
+before it was split into the two respective companies. Ever since the 
+split there has been arguing over who should control this biodome. 
+Finally, the companies have decided to evict eachother out of the 
+biodome--with force. However, during the melee a rare lifeform has been 
+misplaced and now must retrieved. Rumour has it that it is located 
+near water, find it for an insurmountable reward.
+
+----Credits-------------------------------------------------------------
+
+Thanks to:
+
+B@tman (ILLA) for the de_volare textures 
+Cadaver for advice and other things
+Behrooz for advice, and the si_wolf textures
+UKchaos for lots of advice and other things
+third nipple of fury for the si_deep textures
+Vondi for compiling, advice, and other things
+muffinator for textures (aptly the MCL and AFD signs)
+Per for the si_tundra textures
+PsiVen for the AFD roof texture
+Dash for the skybox
+Rhoads for advice and compiles
+The Mighty Pete for textures
+Airmoran for making the lovely "Enter Only" signs
+
+All the other people that have contributed to this map in any way 
+shape or form.
+
+A BIG thanks goes out to the FireArms mod team for letting me use 
+thier textures. Visit them and download their great mod at 
+www.firearmsmod.com
+
+Also, if you notice that I have used your textures or anything 
+that belongs to you and are like "HEY! He didn't give me credit!"
+Never fret, just e-mail me, chances are I forgot you because well,
+I've used LOTS of different .wads and other things for this map.
+

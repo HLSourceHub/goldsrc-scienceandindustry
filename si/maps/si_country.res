@@ -1,0 +1,9 @@
+maps/si_country.res
+maps/si_country.txt
+gfx/env/forest256_bk.tga
+gfx/env/forest256_dn.tga
+gfx/env/forest256_ft.tga
+gfx/env/forest256_lf.tga
+gfx/env/forest256_rt.tga
+gfx/env/forest256_up.tga
+si_country.wad

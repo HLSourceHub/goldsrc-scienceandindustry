@@ -1,0 +1,66 @@
+si_river.bsp
+
+Map filename:				si_river.bsp
+Name:					The Space Station
+Author:					Drakon
+E-Mail:					Hakjiin@hotmail.com
+No web page
+Other Maps:				Drakdm1.bsp	(HL Deathmatch)
+					Pools.bsp	(HL Deathmatch)
+					Spacest.bsp	(HL Deathmatch)
+
+Game:					Half-Life: Science and Industry Mod
+Play Mode:				Deathmatch
+Recommended Number of Players:		2-32
+Bugs:					possibly some unaligned textures somewhere, but I
+ 					think I got most of them. There are two places where
+					you can barely see the level fade out from distance,
+					but it shouldn't affect gameplay much. R_speeds may
+					get high in some places, depends on your machine I
+					suppose.
+
+Editor Used:				Worldcraft 3.33 SDK (The about says that, the properties/
+					version says 0.2.1.0, so I'll put down both.)
+Compile Time: 				Probably around an hour and a half to two hours.
+	
+Base/Genre/Type:			Two rival corporations (Midland Carbide Labs and
+					Analgamated Flourodynamics) have labs alongside the
+					river. Two bridges connect them, as well as sewers.
+					(No they are not facing each other. Tunnels connect
+					the bridges to the bases.)
+
+Construction Time:			A few days 
+
+Notes:					This is a large map I suppose... It takes up all the
+					available space vertically in Worldcraft. The scientists
+					are a bit more difficult to get than most maps. You
+					can get to them through the sewers or through the
+					stairs, but you can only leave up the stairs. So in
+					a server with lots of people, it might be difficult
+					to get them unless your good at a fast escape. (Like
+					me:)  ) However, if you have two people working
+					together, you could get out the sewers as well.
+					The same goes for the resource departments on the
+					upper floor. You can get in via vent or stairs, but
+					can only leave by the stairs. However, if you gauss
+					jump, make a makeshift stairway from tripmines, or
+					have two players working together, you can get back
+					out the vent. The computer rooms will require two players
+					no matter what. One player needs to flip a switch while
+					the other is at the door to the computer room. The team
+					who owns the computers can easily get in and out of
+					the computer room, however.
+
+Thanks to:				Valve for making Half-Life
+					Whoever made Worldcraft
+					Id Software for getting me into 3D games and level 
+					editing with Doom and Quake. My fan, without it I would 
+					melt.
+					The makers of the Science and Industry mod for such a
+					great mod! Keep up the good work!
+			
+
+Copyright stuff:			This level can be distributed in any way (internet, CD's, 
+					etc.) as long as it keeps the name si_rivers.bsp and has 
+					this readme. This is not to be distributed to make any 
+					profit.

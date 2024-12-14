@@ -1,0 +1,38 @@
+Made by Brian "Cash Car Star" Grigg
+Only mapping e-mail that I know is working is
+cashcarstar41@hotmail.com
+All custom textures by evil lair, found at the Wadfather
+Custom skybox by null, found at the Wadfather
+
+Created for the Mini-Mapping Contest at The-Lab
+http://www.planethalflife.com/the-lab
+
+Created for the Science & Industry mod
+http://www.planethalflife.com/si
+
+Please send me some feedback
+
+Some liner notes:
+
+Build time: ~3 weeks in August 2002
+Editor Used: QuArK 6.3
+Compile Time: ~40 minutes
+Other maps by author: Daydream (forthcoming), SI_Saturnine (final forthcoming),
+Glimmer, Grievance, AS_Aldea, FLF_Corinth, ES_Trojan.
+
+Dormant website at http://cashcarstar.hlgaming.com ;
+Hasn't been updated for real since domain name change from Valvepit.
+
+Music listened to in the creation of this map:
+
+Soundgarden "Down on the Upside"
+The Cutters "Sonic Wave Love"
+The Smashing Pumpkins "Gish"
+Weezer "Maladroit"
+Newsboys "LoveLibertyDisco"
+
+Special Thanks to: Electric Gerbil, Pestilence, Behrooz, and RhoadstoNowhere
+
+Do not distribute for money, or pretend this map is yours. Do not decompile
+under any circumstances. Failure to do so will result in me gettin' medieval
+on yo ass.

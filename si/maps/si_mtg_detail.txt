@@ -1,0 +1,126 @@
+//halflife
+
+babtech_flr02		detail/concrete		0.5	0.5
+c1a1_bktb		detail/metal		0.5	0.5
+c3a1_gear		detail/metal		1.0	1.0
+
+con1_wall01p		detail/metal		0.5	1.0
+crete2_flr03c		detail/metal		0.125	0.5
+
+drkmtlt_bord11		detail/worn_hvy		0.5	0.5
+drkmtlt_ceil01		detail/worn_hvy		0.5	0.5
+
+duct_flr01a		detail/metal		0.5	0.5
+duct_vnt		detail/metal		0.5	0.5
+elev2_dr		detail/metal		1.0	1.0
+
+fifties_bord03		detail/metal		0.25	1.0
+fifties_cmp3b		detail/metal		0.5	1.0
+
+
+fiftsfile1b		detail/metal		0.25	0.25
+fiftsfile2b		detail/metal		0.25	0.25
+fiftsfile3		detail/metal		0.25	0.5
+fiftsfile3b		detail/metal		0.25	0.5
+
+lab1_comp10d		detail/metal		0.5	1.0
+lab1_gear1		detail/metal		0.25	0.25
+lav1_trim3		detail/metal		0.125	1.0
+
+lab5_c2b		detail/worn_hvy		0.5	0.5
+metal_bord06		detail/metal		0.5	0.5
+
+out_wall3a		detail/metal		0.5	1.0
+out_wall3b		detail/metal		0.5	1.0
+steel 			detail/metal		0.5	1.0
+
+~lab1_comp8b		detail/wood		0.25	1.0
+
+//mtg
+mtg_advert_pf1		detail/concrete		2.0	2.0
+mtg_advert_pf2		detail/concrete		2.0	2.0
+mtg_advert_pf3		detail/concrete		2.0	2.0
+mtg_advert_pf4		detail/concrete		2.0	2.0
+mtg_advert_pf5		detail/concrete		2.0	2.0
+mtg_advert_pf6		detail/concrete		2.0	2.0
+mtg_advert_pf7		detail/concrete		2.0	2.0
+mtg_advert_pf8		detail/concrete		2.0	2.0
+
+mtg_escal_1		detail/metal		1.0	1.0
+mtg_escal_2		detail/metal		1.0	1.0
+mtg_escal_3		detail/metal		1.0	0.25
+
+mtg_floor_1		detail/linoleum		2.0	2.0
+
+mtg_newsagent		detail/metal		1.0	1.0
+mtg_seats_1		detail/metal		1.0	0.5
+
+mtg_stairs_1		detail/concrete		1.0	0.25
+
+mtg_tiled_1		detail/concrete		1.0	1.0
+
+mtg_tiled_1		detail/concrete		1.0	1.0	
+mtg_tiled_2		detail/linoleum		1.0	1.0	
+mtg_tiled_2afd		detail/linoleum		1.0	1.0	
+mtg_tiled_2mcl		detail/linoleum		1.0	1.0	
+
+mtg_tiled_afd1		detail/concrete		2.0	1.0
+mtg_tiled_afd2		detail/concrete		1.0	1.0
+mtg_tiled_mcl1		detail/concrete		2.0	1.0
+mtg_tiled_mcl2		detail/concrete		1.0	1.0
+
+mtg_train_flr		detail/linoleum		1.0	1.0
+mtg_train_flr2		detail/linoleum		1.0	1.0
+
+mtg_train_afd		detail/worn		1.0	0.5
+mtg_train_mcl		detail/worn		1.0	0.5
+
+mtg_wall_1		detail/concrete		1.0	0.5
+mtg_wall_2		detail/concrete		2.0	1.0
+mtg_wall_3		detail/concrete		2.0	2.0
+mtg_wall_4		detail/concrete		2.0	2.0
+mtg_wall_5		detail/concrete		2.0	2.0
+mtg_wall_6		detail/concrete		1.0	0.5
+mtg_wall_7		detail/concrete		2.0	1.0
+mtg_wall_8		detail/concrete		0.5	1.0
+
+mtg_wall_afd		detail/concrete		1.0	2.0
+mtg_wall_mcl		detail/concrete		1.0	2.0
+
+mtg_wood		detail/wood		1.0	1.0
+scroll_mtg		detail/metal		1.0	1.0
+
+//si
++0si_a_pure		detail/metal		0.5	1.0
++0si_a_puremcl		detail/metal		0.5	1.0
++0si_h_pure		detail/metal		0.5	1.0
++0si_h_puremcl		detail/metal		0.5	1.0
+
+coffee_back		detail/metal		0.5	1.0
+coffee_front		detail/metal		0.5	1.0
+coffee_side		detail/metal		0.5	1.0
+coffee_side2		detail/metal		0.5	1.0
+coffee_top		detail/metal		0.5	0.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

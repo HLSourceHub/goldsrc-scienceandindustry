@@ -1,0 +1,14 @@
+// overview description file for si_retrovirus.bsp
+
+global 
+{
+	ZOOM	1.54
+	ORIGIN	-1280.00   944.00   120.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/si_retrovirus.bmp"
+	HEIGHT	-289.00
+}
